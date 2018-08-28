@@ -10,7 +10,7 @@ export const devices = [
         width: 2000,
         height: 1000,
         left: 140,
-        top: 212,
+        top: 180,
       },
     ],
   },
