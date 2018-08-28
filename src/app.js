@@ -7,6 +7,8 @@ export default class App extends Component {
   state = {
     container: null,
     screenshot: null,
+    width: 0,
+    height: 0,
   }
 
   $container = null
@@ -17,15 +19,15 @@ export default class App extends Component {
     return new Promise(resolve => {
       // https://stackoverflow.com/a/6011402
       const image = new Image()
-      image.src = url
       image.onload = () => {
         resolve(image)
       }
+      image.src = url
     })
   }
 
   render() {
-    const { container, screenshot, top, left } = this.state
+    const { container, screenshot, top, left, width, height } = this.state
     return (
       <div>
         <Cascader
@@ -36,6 +38,8 @@ export default class App extends Component {
               container: selected.image,
               top: selected.top,
               left: selected.left,
+              width: selected.width,
+              height: selected.height,
             })
 
             const image = await this.loadImageAsElement(selected.image)
@@ -77,8 +81,9 @@ export default class App extends Component {
                 this.ctx = element.getContext('2d')
               }
             }}
-            width={500}
-            height={500}
+            width={width}
+            height={height}
+            style={{ height: 600 }}
           />
         </div>
         <div style={{ position: 'relative' }}>

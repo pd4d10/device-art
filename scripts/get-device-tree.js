@@ -1,37 +1,32 @@
 const fs = require('fs')
 const path = require('path')
+const sizeOf = require('image-size')
 
-const data = []
+function readdir(dir) {
+  const subDirs = fs.readdirSync(dir)
+  let children
 
-// const root =
+  if (subDirs[0].toLowerCase().includes('device')) {
+    children = []
+    subDirs.forEach(subDir => {
+      fs.readdirSync(path.resolve(dir, subDir)).forEach(file => {
+        // console.log(path.resolve(dir, subDir, file))
+        const { width, height } = sizeOf(path.resolve(dir, subDir, file))
+        children.push({
+          value: file.replace(/\.png$/, '') + subDir.replace(/^Device/, ''),
+          width,
+          height,
+        })
+      })
+    })
+  } else {
+    children = subDirs.map(subDir => readdir(path.resolve(dir, subDir)))
+  }
 
-function readdir(root) {
-  return fs.readdirSync(root).map(folder => {
-    if (
-      [
-        'Device',
-        'Device with shadow',
-        'Device with Shadow',
-        'Device with Shadows',
-        'Device Closed',
-        'Device Open',
-      ].includes(folder)
-    ) {
-      return fs.readdirSync(path.resolve(root, folder)).reduce(
-        (result, item) => [
-          ...result,
-          {
-            value: folder + '' + item,
-          },
-        ],
-        [],
-      )
-    }
-    return {
-      value: folder,
-      children: readdir(path.resolve(root, folder)),
-    }
-  })
+  return {
+    value: dir,
+    children,
+  }
 }
 
 const tree = readdir(path.resolve(__dirname, '../src/images'))
