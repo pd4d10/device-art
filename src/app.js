@@ -1,18 +1,19 @@
 import React, { Component } from 'react'
-import { Cascader, Button } from 'antd'
+import Select from 'react-select'
 import { saveAs } from 'file-saver'
 import { devices } from './devices'
 
 export default class App extends Component {
   state = {
-    container: null,
-    screenshot: null,
+    deviceUrl: null,
+    screenshotUrl: null,
     width: 0,
     height: 0,
   }
 
   $container = null
   canvas = null
+  fileInput = null
   ctx = null
 
   loadImageAsElement(url) {
@@ -26,54 +27,84 @@ export default class App extends Component {
     })
   }
 
-  render() {
-    const { container, screenshot, top, left, width, height } = this.state
-    return (
-      <div>
-        <Cascader
-          options={devices}
-          onChange={async (value, options) => {
-            const selected = options[options.length - 1]
-            this.setState({
-              container: selected.image,
-              top: selected.top,
-              left: selected.left,
-              width: selected.width,
-              height: selected.height,
-            })
+  drawImage = async () => {
+    const { deviceUrl, screenshotUrl, top, left } = this.state
+    if (screenshotUrl) {
+      const image = await this.loadImageAsElement(screenshotUrl)
+      this.ctx.drawImage(image, left, top)
+    }
+    if (deviceUrl) {
+      const image = await this.loadImageAsElement(deviceUrl)
+      this.ctx.drawImage(image, 0, 0)
+    }
+  }
 
-            const image = await this.loadImageAsElement(selected.image)
-            this.ctx.drawImage(image, 0, 0)
-          }}
-          placeholder="Please select device"
-        />
-        <input
-          type="file"
-          onChange={e => {
-            // https://codepen.io/hartzis/pen/VvNGZP
-            const reader = new FileReader()
-            reader.onloadend = async () => {
-              this.setState({
-                screenshot: reader.result,
-              })
-              let image = await this.loadImageAsElement(reader.result)
-              this.ctx.drawImage(image, left, top)
-              image = await this.loadImageAsElement(container)
-              this.ctx.drawImage(image, 0, 0)
-            }
-            reader.readAsDataURL(e.target.files[0])
-          }}
-        />
-        <Button
-          onClick={async () => {
-            this.canvas.toBlob(blob => {
-              saveAs(blob, 'test.png')
-            })
+  render() {
+    const { deviceUrl, screenshotUrl, top, left, width, height } = this.state
+    return (
+      <div className="container">
+        <div className="row">
+          <div className="col-9">
+            <Select
+              options={devices}
+              onChange={selected => {
+                this.setState(
+                  {
+                    deviceUrl: selected.image,
+                    top: selected.top,
+                    left: selected.left,
+                    width: selected.width,
+                    height: selected.height,
+                  },
+                  () => {
+                    this.drawImage()
+                  },
+                )
+              }}
+            />
+          </div>
+          <div className="col-3">
+            <button
+              className="btn btn-primary"
+              onClick={async () => {
+                this.canvas.toBlob(blob => {
+                  saveAs(blob, 'test.png')
+                })
+              }}
+            >
+              Download as PNG
+            </button>
+          </div>
+        </div>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            marginTop: 30,
+            position: 'relative',
           }}
         >
-          Download
-        </Button>
-        <div>
+          {deviceUrl &&
+            !screenshotUrl && (
+              <div
+                style={{
+                  position: 'absolute',
+                  width: '100%',
+                  top: window.screen.availHeight * 0.3,
+                  textAlign: 'center',
+                }}
+              >
+                <button
+                  className="btn btn-outline-primary"
+                  onClick={() => {
+                    this.fileInput.click()
+                  }}
+                >
+                  Upload screenshot
+                </button>
+              </div>
+            )}
           <canvas
             ref={element => {
               if (element) {
@@ -83,24 +114,48 @@ export default class App extends Component {
             }}
             width={width}
             height={height}
-            style={{ height: 600 }}
+            style={{ height: window.screen.availHeight * 0.7 }}
+          />
+          <input
+            type="file"
+            hidden
+            ref={element => {
+              this.fileInput = element
+            }}
+            onChange={e => {
+              // https://codepen.io/hartzis/pen/VvNGZP
+              const reader = new FileReader()
+              reader.onloadend = async () => {
+                this.setState(
+                  {
+                    screenshotUrl: reader.result,
+                  },
+                  () => {
+                    this.drawImage()
+                  },
+                )
+              }
+              reader.readAsDataURL(e.target.files[0])
+            }}
           />
         </div>
 
-        <div style={{ position: 'relative', display: 'none' }}>
-          {screenshot && (
-            <img
-              src={screenshot}
-              style={{
-                position: 'absolute',
-                zIndex: -1,
-                top,
-                left,
-              }}
-            />
-          )}
-          {container && <img src={container} style={{}} />}
-        </div>
+        {false && (
+          <div style={{ position: 'relative' }}>
+            {screenshotUrl && (
+              <img
+                src={screenshotUrl}
+                style={{
+                  position: 'absolute',
+                  zIndex: -1,
+                  top,
+                  left,
+                }}
+              />
+            )}
+            {deviceUrl && <img src={deviceUrl} />}
+          </div>
+        )}
       </div>
     )
   }

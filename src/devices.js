@@ -3,10 +3,10 @@ export const devices = [
   {
     "value": "Computers",
     "label": "Computers",
-    "children": [
+    "options": [
       {
         "image": require("./images/Computers/Apple Macbook/Device/Apple-Macbook-Gold.png"),
-        "value": "Apple-Macbook-Gold",
+        "value": "./images/Computers/Apple Macbook/Device/Apple-Macbook-Gold.png",
         "label": "Apple-Macbook-Gold",
         "width": 3064,
         "height": 1799,
@@ -15,7 +15,7 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Apple Macbook/Device/Apple-Macbook-Space-Grey.png"),
-        "value": "Apple-Macbook-Space-Grey",
+        "value": "./images/Computers/Apple Macbook/Device/Apple-Macbook-Space-Grey.png",
         "label": "Apple-Macbook-Space-Grey",
         "width": 3064,
         "height": 1799,
@@ -24,7 +24,7 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Apple Macbook/Device with Shadow/Apple-Macbook-Gold.png"),
-        "value": "Apple-Macbook-Gold with shadow",
+        "value": "./images/Computers/Apple Macbook/Device with Shadow/Apple-Macbook-Gold.png",
         "label": "Apple-Macbook-Gold with shadow",
         "width": 3064,
         "height": 1799,
@@ -33,7 +33,7 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Apple Macbook/Device with Shadow/Apple-Macbook-Space-Grey.png"),
-        "value": "Apple-Macbook-Space-Grey with shadow",
+        "value": "./images/Computers/Apple Macbook/Device with Shadow/Apple-Macbook-Space-Grey.png",
         "label": "Apple-Macbook-Space-Grey with shadow",
         "width": 3064,
         "height": 1799,
@@ -42,7 +42,7 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Apple Macbook Air/11\"/Device/Apple Macbook Air 11\".png"),
-        "value": "Apple Macbook Air 11\"",
+        "value": "./images/Computers/Apple Macbook Air/11\"/Device/Apple Macbook Air 11\".png",
         "label": "Apple Macbook Air 11\"",
         "width": 1963,
         "height": 1045,
@@ -51,7 +51,7 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Apple Macbook Air/11\"/Device with shadow/Apple Macbook Air 11\".png"),
-        "value": "Apple Macbook Air 11\" with shadow",
+        "value": "./images/Computers/Apple Macbook Air/11\"/Device with shadow/Apple Macbook Air 11\".png",
         "label": "Apple Macbook Air 11\" with shadow",
         "width": 1963,
         "height": 1045,
@@ -60,7 +60,7 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Apple Macbook Air/13\"/Device/Apple Macbook Air 13\".png"),
-        "value": "Apple Macbook Air 13\"",
+        "value": "./images/Computers/Apple Macbook Air/13\"/Device/Apple Macbook Air 13\".png",
         "label": "Apple Macbook Air 13\"",
         "width": 1963,
         "height": 1170,
@@ -69,7 +69,7 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Apple Macbook Air/13\"/Device with shadow/Apple Macbook Air 13\".png"),
-        "value": "Apple Macbook Air 13\" with shadow",
+        "value": "./images/Computers/Apple Macbook Air/13\"/Device with shadow/Apple Macbook Air 13\".png",
         "label": "Apple Macbook Air 13\" with shadow",
         "width": 1963,
         "height": 1170,
@@ -78,7 +78,7 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Apple Macbook Pro/13\"/Device/Apple Macbook Pro 13\".png"),
-        "value": "Apple Macbook Pro 13\"",
+        "value": "./images/Computers/Apple Macbook Pro/13\"/Device/Apple Macbook Pro 13\".png",
         "label": "Apple Macbook Pro 13\"",
         "width": 3409,
         "height": 2014,
@@ -87,7 +87,7 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Apple Macbook Pro/13\"/Device with shadow/Apple Macbook Pro 13\".png"),
-        "value": "Apple Macbook Pro 13\" with shadow",
+        "value": "./images/Computers/Apple Macbook Pro/13\"/Device with shadow/Apple Macbook Pro 13\".png",
         "label": "Apple Macbook Pro 13\" with shadow",
         "width": 3409,
         "height": 2042,
@@ -96,7 +96,7 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Apple Macbook Pro/15\"/Device/Apple Macbook Pro 15\".png"),
-        "value": "Apple Macbook Pro 15\"",
+        "value": "./images/Computers/Apple Macbook Pro/15\"/Device/Apple Macbook Pro 15\".png",
         "label": "Apple Macbook Pro 15\"",
         "width": 3783,
         "height": 2268,
@@ -105,7 +105,7 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Apple Macbook Pro/15\"/Device with shadow/Apple Macbook Pro 15\".png"),
-        "value": "Apple Macbook Pro 15\" with shadow",
+        "value": "./images/Computers/Apple Macbook Pro/15\"/Device with shadow/Apple Macbook Pro 15\".png",
         "label": "Apple Macbook Pro 15\" with shadow",
         "width": 3783,
         "height": 2268,
@@ -114,35 +114,35 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Apple iMac/Device/Apple iMac.png"),
-        "value": "Apple iMac",
+        "value": "./images/Computers/Apple iMac/Device/Apple iMac.png",
         "label": "Apple iMac",
         "width": 2788,
         "height": 2351
       },
       {
         "image": require("./images/Computers/Apple iMac/Device with shadow/Apple iMac.png"),
-        "value": "Apple iMac with shadow",
+        "value": "./images/Computers/Apple iMac/Device with shadow/Apple iMac.png",
         "label": "Apple iMac with shadow",
         "width": 2788,
         "height": 2351
       },
       {
         "image": require("./images/Computers/Apple iMac Retina/Device/Apple iMac Retina.png"),
-        "value": "Apple iMac Retina",
+        "value": "./images/Computers/Apple iMac Retina/Device/Apple iMac Retina.png",
         "label": "Apple iMac Retina",
         "width": 5577,
         "height": 4689
       },
       {
         "image": require("./images/Computers/Apple iMac Retina/Device with shadow/Apple iMac Retina.png"),
-        "value": "Apple iMac Retina with shadow",
+        "value": "./images/Computers/Apple iMac Retina/Device with shadow/Apple iMac Retina.png",
         "label": "Apple iMac Retina with shadow",
         "width": 5577,
         "height": 4689
       },
       {
         "image": require("./images/Computers/Dell XPS 13/Device/Dell XPS 13\".png"),
-        "value": "Dell XPS 13\"",
+        "value": "./images/Computers/Dell XPS 13/Device/Dell XPS 13\".png",
         "label": "Dell XPS 13\"",
         "width": 3834,
         "height": 2256,
@@ -151,7 +151,7 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Dell XPS 13/Device with shadow/Dell XPS 13\".png"),
-        "value": "Dell XPS 13\" with shadow",
+        "value": "./images/Computers/Dell XPS 13/Device with shadow/Dell XPS 13\".png",
         "label": "Dell XPS 13\" with shadow",
         "width": 3834,
         "height": 2256,
@@ -160,7 +160,7 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Dell XPS 15/Device/Dell XPS 15\".png"),
-        "value": "Dell XPS 15\"",
+        "value": "./images/Computers/Dell XPS 15/Device/Dell XPS 15\".png",
         "label": "Dell XPS 15\"",
         "width": 5194,
         "height": 2768,
@@ -169,7 +169,7 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Dell XPS 15/Device with shadow/Dell XPS 15\".png"),
-        "value": "Dell XPS 15\" with shadow",
+        "value": "./images/Computers/Dell XPS 15/Device with shadow/Dell XPS 15\".png",
         "label": "Dell XPS 15\" with shadow",
         "width": 5194,
         "height": 2768,
@@ -178,7 +178,7 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Microsoft Surface Book/Device/Microsoft Surface Book.png"),
-        "value": "Microsoft Surface Book",
+        "value": "./images/Computers/Microsoft Surface Book/Device/Microsoft Surface Book.png",
         "label": "Microsoft Surface Book",
         "width": 4143,
         "height": 2456,
@@ -187,7 +187,7 @@ export const devices = [
       },
       {
         "image": require("./images/Computers/Microsoft Surface Book/Device with shadow/Microsoft Surface Book.png"),
-        "value": "Microsoft Surface Book with shadow",
+        "value": "./images/Computers/Microsoft Surface Book/Device with shadow/Microsoft Surface Book.png",
         "label": "Microsoft Surface Book with shadow",
         "width": 4143,
         "height": 2456,
@@ -199,10 +199,10 @@ export const devices = [
   {
     "value": "Displays",
     "label": "Displays",
-    "children": [
+    "options": [
       {
         "image": require("./images/Displays/Apple Thunderbolt Display/Device/Apple Thunderbolt Display.png"),
-        "value": "Apple Thunderbolt Display",
+        "value": "./images/Displays/Apple Thunderbolt Display/Device/Apple Thunderbolt Display.png",
         "label": "Apple Thunderbolt Display",
         "width": 2784,
         "height": 2156,
@@ -211,7 +211,7 @@ export const devices = [
       },
       {
         "image": require("./images/Displays/Apple Thunderbolt Display/Device with shadow/Apple Thunderbolt Display.png"),
-        "value": "Apple Thunderbolt Display with shadow",
+        "value": "./images/Displays/Apple Thunderbolt Display/Device with shadow/Apple Thunderbolt Display.png",
         "label": "Apple Thunderbolt Display with shadow",
         "width": 2784,
         "height": 2156,
@@ -220,7 +220,7 @@ export const devices = [
       },
       {
         "image": require("./images/Displays/Dell UltraSharp HD 5K Monitor/Device/Dell UltraSharp 5K Monitor 27\" 90deg.png"),
-        "value": "Dell UltraSharp 5K Monitor 27\" 90deg",
+        "value": "./images/Displays/Dell UltraSharp HD 5K Monitor/Device/Dell UltraSharp 5K Monitor 27\" 90deg.png",
         "label": "Dell UltraSharp 5K Monitor 27\" 90deg",
         "width": 3442,
         "height": 5936,
@@ -229,7 +229,7 @@ export const devices = [
       },
       {
         "image": require("./images/Displays/Dell UltraSharp HD 5K Monitor/Device/Dell UltraSharp 5K Monitor 27\".png"),
-        "value": "Dell UltraSharp 5K Monitor 27\"",
+        "value": "./images/Displays/Dell UltraSharp HD 5K Monitor/Device/Dell UltraSharp 5K Monitor 27\".png",
         "label": "Dell UltraSharp 5K Monitor 27\"",
         "width": 5454,
         "height": 4391,
@@ -238,7 +238,7 @@ export const devices = [
       },
       {
         "image": require("./images/Displays/Dell UltraSharp HD 5K Monitor/Device with shadow/Dell UltraSharp 5K Monitor 27\" 90deg.png"),
-        "value": "Dell UltraSharp 5K Monitor 27\" 90deg with shadow",
+        "value": "./images/Displays/Dell UltraSharp HD 5K Monitor/Device with shadow/Dell UltraSharp 5K Monitor 27\" 90deg.png",
         "label": "Dell UltraSharp 5K Monitor 27\" 90deg with shadow",
         "width": 3442,
         "height": 5936,
@@ -247,7 +247,7 @@ export const devices = [
       },
       {
         "image": require("./images/Displays/Dell UltraSharp HD 5K Monitor/Device with shadow/Dell UltraSharp 5K Monitor 27\".png"),
-        "value": "Dell UltraSharp 5K Monitor 27\" with shadow",
+        "value": "./images/Displays/Dell UltraSharp HD 5K Monitor/Device with shadow/Dell UltraSharp 5K Monitor 27\".png",
         "label": "Dell UltraSharp 5K Monitor 27\" with shadow",
         "width": 5454,
         "height": 4391,
@@ -256,7 +256,7 @@ export const devices = [
       },
       {
         "image": require("./images/Displays/Dell UltraSharp Monitor/24\"/Device/Dell UltraSharp 24\" 90deg.png"),
-        "value": "Dell UltraSharp 24\" 90deg",
+        "value": "./images/Displays/Dell UltraSharp Monitor/24\"/Device/Dell UltraSharp 24\" 90deg.png",
         "label": "Dell UltraSharp 24\" 90deg",
         "width": 1347,
         "height": 2256,
@@ -265,7 +265,7 @@ export const devices = [
       },
       {
         "image": require("./images/Displays/Dell UltraSharp Monitor/24\"/Device/Dell UltraSharp 24\".png"),
-        "value": "Dell UltraSharp 24\"",
+        "value": "./images/Displays/Dell UltraSharp Monitor/24\"/Device/Dell UltraSharp 24\".png",
         "label": "Dell UltraSharp 24\"",
         "width": 1974,
         "height": 1751,
@@ -274,7 +274,7 @@ export const devices = [
       },
       {
         "image": require("./images/Displays/Dell UltraSharp Monitor/24\"/Device with shadow/Dell UltraSharp 24\" 90deg.png"),
-        "value": "Dell UltraSharp 24\" 90deg with shadow",
+        "value": "./images/Displays/Dell UltraSharp Monitor/24\"/Device with shadow/Dell UltraSharp 24\" 90deg.png",
         "label": "Dell UltraSharp 24\" 90deg with shadow",
         "width": 1347,
         "height": 2256,
@@ -283,7 +283,7 @@ export const devices = [
       },
       {
         "image": require("./images/Displays/Dell UltraSharp Monitor/24\"/Device with shadow/Dell UltraSharp 24\".png"),
-        "value": "Dell UltraSharp 24\" with shadow",
+        "value": "./images/Displays/Dell UltraSharp Monitor/24\"/Device with shadow/Dell UltraSharp 24\".png",
         "label": "Dell UltraSharp 24\" with shadow",
         "width": 1974,
         "height": 1782,
@@ -292,7 +292,7 @@ export const devices = [
       },
       {
         "image": require("./images/Displays/Dell UltraSharp Monitor/27\"/Device/Dell UltraSharp 27\" 90deg.png"),
-        "value": "Dell UltraSharp 27\" 90deg",
+        "value": "./images/Displays/Dell UltraSharp Monitor/27\"/Device/Dell UltraSharp 27\" 90deg.png",
         "label": "Dell UltraSharp 27\" 90deg",
         "width": 1619,
         "height": 2910,
@@ -301,7 +301,7 @@ export const devices = [
       },
       {
         "image": require("./images/Displays/Dell UltraSharp Monitor/27\"/Device/Dell UltraSharp 27\".png"),
-        "value": "Dell UltraSharp 27\"",
+        "value": "./images/Displays/Dell UltraSharp Monitor/27\"/Device/Dell UltraSharp 27\".png",
         "label": "Dell UltraSharp 27\"",
         "width": 2626,
         "height": 2099,
@@ -310,7 +310,7 @@ export const devices = [
       },
       {
         "image": require("./images/Displays/Dell UltraSharp Monitor/27\"/Device with shadow/Dell UltraSharp 27\" 90deg.png"),
-        "value": "Dell UltraSharp 27\" 90deg with shadow",
+        "value": "./images/Displays/Dell UltraSharp Monitor/27\"/Device with shadow/Dell UltraSharp 27\" 90deg.png",
         "label": "Dell UltraSharp 27\" 90deg with shadow",
         "width": 1619,
         "height": 2910,
@@ -319,7 +319,7 @@ export const devices = [
       },
       {
         "image": require("./images/Displays/Dell UltraSharp Monitor/27\"/Device with shadow/Dell UltraSharp 27\".png"),
-        "value": "Dell UltraSharp 27\" with shadow",
+        "value": "./images/Displays/Dell UltraSharp Monitor/27\"/Device with shadow/Dell UltraSharp 27\".png",
         "label": "Dell UltraSharp 27\" with shadow",
         "width": 2626,
         "height": 2099,
@@ -328,7 +328,7 @@ export const devices = [
       },
       {
         "image": require("./images/Displays/Sony W850C/Device/Sony W850C.png"),
-        "value": "Sony W850C",
+        "value": "./images/Displays/Sony W850C/Device/Sony W850C.png",
         "label": "Sony W850C",
         "width": 1307,
         "height": 824,
@@ -337,7 +337,7 @@ export const devices = [
       },
       {
         "image": require("./images/Displays/Sony W850C/Device with shadow/Snony W850C.png"),
-        "value": "Sony W850C with shadow",
+        "value": "./images/Displays/Sony W850C/Device with shadow/Snony W850C.png",
         "label": "Sony W850C with shadow",
         "width": 1307,
         "height": 824,
@@ -349,10 +349,10 @@ export const devices = [
   {
     "value": "Phones",
     "label": "Phones",
-    "children": [
+    "options": [
       {
         "image": require("./images/Phones/Apple iPhone 5c/Device/Apple iPhone 5c Blue.png"),
-        "value": "Apple iPhone 5c Blue",
+        "value": "./images/Phones/Apple iPhone 5c/Device/Apple iPhone 5c Blue.png",
         "label": "Apple iPhone 5c Blue",
         "width": 767,
         "height": 1605,
@@ -361,7 +361,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 5c/Device/Apple iPhone 5c Green.png"),
-        "value": "Apple iPhone 5c Green",
+        "value": "./images/Phones/Apple iPhone 5c/Device/Apple iPhone 5c Green.png",
         "label": "Apple iPhone 5c Green",
         "width": 767,
         "height": 1605,
@@ -370,7 +370,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 5c/Device/Apple iPhone 5c Red.png"),
-        "value": "Apple iPhone 5c Red",
+        "value": "./images/Phones/Apple iPhone 5c/Device/Apple iPhone 5c Red.png",
         "label": "Apple iPhone 5c Red",
         "width": 767,
         "height": 1605,
@@ -379,7 +379,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 5c/Device/Apple iPhone 5c White.png"),
-        "value": "Apple iPhone 5c White",
+        "value": "./images/Phones/Apple iPhone 5c/Device/Apple iPhone 5c White.png",
         "label": "Apple iPhone 5c White",
         "width": 767,
         "height": 1605,
@@ -388,7 +388,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 5c/Device/Apple iPhone 5c Yellow.png"),
-        "value": "Apple iPhone 5c Yellow",
+        "value": "./images/Phones/Apple iPhone 5c/Device/Apple iPhone 5c Yellow.png",
         "label": "Apple iPhone 5c Yellow",
         "width": 767,
         "height": 1605,
@@ -397,7 +397,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 5c/Device with Shadow/Apple iPhone 5c Blue.png"),
-        "value": "Apple iPhone 5c Blue with shadow",
+        "value": "./images/Phones/Apple iPhone 5c/Device with Shadow/Apple iPhone 5c Blue.png",
         "label": "Apple iPhone 5c Blue with shadow",
         "width": 767,
         "height": 1631,
@@ -406,7 +406,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 5c/Device with Shadow/Apple iPhone 5c Green.png"),
-        "value": "Apple iPhone 5c Green with shadow",
+        "value": "./images/Phones/Apple iPhone 5c/Device with Shadow/Apple iPhone 5c Green.png",
         "label": "Apple iPhone 5c Green with shadow",
         "width": 767,
         "height": 1631,
@@ -415,7 +415,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 5c/Device with Shadow/Apple iPhone 5c Red.png"),
-        "value": "Apple iPhone 5c Red with shadow",
+        "value": "./images/Phones/Apple iPhone 5c/Device with Shadow/Apple iPhone 5c Red.png",
         "label": "Apple iPhone 5c Red with shadow",
         "width": 767,
         "height": 1631,
@@ -424,7 +424,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 5c/Device with Shadow/Apple iPhone 5c White.png"),
-        "value": "Apple iPhone 5c White with shadow",
+        "value": "./images/Phones/Apple iPhone 5c/Device with Shadow/Apple iPhone 5c White.png",
         "label": "Apple iPhone 5c White with shadow",
         "width": 767,
         "height": 1631,
@@ -433,7 +433,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 5c/Device with Shadow/Apple iPhone 5c Yellow.png"),
-        "value": "Apple iPhone 5c Yellow with shadow",
+        "value": "./images/Phones/Apple iPhone 5c/Device with Shadow/Apple iPhone 5c Yellow.png",
         "label": "Apple iPhone 5c Yellow with shadow",
         "width": 767,
         "height": 1631,
@@ -442,7 +442,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 5s/Device/Apple iPhone 5s Gold.png"),
-        "value": "Apple iPhone 5s Gold",
+        "value": "./images/Phones/Apple iPhone 5s/Device/Apple iPhone 5s Gold.png",
         "label": "Apple iPhone 5s Gold",
         "width": 760,
         "height": 1597,
@@ -451,7 +451,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 5s/Device/Apple iPhone 5s Silver.png"),
-        "value": "Apple iPhone 5s Silver",
+        "value": "./images/Phones/Apple iPhone 5s/Device/Apple iPhone 5s Silver.png",
         "label": "Apple iPhone 5s Silver",
         "width": 760,
         "height": 1597,
@@ -460,7 +460,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 5s/Device/Apple iPhone 5s Space Gray.png"),
-        "value": "Apple iPhone 5s Space Gray",
+        "value": "./images/Phones/Apple iPhone 5s/Device/Apple iPhone 5s Space Gray.png",
         "label": "Apple iPhone 5s Space Gray",
         "width": 760,
         "height": 1597,
@@ -469,7 +469,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 5s/Device with Shadow/Apple iPhone 5s Gold.png"),
-        "value": "Apple iPhone 5s Gold with shadow",
+        "value": "./images/Phones/Apple iPhone 5s/Device with Shadow/Apple iPhone 5s Gold.png",
         "label": "Apple iPhone 5s Gold with shadow",
         "width": 760,
         "height": 1623,
@@ -478,7 +478,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 5s/Device with Shadow/Apple iPhone 5s Silver.png"),
-        "value": "Apple iPhone 5s Silver with shadow",
+        "value": "./images/Phones/Apple iPhone 5s/Device with Shadow/Apple iPhone 5s Silver.png",
         "label": "Apple iPhone 5s Silver with shadow",
         "width": 760,
         "height": 1623,
@@ -487,7 +487,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 5s/Device with Shadow/Apple iPhone 5s Space Gray.png"),
-        "value": "Apple iPhone 5s Space Gray with shadow",
+        "value": "./images/Phones/Apple iPhone 5s/Device with Shadow/Apple iPhone 5s Space Gray.png",
         "label": "Apple iPhone 5s Space Gray with shadow",
         "width": 760,
         "height": 1623,
@@ -496,7 +496,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 6s/Device/Apple iPhone 6s Gold.png"),
-        "value": "Apple iPhone 6s Gold",
+        "value": "./images/Phones/Apple iPhone 6s/Device/Apple iPhone 6s Gold.png",
         "label": "Apple iPhone 6s Gold",
         "width": 990,
         "height": 1934,
@@ -505,7 +505,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 6s/Device/Apple iPhone 6s Rose Gold.png"),
-        "value": "Apple iPhone 6s Rose Gold",
+        "value": "./images/Phones/Apple iPhone 6s/Device/Apple iPhone 6s Rose Gold.png",
         "label": "Apple iPhone 6s Rose Gold",
         "width": 990,
         "height": 1934,
@@ -514,7 +514,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 6s/Device/Apple iPhone 6s Silver.png"),
-        "value": "Apple iPhone 6s Silver",
+        "value": "./images/Phones/Apple iPhone 6s/Device/Apple iPhone 6s Silver.png",
         "label": "Apple iPhone 6s Silver",
         "width": 990,
         "height": 1934,
@@ -523,7 +523,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 6s/Device/Apple iPhone 6s Space Gray.png"),
-        "value": "Apple iPhone 6s Space Gray",
+        "value": "./images/Phones/Apple iPhone 6s/Device/Apple iPhone 6s Space Gray.png",
         "label": "Apple iPhone 6s Space Gray",
         "width": 990,
         "height": 1934,
@@ -532,7 +532,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 6s/Device with Shadow/Apple iPhone 6s Gold.png"),
-        "value": "Apple iPhone 6s Gold with shadow",
+        "value": "./images/Phones/Apple iPhone 6s/Device with Shadow/Apple iPhone 6s Gold.png",
         "label": "Apple iPhone 6s Gold with shadow",
         "width": 990,
         "height": 1934,
@@ -541,7 +541,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 6s/Device with Shadow/Apple iPhone 6s Rose Gold.png"),
-        "value": "Apple iPhone 6s Rose Gold with shadow",
+        "value": "./images/Phones/Apple iPhone 6s/Device with Shadow/Apple iPhone 6s Rose Gold.png",
         "label": "Apple iPhone 6s Rose Gold with shadow",
         "width": 990,
         "height": 1934,
@@ -550,7 +550,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 6s/Device with Shadow/Apple iPhone 6s Silver.png"),
-        "value": "Apple iPhone 6s Silver with shadow",
+        "value": "./images/Phones/Apple iPhone 6s/Device with Shadow/Apple iPhone 6s Silver.png",
         "label": "Apple iPhone 6s Silver with shadow",
         "width": 990,
         "height": 1934,
@@ -559,7 +559,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 6s/Device with Shadow/Apple iPhone 6s Space Gray.png"),
-        "value": "Apple iPhone 6s Space Gray with shadow",
+        "value": "./images/Phones/Apple iPhone 6s/Device with Shadow/Apple iPhone 6s Space Gray.png",
         "label": "Apple iPhone 6s Space Gray with shadow",
         "width": 990,
         "height": 1934,
@@ -568,7 +568,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 6s Plus/Device/Apple iPhone 6s Plus Gold.png"),
-        "value": "Apple iPhone 6s Plus Gold",
+        "value": "./images/Phones/Apple iPhone 6s Plus/Device/Apple iPhone 6s Plus Gold.png",
         "label": "Apple iPhone 6s Plus Gold",
         "width": 1446,
         "height": 2948,
@@ -577,7 +577,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 6s Plus/Device/Apple iPhone 6s Plus Rose Gold.png"),
-        "value": "Apple iPhone 6s Plus Rose Gold",
+        "value": "./images/Phones/Apple iPhone 6s Plus/Device/Apple iPhone 6s Plus Rose Gold.png",
         "label": "Apple iPhone 6s Plus Rose Gold",
         "width": 1446,
         "height": 2948,
@@ -586,7 +586,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 6s Plus/Device/Apple iPhone 6s Plus Silver.png"),
-        "value": "Apple iPhone 6s Plus Silver",
+        "value": "./images/Phones/Apple iPhone 6s Plus/Device/Apple iPhone 6s Plus Silver.png",
         "label": "Apple iPhone 6s Plus Silver",
         "width": 1446,
         "height": 2948,
@@ -595,7 +595,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 6s Plus/Device/Apple iPhone 6s Plus Space Gray.png"),
-        "value": "Apple iPhone 6s Plus Space Gray",
+        "value": "./images/Phones/Apple iPhone 6s Plus/Device/Apple iPhone 6s Plus Space Gray.png",
         "label": "Apple iPhone 6s Plus Space Gray",
         "width": 1446,
         "height": 2948,
@@ -604,7 +604,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 6s Plus/Device with Shadow/Apple iPhone 6s Plus Gold.png"),
-        "value": "Apple iPhone 6s Plus Gold with shadow",
+        "value": "./images/Phones/Apple iPhone 6s Plus/Device with Shadow/Apple iPhone 6s Plus Gold.png",
         "label": "Apple iPhone 6s Plus Gold with shadow",
         "width": 1446,
         "height": 3001,
@@ -613,7 +613,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 6s Plus/Device with Shadow/Apple iPhone 6s Plus Rose Gold.png"),
-        "value": "Apple iPhone 6s Plus Rose Gold with shadow",
+        "value": "./images/Phones/Apple iPhone 6s Plus/Device with Shadow/Apple iPhone 6s Plus Rose Gold.png",
         "label": "Apple iPhone 6s Plus Rose Gold with shadow",
         "width": 1446,
         "height": 3001,
@@ -622,7 +622,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 6s Plus/Device with Shadow/Apple iPhone 6s Plus Silver.png"),
-        "value": "Apple iPhone 6s Plus Silver with shadow",
+        "value": "./images/Phones/Apple iPhone 6s Plus/Device with Shadow/Apple iPhone 6s Plus Silver.png",
         "label": "Apple iPhone 6s Plus Silver with shadow",
         "width": 1446,
         "height": 3001,
@@ -631,7 +631,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 6s Plus/Device with Shadow/Apple iPhone 6s Plus Space Gray.png"),
-        "value": "Apple iPhone 6s Plus Space Gray with shadow",
+        "value": "./images/Phones/Apple iPhone 6s Plus/Device with Shadow/Apple iPhone 6s Plus Space Gray.png",
         "label": "Apple iPhone 6s Plus Space Gray with shadow",
         "width": 1446,
         "height": 3001,
@@ -640,7 +640,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7/Device/Apple iPhone 7 Gold.png"),
-        "value": "Apple iPhone 7 Gold",
+        "value": "./images/Phones/Apple iPhone 7/Device/Apple iPhone 7 Gold.png",
         "label": "Apple iPhone 7 Gold",
         "width": 990,
         "height": 1934,
@@ -649,7 +649,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7/Device/Apple iPhone 7 Jet Black.png"),
-        "value": "Apple iPhone 7 Jet Black",
+        "value": "./images/Phones/Apple iPhone 7/Device/Apple iPhone 7 Jet Black.png",
         "label": "Apple iPhone 7 Jet Black",
         "width": 990,
         "height": 1934,
@@ -658,7 +658,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7/Device/Apple iPhone 7 Matte Black.png"),
-        "value": "Apple iPhone 7 Matte Black",
+        "value": "./images/Phones/Apple iPhone 7/Device/Apple iPhone 7 Matte Black.png",
         "label": "Apple iPhone 7 Matte Black",
         "width": 990,
         "height": 1934,
@@ -667,7 +667,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7/Device/Apple iPhone 7 Rose Gold.png"),
-        "value": "Apple iPhone 7 Rose Gold",
+        "value": "./images/Phones/Apple iPhone 7/Device/Apple iPhone 7 Rose Gold.png",
         "label": "Apple iPhone 7 Rose Gold",
         "width": 990,
         "height": 1934,
@@ -676,7 +676,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7/Device/Apple iPhone 7 Silver.png"),
-        "value": "Apple iPhone 7 Silver",
+        "value": "./images/Phones/Apple iPhone 7/Device/Apple iPhone 7 Silver.png",
         "label": "Apple iPhone 7 Silver",
         "width": 990,
         "height": 1934,
@@ -685,7 +685,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7/Device with Shadow/Apple iPhone 7 Gold.png"),
-        "value": "Apple iPhone 7 Gold with shadow",
+        "value": "./images/Phones/Apple iPhone 7/Device with Shadow/Apple iPhone 7 Gold.png",
         "label": "Apple iPhone 7 Gold with shadow",
         "width": 990,
         "height": 1934,
@@ -694,7 +694,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7/Device with Shadow/Apple iPhone 7 Jet Black.png"),
-        "value": "Apple iPhone 7 Jet Black with shadow",
+        "value": "./images/Phones/Apple iPhone 7/Device with Shadow/Apple iPhone 7 Jet Black.png",
         "label": "Apple iPhone 7 Jet Black with shadow",
         "width": 990,
         "height": 1934,
@@ -703,7 +703,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7/Device with Shadow/Apple iPhone 7 Matte Black.png"),
-        "value": "Apple iPhone 7 Matte Black with shadow",
+        "value": "./images/Phones/Apple iPhone 7/Device with Shadow/Apple iPhone 7 Matte Black.png",
         "label": "Apple iPhone 7 Matte Black with shadow",
         "width": 990,
         "height": 1934,
@@ -712,7 +712,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7/Device with Shadow/Apple iPhone 7 Rose Gold.png"),
-        "value": "Apple iPhone 7 Rose Gold with shadow",
+        "value": "./images/Phones/Apple iPhone 7/Device with Shadow/Apple iPhone 7 Rose Gold.png",
         "label": "Apple iPhone 7 Rose Gold with shadow",
         "width": 990,
         "height": 1934,
@@ -721,7 +721,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7/Device with Shadow/Apple iPhone 7 Silver.png"),
-        "value": "Apple iPhone 7 Silver with shadow",
+        "value": "./images/Phones/Apple iPhone 7/Device with Shadow/Apple iPhone 7 Silver.png",
         "label": "Apple iPhone 7 Silver with shadow",
         "width": 990,
         "height": 1934,
@@ -730,7 +730,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7 Plus/Device/Apple iPhone 7 Plus Gold.png"),
-        "value": "Apple iPhone 7 Plus Gold",
+        "value": "./images/Phones/Apple iPhone 7 Plus/Device/Apple iPhone 7 Plus Gold.png",
         "label": "Apple iPhone 7 Plus Gold",
         "width": 1842,
         "height": 3408,
@@ -739,7 +739,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7 Plus/Device/Apple iPhone 7 Plus Jet Black.png"),
-        "value": "Apple iPhone 7 Plus Jet Black",
+        "value": "./images/Phones/Apple iPhone 7 Plus/Device/Apple iPhone 7 Plus Jet Black.png",
         "label": "Apple iPhone 7 Plus Jet Black",
         "width": 1842,
         "height": 3408,
@@ -748,7 +748,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7 Plus/Device/Apple iPhone 7 Plus Matte Black.png"),
-        "value": "Apple iPhone 7 Plus Matte Black",
+        "value": "./images/Phones/Apple iPhone 7 Plus/Device/Apple iPhone 7 Plus Matte Black.png",
         "label": "Apple iPhone 7 Plus Matte Black",
         "width": 1842,
         "height": 3408,
@@ -757,7 +757,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7 Plus/Device/Apple iPhone 7 Plus Rose Gold.png"),
-        "value": "Apple iPhone 7 Plus Rose Gold",
+        "value": "./images/Phones/Apple iPhone 7 Plus/Device/Apple iPhone 7 Plus Rose Gold.png",
         "label": "Apple iPhone 7 Plus Rose Gold",
         "width": 1842,
         "height": 3408,
@@ -766,7 +766,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7 Plus/Device/Apple iPhone 7 Plus Silver.png"),
-        "value": "Apple iPhone 7 Plus Silver",
+        "value": "./images/Phones/Apple iPhone 7 Plus/Device/Apple iPhone 7 Plus Silver.png",
         "label": "Apple iPhone 7 Plus Silver",
         "width": 1842,
         "height": 3408,
@@ -775,7 +775,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7 Plus/Device with Shadow/Apple iPhone 7 Plus Gold.png"),
-        "value": "Apple iPhone 7 Plus Gold with shadow",
+        "value": "./images/Phones/Apple iPhone 7 Plus/Device with Shadow/Apple iPhone 7 Plus Gold.png",
         "label": "Apple iPhone 7 Plus Gold with shadow",
         "width": 1842,
         "height": 3408,
@@ -784,7 +784,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7 Plus/Device with Shadow/Apple iPhone 7 Plus Jet Black.png"),
-        "value": "Apple iPhone 7 Plus Jet Black with shadow",
+        "value": "./images/Phones/Apple iPhone 7 Plus/Device with Shadow/Apple iPhone 7 Plus Jet Black.png",
         "label": "Apple iPhone 7 Plus Jet Black with shadow",
         "width": 1842,
         "height": 3408,
@@ -793,7 +793,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7 Plus/Device with Shadow/Apple iPhone 7 Plus Matte Black.png"),
-        "value": "Apple iPhone 7 Plus Matte Black with shadow",
+        "value": "./images/Phones/Apple iPhone 7 Plus/Device with Shadow/Apple iPhone 7 Plus Matte Black.png",
         "label": "Apple iPhone 7 Plus Matte Black with shadow",
         "width": 1842,
         "height": 3408,
@@ -802,7 +802,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7 Plus/Device with Shadow/Apple iPhone 7 Plus Rose Gold.png"),
-        "value": "Apple iPhone 7 Plus Rose Gold with shadow",
+        "value": "./images/Phones/Apple iPhone 7 Plus/Device with Shadow/Apple iPhone 7 Plus Rose Gold.png",
         "label": "Apple iPhone 7 Plus Rose Gold with shadow",
         "width": 1842,
         "height": 3408,
@@ -811,7 +811,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 7 Plus/Device with Shadow/Apple iPhone 7 Plus Silver.png"),
-        "value": "Apple iPhone 7 Plus Silver with shadow",
+        "value": "./images/Phones/Apple iPhone 7 Plus/Device with Shadow/Apple iPhone 7 Plus Silver.png",
         "label": "Apple iPhone 7 Plus Silver with shadow",
         "width": 1842,
         "height": 3408,
@@ -820,7 +820,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 8/Device/Apple iPhone 8 Gold.png"),
-        "value": "Apple iPhone 8 Gold",
+        "value": "./images/Phones/Apple iPhone 8/Device/Apple iPhone 8 Gold.png",
         "label": "Apple iPhone 8 Gold",
         "width": 950,
         "height": 1894,
@@ -829,7 +829,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 8/Device/Apple iPhone 8 Silver.png"),
-        "value": "Apple iPhone 8 Silver",
+        "value": "./images/Phones/Apple iPhone 8/Device/Apple iPhone 8 Silver.png",
         "label": "Apple iPhone 8 Silver",
         "width": 950,
         "height": 1894,
@@ -838,7 +838,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 8/Device/Apple iPhone 8 Space Grey.png"),
-        "value": "Apple iPhone 8 Space Grey",
+        "value": "./images/Phones/Apple iPhone 8/Device/Apple iPhone 8 Space Grey.png",
         "label": "Apple iPhone 8 Space Grey",
         "width": 950,
         "height": 1894,
@@ -847,7 +847,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 8/Device with Shadow/Apple iPhone 8 Gold.png"),
-        "value": "Apple iPhone 8 Gold with shadow",
+        "value": "./images/Phones/Apple iPhone 8/Device with Shadow/Apple iPhone 8 Gold.png",
         "label": "Apple iPhone 8 Gold with shadow",
         "width": 950,
         "height": 1894,
@@ -856,7 +856,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 8/Device with Shadow/Apple iPhone 8 Silver.png"),
-        "value": "Apple iPhone 8 Silver with shadow",
+        "value": "./images/Phones/Apple iPhone 8/Device with Shadow/Apple iPhone 8 Silver.png",
         "label": "Apple iPhone 8 Silver with shadow",
         "width": 950,
         "height": 1894,
@@ -865,7 +865,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 8/Device with Shadow/Apple iPhone 8 Space Grey.png"),
-        "value": "Apple iPhone 8 Space Grey with shadow",
+        "value": "./images/Phones/Apple iPhone 8/Device with Shadow/Apple iPhone 8 Space Grey.png",
         "label": "Apple iPhone 8 Space Grey with shadow",
         "width": 950,
         "height": 1894,
@@ -874,7 +874,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 8 Plus/Device/Apple iPhone 8 Plus Gold.png"),
-        "value": "Apple iPhone 8 Plus Gold",
+        "value": "./images/Phones/Apple iPhone 8 Plus/Device/Apple iPhone 8 Plus Gold.png",
         "label": "Apple iPhone 8 Plus Gold",
         "width": 1642,
         "height": 3008,
@@ -883,7 +883,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 8 Plus/Device/Apple iPhone 8 Plus Silver.png"),
-        "value": "Apple iPhone 8 Plus Silver",
+        "value": "./images/Phones/Apple iPhone 8 Plus/Device/Apple iPhone 8 Plus Silver.png",
         "label": "Apple iPhone 8 Plus Silver",
         "width": 1642,
         "height": 3008,
@@ -892,7 +892,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 8 Plus/Device/Apple iPhone 8 Plus Space Grey.png"),
-        "value": "Apple iPhone 8 Plus Space Grey",
+        "value": "./images/Phones/Apple iPhone 8 Plus/Device/Apple iPhone 8 Plus Space Grey.png",
         "label": "Apple iPhone 8 Plus Space Grey",
         "width": 1642,
         "height": 3008,
@@ -901,7 +901,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 8 Plus/Device with Shadow/Apple iPhone 8 Plus Gold.png"),
-        "value": "Apple iPhone 8 Plus Gold with shadow",
+        "value": "./images/Phones/Apple iPhone 8 Plus/Device with Shadow/Apple iPhone 8 Plus Gold.png",
         "label": "Apple iPhone 8 Plus Gold with shadow",
         "width": 1642,
         "height": 3008,
@@ -910,7 +910,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 8 Plus/Device with Shadow/Apple iPhone 8 Plus Silver.png"),
-        "value": "Apple iPhone 8 Plus Silver with shadow",
+        "value": "./images/Phones/Apple iPhone 8 Plus/Device with Shadow/Apple iPhone 8 Plus Silver.png",
         "label": "Apple iPhone 8 Plus Silver with shadow",
         "width": 1642,
         "height": 3008,
@@ -919,7 +919,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone 8 Plus/Device with Shadow/Apple iPhone 8 Plus Space Grey.png"),
-        "value": "Apple iPhone 8 Plus Space Grey with shadow",
+        "value": "./images/Phones/Apple iPhone 8 Plus/Device with Shadow/Apple iPhone 8 Plus Space Grey.png",
         "label": "Apple iPhone 8 Plus Space Grey with shadow",
         "width": 1642,
         "height": 3008,
@@ -928,7 +928,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone SE/Device/Apple iPhone SE Gold.png"),
-        "value": "Apple iPhone SE Gold",
+        "value": "./images/Phones/Apple iPhone SE/Device/Apple iPhone SE Gold.png",
         "label": "Apple iPhone SE Gold",
         "width": 840,
         "height": 1696,
@@ -937,7 +937,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone SE/Device/Apple iPhone SE Rose Gold.png"),
-        "value": "Apple iPhone SE Rose Gold",
+        "value": "./images/Phones/Apple iPhone SE/Device/Apple iPhone SE Rose Gold.png",
         "label": "Apple iPhone SE Rose Gold",
         "width": 840,
         "height": 1696,
@@ -946,7 +946,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone SE/Device/Apple iPhone SE Silver.png"),
-        "value": "Apple iPhone SE Silver",
+        "value": "./images/Phones/Apple iPhone SE/Device/Apple iPhone SE Silver.png",
         "label": "Apple iPhone SE Silver",
         "width": 840,
         "height": 1696,
@@ -955,7 +955,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone SE/Device/Apple iPhone SE Space Gray.png"),
-        "value": "Apple iPhone SE Space Gray",
+        "value": "./images/Phones/Apple iPhone SE/Device/Apple iPhone SE Space Gray.png",
         "label": "Apple iPhone SE Space Gray",
         "width": 840,
         "height": 1696,
@@ -964,7 +964,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone SE/Device with Shadow/Apple iPhone SE Gold.png"),
-        "value": "Apple iPhone SE Gold with shadow",
+        "value": "./images/Phones/Apple iPhone SE/Device with Shadow/Apple iPhone SE Gold.png",
         "label": "Apple iPhone SE Gold with shadow",
         "width": 840,
         "height": 1696,
@@ -973,7 +973,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone SE/Device with Shadow/Apple iPhone SE Rose Gold.png"),
-        "value": "Apple iPhone SE Rose Gold with shadow",
+        "value": "./images/Phones/Apple iPhone SE/Device with Shadow/Apple iPhone SE Rose Gold.png",
         "label": "Apple iPhone SE Rose Gold with shadow",
         "width": 840,
         "height": 1696,
@@ -982,7 +982,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone SE/Device with Shadow/Apple iPhone SE Silver.png"),
-        "value": "Apple iPhone SE Silver with shadow",
+        "value": "./images/Phones/Apple iPhone SE/Device with Shadow/Apple iPhone SE Silver.png",
         "label": "Apple iPhone SE Silver with shadow",
         "width": 840,
         "height": 1696,
@@ -991,7 +991,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone SE/Device with Shadow/Apple iPhone SE Space Gray.png"),
-        "value": "Apple iPhone SE Space Gray with shadow",
+        "value": "./images/Phones/Apple iPhone SE/Device with Shadow/Apple iPhone SE Space Gray.png",
         "label": "Apple iPhone SE Space Gray with shadow",
         "width": 840,
         "height": 1696,
@@ -1000,7 +1000,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone X/Device/Apple iPhone X Silver.png"),
-        "value": "Apple iPhone X Silver",
+        "value": "./images/Phones/Apple iPhone X/Device/Apple iPhone X Silver.png",
         "label": "Apple iPhone X Silver",
         "width": 1405,
         "height": 2796,
@@ -1009,7 +1009,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone X/Device/Apple iPhone X Space Grey.png"),
-        "value": "Apple iPhone X Space Grey",
+        "value": "./images/Phones/Apple iPhone X/Device/Apple iPhone X Space Grey.png",
         "label": "Apple iPhone X Space Grey",
         "width": 1405,
         "height": 2796,
@@ -1018,7 +1018,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone X/Device with Shadow/Apple iPhone X Silver.png"),
-        "value": "Apple iPhone X Silver with shadow",
+        "value": "./images/Phones/Apple iPhone X/Device with Shadow/Apple iPhone X Silver.png",
         "label": "Apple iPhone X Silver with shadow",
         "width": 1405,
         "height": 2796,
@@ -1027,7 +1027,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Apple iPhone X/Device with Shadow/Apple iPhone X Space Grey.png"),
-        "value": "Apple iPhone X Space Grey with shadow",
+        "value": "./images/Phones/Apple iPhone X/Device with Shadow/Apple iPhone X Space Grey.png",
         "label": "Apple iPhone X Space Grey with shadow",
         "width": 1405,
         "height": 2796,
@@ -1036,7 +1036,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Google Pixel/Device/Google Pixel Quite Black.png"),
-        "value": "Google Pixel Quite Black",
+        "value": "./images/Phones/Google Pixel/Device/Google Pixel Quite Black.png",
         "label": "Google Pixel Quite Black",
         "width": 1480,
         "height": 2920,
@@ -1045,7 +1045,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Google Pixel/Device/Google Pixel Really Blue.png"),
-        "value": "Google Pixel Really Blue",
+        "value": "./images/Phones/Google Pixel/Device/Google Pixel Really Blue.png",
         "label": "Google Pixel Really Blue",
         "width": 1480,
         "height": 2920,
@@ -1054,7 +1054,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Google Pixel/Device/Google Pixel Very Silver.png"),
-        "value": "Google Pixel Very Silver",
+        "value": "./images/Phones/Google Pixel/Device/Google Pixel Very Silver.png",
         "label": "Google Pixel Very Silver",
         "width": 1480,
         "height": 2920,
@@ -1063,7 +1063,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Google Pixel/Device with Shadows/Google Pixel Quite Black.png"),
-        "value": "Google Pixel Quite Black with shadow",
+        "value": "./images/Phones/Google Pixel/Device with Shadows/Google Pixel Quite Black.png",
         "label": "Google Pixel Quite Black with shadow",
         "width": 1480,
         "height": 2920,
@@ -1072,7 +1072,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Google Pixel/Device with Shadows/Google Pixel Really Blue.png"),
-        "value": "Google Pixel Really Blue with shadow",
+        "value": "./images/Phones/Google Pixel/Device with Shadows/Google Pixel Really Blue.png",
         "label": "Google Pixel Really Blue with shadow",
         "width": 1480,
         "height": 2920,
@@ -1081,7 +1081,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Google Pixel/Device with Shadows/Google Pixel Very Silver.png"),
-        "value": "Google Pixel Very Silver with shadow",
+        "value": "./images/Phones/Google Pixel/Device with Shadows/Google Pixel Very Silver.png",
         "label": "Google Pixel Very Silver with shadow",
         "width": 1480,
         "height": 2920,
@@ -1090,7 +1090,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Google Pixel 2/Device/Google PIxel 2 Kinda Blue.png"),
-        "value": "Google PIxel 2 Kinda Blue",
+        "value": "./images/Phones/Google Pixel 2/Device/Google PIxel 2 Kinda Blue.png",
         "label": "Google PIxel 2 Kinda Blue",
         "width": 1280,
         "height": 2600,
@@ -1099,7 +1099,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Google Pixel 2/Device/Google Pixel 2 Clearly White.png"),
-        "value": "Google Pixel 2 Clearly White",
+        "value": "./images/Phones/Google Pixel 2/Device/Google Pixel 2 Clearly White.png",
         "label": "Google Pixel 2 Clearly White",
         "width": 1280,
         "height": 2600,
@@ -1108,7 +1108,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Google Pixel 2/Device/Google Pixel 2 Just Black.png"),
-        "value": "Google Pixel 2 Just Black",
+        "value": "./images/Phones/Google Pixel 2/Device/Google Pixel 2 Just Black.png",
         "label": "Google Pixel 2 Just Black",
         "width": 1280,
         "height": 2600,
@@ -1117,7 +1117,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Google Pixel 2/Device with Shadow/Google PIxel 2 Kinda Blue.png"),
-        "value": "Google PIxel 2 Kinda Blue with shadow",
+        "value": "./images/Phones/Google Pixel 2/Device with Shadow/Google PIxel 2 Kinda Blue.png",
         "label": "Google PIxel 2 Kinda Blue with shadow",
         "width": 1320,
         "height": 2649,
@@ -1126,7 +1126,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Google Pixel 2/Device with Shadow/Google Pixel 2 Clearly White.png"),
-        "value": "Google Pixel 2 Clearly White with shadow",
+        "value": "./images/Phones/Google Pixel 2/Device with Shadow/Google Pixel 2 Clearly White.png",
         "label": "Google Pixel 2 Clearly White with shadow",
         "width": 1320,
         "height": 2649,
@@ -1135,7 +1135,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Google Pixel 2/Device with Shadow/Google Pixel 2 Just Black.png"),
-        "value": "Google Pixel 2 Just Black with shadow",
+        "value": "./images/Phones/Google Pixel 2/Device with Shadow/Google Pixel 2 Just Black.png",
         "label": "Google Pixel 2 Just Black with shadow",
         "width": 1320,
         "height": 2649,
@@ -1144,7 +1144,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Google Pixel 2 XL/Device/Google Pixel 2 XL Black and White.png"),
-        "value": "Google Pixel 2 XL Black and White",
+        "value": "./images/Phones/Google Pixel 2 XL/Device/Google Pixel 2 XL Black and White.png",
         "label": "Google Pixel 2 XL Black and White",
         "width": 1840,
         "height": 3560,
@@ -1153,7 +1153,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Google Pixel 2 XL/Device/Google Pixel 2 XL Just Black.png"),
-        "value": "Google Pixel 2 XL Just Black",
+        "value": "./images/Phones/Google Pixel 2 XL/Device/Google Pixel 2 XL Just Black.png",
         "label": "Google Pixel 2 XL Just Black",
         "width": 1840,
         "height": 3560,
@@ -1162,7 +1162,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Google Pixel 2 XL/Device with Shadow/Google Pixel 2 XL Black and White.png"),
-        "value": "Google Pixel 2 XL Black and White with shadow",
+        "value": "./images/Phones/Google Pixel 2 XL/Device with Shadow/Google Pixel 2 XL Black and White.png",
         "label": "Google Pixel 2 XL Black and White with shadow",
         "width": 1840,
         "height": 3560,
@@ -1171,7 +1171,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Google Pixel 2 XL/Device with Shadow/Google Pixel 2 XL Just Black.png"),
-        "value": "Google Pixel 2 XL Just Black with shadow",
+        "value": "./images/Phones/Google Pixel 2 XL/Device with Shadow/Google Pixel 2 XL Just Black.png",
         "label": "Google Pixel 2 XL Just Black with shadow",
         "width": 1840,
         "height": 3560,
@@ -1180,7 +1180,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/HTC One A9/Device/HTC One A9 Black.png"),
-        "value": "HTC One A9 Black",
+        "value": "./images/Phones/HTC One A9/Device/HTC One A9 Black.png",
         "label": "HTC One A9 Black",
         "width": 1246,
         "height": 2549,
@@ -1189,7 +1189,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/HTC One A9/Device/HTC One A9 White.png"),
-        "value": "HTC One A9 White",
+        "value": "./images/Phones/HTC One A9/Device/HTC One A9 White.png",
         "label": "HTC One A9 White",
         "width": 1246,
         "height": 2549,
@@ -1198,7 +1198,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/HTC One A9/Device with Shadow/HTC One A9 Black.png"),
-        "value": "HTC One A9 Black with shadow",
+        "value": "./images/Phones/HTC One A9/Device with Shadow/HTC One A9 Black.png",
         "label": "HTC One A9 Black with shadow",
         "width": 1251,
         "height": 2597,
@@ -1207,7 +1207,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/HTC One A9/Device with Shadow/HTC One A9 White.png"),
-        "value": "HTC One A9 White with shadow",
+        "value": "./images/Phones/HTC One A9/Device with Shadow/HTC One A9 White.png",
         "label": "HTC One A9 White with shadow",
         "width": 1251,
         "height": 2597,
@@ -1216,7 +1216,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/HTC One M8/Device/HTC One M8 Black.png"),
-        "value": "HTC One M8 Black",
+        "value": "./images/Phones/HTC One M8/Device/HTC One M8 Black.png",
         "label": "HTC One M8 Black",
         "width": 1228,
         "height": 2513,
@@ -1225,7 +1225,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/HTC One M8/Device/HTC One M8 Gold.png"),
-        "value": "HTC One M8 Gold",
+        "value": "./images/Phones/HTC One M8/Device/HTC One M8 Gold.png",
         "label": "HTC One M8 Gold",
         "width": 1228,
         "height": 2513,
@@ -1234,7 +1234,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/HTC One M8/Device/HTC One M8 Silver.png"),
-        "value": "HTC One M8 Silver",
+        "value": "./images/Phones/HTC One M8/Device/HTC One M8 Silver.png",
         "label": "HTC One M8 Silver",
         "width": 1228,
         "height": 2513,
@@ -1243,7 +1243,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/HTC One M8/Device with Shadow/HTC One M8 Black.png"),
-        "value": "HTC One M8 Black with shadow",
+        "value": "./images/Phones/HTC One M8/Device with Shadow/HTC One M8 Black.png",
         "label": "HTC One M8 Black with shadow",
         "width": 1228,
         "height": 2559,
@@ -1252,7 +1252,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/HTC One M8/Device with Shadow/HTC One M8 Gold.png"),
-        "value": "HTC One M8 Gold with shadow",
+        "value": "./images/Phones/HTC One M8/Device with Shadow/HTC One M8 Gold.png",
         "label": "HTC One M8 Gold with shadow",
         "width": 1228,
         "height": 2559,
@@ -1261,7 +1261,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/HTC One M8/Device with Shadow/HTC One M8 Silver.png"),
-        "value": "HTC One M8 Silver with shadow",
+        "value": "./images/Phones/HTC One M8/Device with Shadow/HTC One M8 Silver.png",
         "label": "HTC One M8 Silver with shadow",
         "width": 1228,
         "height": 2559,
@@ -1270,7 +1270,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Huawei P8/Device/Huawei P8 Black.png"),
-        "value": "Huawei P8 Black",
+        "value": "./images/Phones/Huawei P8/Device/Huawei P8 Black.png",
         "label": "Huawei P8 Black",
         "width": 1280,
         "height": 2560,
@@ -1279,7 +1279,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Huawei P8/Device/Huawei P8 White.png"),
-        "value": "Huawei P8 White",
+        "value": "./images/Phones/Huawei P8/Device/Huawei P8 White.png",
         "label": "Huawei P8 White",
         "width": 1280,
         "height": 2560,
@@ -1288,7 +1288,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Huawei P8/Device with Shadow/Huawei P8 Black.png"),
-        "value": "Huawei P8 Black with shadow",
+        "value": "./images/Phones/Huawei P8/Device with Shadow/Huawei P8 Black.png",
         "label": "Huawei P8 Black with shadow",
         "width": 1280,
         "height": 2560,
@@ -1297,7 +1297,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Huawei P8/Device with Shadow/Huawei P8 White.png"),
-        "value": "Huawei P8 White with shadow",
+        "value": "./images/Phones/Huawei P8/Device with Shadow/Huawei P8 White.png",
         "label": "Huawei P8 White with shadow",
         "width": 1280,
         "height": 2560,
@@ -1306,7 +1306,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Microsoft Lumia 950/Device/Microsoft Lumia 950 Black.png"),
-        "value": "Microsoft Lumia 950 Black",
+        "value": "./images/Phones/Microsoft Lumia 950/Device/Microsoft Lumia 950 Black.png",
         "label": "Microsoft Lumia 950 Black",
         "width": 1642,
         "height": 3215,
@@ -1315,7 +1315,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Microsoft Lumia 950/Device/Microsoft Lumia 950 White.png"),
-        "value": "Microsoft Lumia 950 White",
+        "value": "./images/Phones/Microsoft Lumia 950/Device/Microsoft Lumia 950 White.png",
         "label": "Microsoft Lumia 950 White",
         "width": 1642,
         "height": 3215,
@@ -1324,7 +1324,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Microsoft Lumia 950/Device with Shadow/Microsoft Lumia 950 Black.png"),
-        "value": "Microsoft Lumia 950 Black with shadow",
+        "value": "./images/Phones/Microsoft Lumia 950/Device with Shadow/Microsoft Lumia 950 Black.png",
         "label": "Microsoft Lumia 950 Black with shadow",
         "width": 1643,
         "height": 3272,
@@ -1333,7 +1333,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Microsoft Lumia 950/Device with Shadow/Microsoft Lumia 950 White.png"),
-        "value": "Microsoft Lumia 950 White with shadow",
+        "value": "./images/Phones/Microsoft Lumia 950/Device with Shadow/Microsoft Lumia 950 White.png",
         "label": "Microsoft Lumia 950 White with shadow",
         "width": 1643,
         "height": 3272,
@@ -1342,7 +1342,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Motorola Moto E/Device/Motorola Moto E Black.png"),
-        "value": "Motorola Moto E Black",
+        "value": "./images/Phones/Motorola Moto E/Device/Motorola Moto E Black.png",
         "label": "Motorola Moto E Black",
         "width": 658,
         "height": 1265,
@@ -1351,7 +1351,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Motorola Moto E/Device/Motorola Moto E White.png"),
-        "value": "Motorola Moto E White",
+        "value": "./images/Phones/Motorola Moto E/Device/Motorola Moto E White.png",
         "label": "Motorola Moto E White",
         "width": 658,
         "height": 1265,
@@ -1360,7 +1360,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Motorola Moto E/Device with Shadow/Motorola Moto E Black.png"),
-        "value": "Motorola Moto E Black with shadow",
+        "value": "./images/Phones/Motorola Moto E/Device with Shadow/Motorola Moto E Black.png",
         "label": "Motorola Moto E Black with shadow",
         "width": 658,
         "height": 1290,
@@ -1369,7 +1369,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Motorola Moto E/Device with Shadow/Motorola Moto E White.png"),
-        "value": "Motorola Moto E White with shadow",
+        "value": "./images/Phones/Motorola Moto E/Device with Shadow/Motorola Moto E White.png",
         "label": "Motorola Moto E White with shadow",
         "width": 658,
         "height": 1290,
@@ -1378,7 +1378,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Motorola Moto G/Device/Motorola Moto G.png"),
-        "value": "Motorola Moto G",
+        "value": "./images/Phones/Motorola Moto G/Device/Motorola Moto G.png",
         "label": "Motorola Moto G",
         "width": 920,
         "height": 1780,
@@ -1387,7 +1387,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Motorola Moto G/Device with Shadow/Motorola Moto G.png"),
-        "value": "Motorola Moto G with shadow",
+        "value": "./images/Phones/Motorola Moto G/Device with Shadow/Motorola Moto G.png",
         "label": "Motorola Moto G with shadow",
         "width": 920,
         "height": 1780,
@@ -1396,7 +1396,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nexus 4/Device/Nexus 4.png"),
-        "value": "Nexus 4",
+        "value": "./images/Phones/Nexus 4/Device/Nexus 4.png",
         "label": "Nexus 4",
         "width": 855,
         "height": 1658,
@@ -1405,7 +1405,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nexus 4/Device with Shadow/Nexus 4.png"),
-        "value": "Nexus 4 with shadow",
+        "value": "./images/Phones/Nexus 4/Device with Shadow/Nexus 4.png",
         "label": "Nexus 4 with shadow",
         "width": 855,
         "height": 1685,
@@ -1414,7 +1414,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nexus 5X/Device/Nexus 5x.png"),
-        "value": "Nexus 5x",
+        "value": "./images/Phones/Nexus 5X/Device/Nexus 5x.png",
         "label": "Nexus 5x",
         "width": 1195,
         "height": 2406,
@@ -1423,7 +1423,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nexus 5X/Device with Shadow/Nexus 5x.png"),
-        "value": "Nexus 5x with shadow",
+        "value": "./images/Phones/Nexus 5X/Device with Shadow/Nexus 5x.png",
         "label": "Nexus 5x with shadow",
         "width": 1195,
         "height": 2455,
@@ -1432,7 +1432,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nexus 6P/Device/Nexus 6P.png"),
-        "value": "Nexus 6P",
+        "value": "./images/Phones/Nexus 6P/Device/Nexus 6P.png",
         "label": "Nexus 6P",
         "width": 1566,
         "height": 3198,
@@ -1441,7 +1441,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nexus 6P/Device with Shadow/Nexus 6P.png"),
-        "value": "Nexus 6P with shadow",
+        "value": "./images/Phones/Nexus 6P/Device with Shadow/Nexus 6P.png",
         "label": "Nexus 6P with shadow",
         "width": 1566,
         "height": 3260,
@@ -1450,7 +1450,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia 220/Device/Nokia 220 Black.png"),
-        "value": "Nokia 220 Black",
+        "value": "./images/Phones/Nokia 220/Device/Nokia 220 Black.png",
         "label": "Nokia 220 Black",
         "width": 320,
         "height": 741,
@@ -1459,7 +1459,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia 220/Device/Nokia 220 Blue.png"),
-        "value": "Nokia 220 Blue",
+        "value": "./images/Phones/Nokia 220/Device/Nokia 220 Blue.png",
         "label": "Nokia 220 Blue",
         "width": 320,
         "height": 741,
@@ -1468,7 +1468,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia 220/Device/Nokia 220 Red.png"),
-        "value": "Nokia 220 Red",
+        "value": "./images/Phones/Nokia 220/Device/Nokia 220 Red.png",
         "label": "Nokia 220 Red",
         "width": 320,
         "height": 741,
@@ -1477,7 +1477,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia 220/Device/Nokia 220 White.png"),
-        "value": "Nokia 220 White",
+        "value": "./images/Phones/Nokia 220/Device/Nokia 220 White.png",
         "label": "Nokia 220 White",
         "width": 320,
         "height": 741,
@@ -1486,7 +1486,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia 220/Device/Nokia 220 Yellow.png"),
-        "value": "Nokia 220 Yellow",
+        "value": "./images/Phones/Nokia 220/Device/Nokia 220 Yellow.png",
         "label": "Nokia 220 Yellow",
         "width": 320,
         "height": 741,
@@ -1495,7 +1495,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia 220/Device with Shadow/Nokia 220 Black.png"),
-        "value": "Nokia 220 Black with shadow",
+        "value": "./images/Phones/Nokia 220/Device with Shadow/Nokia 220 Black.png",
         "label": "Nokia 220 Black with shadow",
         "width": 320,
         "height": 752,
@@ -1504,7 +1504,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia 220/Device with Shadow/Nokia 220 Blue.png"),
-        "value": "Nokia 220 Blue with shadow",
+        "value": "./images/Phones/Nokia 220/Device with Shadow/Nokia 220 Blue.png",
         "label": "Nokia 220 Blue with shadow",
         "width": 320,
         "height": 752,
@@ -1513,7 +1513,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia 220/Device with Shadow/Nokia 220 Red.png"),
-        "value": "Nokia 220 Red with shadow",
+        "value": "./images/Phones/Nokia 220/Device with Shadow/Nokia 220 Red.png",
         "label": "Nokia 220 Red with shadow",
         "width": 320,
         "height": 752,
@@ -1522,7 +1522,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia 220/Device with Shadow/Nokia 220 White.png"),
-        "value": "Nokia 220 White with shadow",
+        "value": "./images/Phones/Nokia 220/Device with Shadow/Nokia 220 White.png",
         "label": "Nokia 220 White with shadow",
         "width": 320,
         "height": 752,
@@ -1531,7 +1531,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia 220/Device with Shadow/Nokia 220 Yellow.png"),
-        "value": "Nokia 220 Yellow with shadow",
+        "value": "./images/Phones/Nokia 220/Device with Shadow/Nokia 220 Yellow.png",
         "label": "Nokia 220 Yellow with shadow",
         "width": 320,
         "height": 752,
@@ -1540,7 +1540,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia 230/Device/Nokia 230 Black.png"),
-        "value": "Nokia 230 Black",
+        "value": "./images/Phones/Nokia 230/Device/Nokia 230 Black.png",
         "label": "Nokia 230 Black",
         "width": 296,
         "height": 695,
@@ -1549,7 +1549,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia 230/Device/Nokia 230 White.png"),
-        "value": "Nokia 230 White",
+        "value": "./images/Phones/Nokia 230/Device/Nokia 230 White.png",
         "label": "Nokia 230 White",
         "width": 296,
         "height": 695,
@@ -1558,7 +1558,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia 230/Device with Shadow/Nokia 230 Black.png"),
-        "value": "Nokia 230 Black with shadow",
+        "value": "./images/Phones/Nokia 230/Device with Shadow/Nokia 230 Black.png",
         "label": "Nokia 230 Black with shadow",
         "width": 296,
         "height": 705,
@@ -1567,7 +1567,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia 230/Device with Shadow/Nokia 230 White.png"),
-        "value": "Nokia 230 White with shadow",
+        "value": "./images/Phones/Nokia 230/Device with Shadow/Nokia 230 White.png",
         "label": "Nokia 230 White with shadow",
         "width": 296,
         "height": 705,
@@ -1576,7 +1576,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia Asha 230/Device/Nokia Asha 230 Black.png"),
-        "value": "Nokia Asha 230 Black",
+        "value": "./images/Phones/Nokia Asha 230/Device/Nokia Asha 230 Black.png",
         "label": "Nokia Asha 230 Black",
         "width": 321,
         "height": 539,
@@ -1585,7 +1585,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia Asha 230/Device/Nokia Asha 230 Blue.png"),
-        "value": "Nokia Asha 230 Blue",
+        "value": "./images/Phones/Nokia Asha 230/Device/Nokia Asha 230 Blue.png",
         "label": "Nokia Asha 230 Blue",
         "width": 321,
         "height": 539,
@@ -1594,7 +1594,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia Asha 230/Device/Nokia Asha 230 Green.png"),
-        "value": "Nokia Asha 230 Green",
+        "value": "./images/Phones/Nokia Asha 230/Device/Nokia Asha 230 Green.png",
         "label": "Nokia Asha 230 Green",
         "width": 321,
         "height": 539,
@@ -1603,7 +1603,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia Asha 230/Device/Nokia Asha 230 Red.png"),
-        "value": "Nokia Asha 230 Red",
+        "value": "./images/Phones/Nokia Asha 230/Device/Nokia Asha 230 Red.png",
         "label": "Nokia Asha 230 Red",
         "width": 321,
         "height": 539,
@@ -1612,7 +1612,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia Asha 230/Device/Nokia Asha 230 White.png"),
-        "value": "Nokia Asha 230 White",
+        "value": "./images/Phones/Nokia Asha 230/Device/Nokia Asha 230 White.png",
         "label": "Nokia Asha 230 White",
         "width": 321,
         "height": 539,
@@ -1621,7 +1621,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia Asha 230/Device/Nokia Asha 230 Yellow.png"),
-        "value": "Nokia Asha 230 Yellow",
+        "value": "./images/Phones/Nokia Asha 230/Device/Nokia Asha 230 Yellow.png",
         "label": "Nokia Asha 230 Yellow",
         "width": 321,
         "height": 539,
@@ -1630,7 +1630,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 230 White.png"),
-        "value": "Nokia Asha 230 230 White with shadow",
+        "value": "./images/Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 230 White.png",
         "label": "Nokia Asha 230 230 White with shadow",
         "width": 321,
         "height": 551,
@@ -1639,7 +1639,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 Black.png"),
-        "value": "Nokia Asha 230 Black with shadow",
+        "value": "./images/Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 Black.png",
         "label": "Nokia Asha 230 Black with shadow",
         "width": 321,
         "height": 551,
@@ -1648,7 +1648,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 Blue.png"),
-        "value": "Nokia Asha 230 Blue with shadow",
+        "value": "./images/Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 Blue.png",
         "label": "Nokia Asha 230 Blue with shadow",
         "width": 321,
         "height": 551,
@@ -1657,7 +1657,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 Green.png"),
-        "value": "Nokia Asha 230 Green with shadow",
+        "value": "./images/Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 Green.png",
         "label": "Nokia Asha 230 Green with shadow",
         "width": 321,
         "height": 551,
@@ -1666,7 +1666,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 Red.png"),
-        "value": "Nokia Asha 230 Red with shadow",
+        "value": "./images/Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 Red.png",
         "label": "Nokia Asha 230 Red with shadow",
         "width": 321,
         "height": 551,
@@ -1675,7 +1675,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 Yellow.png"),
-        "value": "Nokia Asha 230 Yellow with shadow",
+        "value": "./images/Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 Yellow.png",
         "label": "Nokia Asha 230 Yellow with shadow",
         "width": 321,
         "height": 551,
@@ -1684,7 +1684,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia C3-00/Device/Nokia C3-00.png"),
-        "value": "Nokia C3-00",
+        "value": "./images/Phones/Nokia C3-00/Device/Nokia C3-00.png",
         "label": "Nokia C3-00",
         "width": 380,
         "height": 751,
@@ -1693,7 +1693,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Nokia C3-00/Device with Shadow/Nokia C3-00.png"),
-        "value": "Nokia C3-00 with shadow",
+        "value": "./images/Phones/Nokia C3-00/Device with Shadow/Nokia C3-00.png",
         "label": "Nokia C3-00 with shadow",
         "width": 380,
         "height": 763,
@@ -1702,7 +1702,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Grand Prime/Device/Samsung Galaxy Grand Prime Black.png"),
-        "value": "Samsung Galaxy Grand Prime Black",
+        "value": "./images/Phones/Samsung Galaxy Grand Prime/Device/Samsung Galaxy Grand Prime Black.png",
         "label": "Samsung Galaxy Grand Prime Black",
         "width": 700,
         "height": 1360,
@@ -1711,7 +1711,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Grand Prime/Device/Samsung Galaxy Grand Prime Gold.png"),
-        "value": "Samsung Galaxy Grand Prime Gold",
+        "value": "./images/Phones/Samsung Galaxy Grand Prime/Device/Samsung Galaxy Grand Prime Gold.png",
         "label": "Samsung Galaxy Grand Prime Gold",
         "width": 700,
         "height": 1360,
@@ -1720,7 +1720,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Grand Prime/Device/Samsung Galaxy Grand Prime White.png"),
-        "value": "Samsung Galaxy Grand Prime White",
+        "value": "./images/Phones/Samsung Galaxy Grand Prime/Device/Samsung Galaxy Grand Prime White.png",
         "label": "Samsung Galaxy Grand Prime White",
         "width": 700,
         "height": 1360,
@@ -1729,7 +1729,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Grand Prime/Device with Shadow/Samsung Galaxy Grand Prime Black.png"),
-        "value": "Samsung Galaxy Grand Prime Black with shadow",
+        "value": "./images/Phones/Samsung Galaxy Grand Prime/Device with Shadow/Samsung Galaxy Grand Prime Black.png",
         "label": "Samsung Galaxy Grand Prime Black with shadow",
         "width": 700,
         "height": 1360,
@@ -1738,7 +1738,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Grand Prime/Device with Shadow/Samsung Galaxy Grand Prime Gold.png"),
-        "value": "Samsung Galaxy Grand Prime Gold with shadow",
+        "value": "./images/Phones/Samsung Galaxy Grand Prime/Device with Shadow/Samsung Galaxy Grand Prime Gold.png",
         "label": "Samsung Galaxy Grand Prime Gold with shadow",
         "width": 700,
         "height": 1360,
@@ -1747,7 +1747,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Grand Prime/Device with Shadow/Samsung Galaxy Grand Prime White.png"),
-        "value": "Samsung Galaxy Grand Prime White with shadow",
+        "value": "./images/Phones/Samsung Galaxy Grand Prime/Device with Shadow/Samsung Galaxy Grand Prime White.png",
         "label": "Samsung Galaxy Grand Prime White with shadow",
         "width": 700,
         "height": 1360,
@@ -1756,7 +1756,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Note 5/Device/Samsung Galaxy Note 5 Black.png"),
-        "value": "Samsung Galaxy Note 5 Black",
+        "value": "./images/Phones/Samsung Galaxy Note 5/Device/Samsung Galaxy Note 5 Black.png",
         "label": "Samsung Galaxy Note 5 Black",
         "width": 1568,
         "height": 3117,
@@ -1765,7 +1765,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Note 5/Device/Samsung Galaxy Note 5 Gold.png"),
-        "value": "Samsung Galaxy Note 5 Gold",
+        "value": "./images/Phones/Samsung Galaxy Note 5/Device/Samsung Galaxy Note 5 Gold.png",
         "label": "Samsung Galaxy Note 5 Gold",
         "width": 1568,
         "height": 3117,
@@ -1774,7 +1774,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Note 5/Device/Samsung Galaxy Note 5 Pink.png"),
-        "value": "Samsung Galaxy Note 5 Pink",
+        "value": "./images/Phones/Samsung Galaxy Note 5/Device/Samsung Galaxy Note 5 Pink.png",
         "label": "Samsung Galaxy Note 5 Pink",
         "width": 1568,
         "height": 3117,
@@ -1783,7 +1783,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Note 5/Device/Samsung Galaxy Note 5 Silver Titanium.png"),
-        "value": "Samsung Galaxy Note 5 Silver Titanium",
+        "value": "./images/Phones/Samsung Galaxy Note 5/Device/Samsung Galaxy Note 5 Silver Titanium.png",
         "label": "Samsung Galaxy Note 5 Silver Titanium",
         "width": 1568,
         "height": 3117,
@@ -1792,7 +1792,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Note 5/Device/Samsung Galaxy Note 5 White.png"),
-        "value": "Samsung Galaxy Note 5 White",
+        "value": "./images/Phones/Samsung Galaxy Note 5/Device/Samsung Galaxy Note 5 White.png",
         "label": "Samsung Galaxy Note 5 White",
         "width": 1568,
         "height": 3117,
@@ -1801,7 +1801,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Note 5/Device with Shadow/Samsung Galaxy Note 5 Black.png"),
-        "value": "Samsung Galaxy Note 5 Black with shadow",
+        "value": "./images/Phones/Samsung Galaxy Note 5/Device with Shadow/Samsung Galaxy Note 5 Black.png",
         "label": "Samsung Galaxy Note 5 Black with shadow",
         "width": 1580,
         "height": 3170,
@@ -1810,7 +1810,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Note 5/Device with Shadow/Samsung Galaxy Note 5 Gold.png"),
-        "value": "Samsung Galaxy Note 5 Gold with shadow",
+        "value": "./images/Phones/Samsung Galaxy Note 5/Device with Shadow/Samsung Galaxy Note 5 Gold.png",
         "label": "Samsung Galaxy Note 5 Gold with shadow",
         "width": 1580,
         "height": 3170,
@@ -1819,7 +1819,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Note 5/Device with Shadow/Samsung Galaxy Note 5 Pink.png"),
-        "value": "Samsung Galaxy Note 5 Pink with shadow",
+        "value": "./images/Phones/Samsung Galaxy Note 5/Device with Shadow/Samsung Galaxy Note 5 Pink.png",
         "label": "Samsung Galaxy Note 5 Pink with shadow",
         "width": 1580,
         "height": 3170,
@@ -1828,7 +1828,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Note 5/Device with Shadow/Samsung Galaxy Note 5 Silver Titanium.png"),
-        "value": "Samsung Galaxy Note 5 Silver Titanium with shadow",
+        "value": "./images/Phones/Samsung Galaxy Note 5/Device with Shadow/Samsung Galaxy Note 5 Silver Titanium.png",
         "label": "Samsung Galaxy Note 5 Silver Titanium with shadow",
         "width": 1580,
         "height": 3170,
@@ -1837,7 +1837,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Note 5/Device with Shadow/Samsung Galaxy Note 5 White.png"),
-        "value": "Samsung Galaxy Note 5 White with shadow",
+        "value": "./images/Phones/Samsung Galaxy Note 5/Device with Shadow/Samsung Galaxy Note 5 White.png",
         "label": "Samsung Galaxy Note 5 White with shadow",
         "width": 1580,
         "height": 3170,
@@ -1846,7 +1846,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S Duos/Device/Samsung Galaxy S Duos.png"),
-        "value": "Samsung Galaxy S Duos",
+        "value": "./images/Phones/Samsung Galaxy S Duos/Device/Samsung Galaxy S Duos.png",
         "label": "Samsung Galaxy S Duos",
         "width": 574,
         "height": 1100,
@@ -1855,7 +1855,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S Duos/Device with Shadow/Samsung Galaxy S Duos.png"),
-        "value": "Samsung Galaxy S Duos with shadow",
+        "value": "./images/Phones/Samsung Galaxy S Duos/Device with Shadow/Samsung Galaxy S Duos.png",
         "label": "Samsung Galaxy S Duos with shadow",
         "width": 574,
         "height": 1116,
@@ -1864,7 +1864,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S3/Device/Samsung Galaxy S3.png"),
-        "value": "Samsung Galaxy S3",
+        "value": "./images/Phones/Samsung Galaxy S3/Device/Samsung Galaxy S3.png",
         "label": "Samsung Galaxy S3",
         "width": 920,
         "height": 1680,
@@ -1873,7 +1873,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S3/Device with Shadow/Samsung Galaxy S3.png"),
-        "value": "Samsung Galaxy S3 with shadow",
+        "value": "./images/Phones/Samsung Galaxy S3/Device with Shadow/Samsung Galaxy S3.png",
         "label": "Samsung Galaxy S3 with shadow",
         "width": 920,
         "height": 1680,
@@ -1882,7 +1882,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S5/Device/Samsung Galaxy S5 Black.png"),
-        "value": "Samsung Galaxy S5 Black",
+        "value": "./images/Phones/Samsung Galaxy S5/Device/Samsung Galaxy S5 Black.png",
         "label": "Samsung Galaxy S5 Black",
         "width": 1320,
         "height": 2518,
@@ -1891,7 +1891,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S5/Device/Samsung Galaxy S5 White.png"),
-        "value": "Samsung Galaxy S5 White",
+        "value": "./images/Phones/Samsung Galaxy S5/Device/Samsung Galaxy S5 White.png",
         "label": "Samsung Galaxy S5 White",
         "width": 1320,
         "height": 2518,
@@ -1900,7 +1900,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S5/Device with Shadow/Samsung Galaxy S5 Black.png"),
-        "value": "Samsung Galaxy S5 Black with shadow",
+        "value": "./images/Phones/Samsung Galaxy S5/Device with Shadow/Samsung Galaxy S5 Black.png",
         "label": "Samsung Galaxy S5 Black with shadow",
         "width": 1320,
         "height": 2518,
@@ -1909,7 +1909,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S5/Device with Shadow/Samsung Galaxy S5 White.png"),
-        "value": "Samsung Galaxy S5 White with shadow",
+        "value": "./images/Phones/Samsung Galaxy S5/Device with Shadow/Samsung Galaxy S5 White.png",
         "label": "Samsung Galaxy S5 White with shadow",
         "width": 1320,
         "height": 2518,
@@ -1918,7 +1918,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S7/Device/Samsung Galaxy S7 Black.png"),
-        "value": "Samsung Galaxy S7 Black",
+        "value": "./images/Phones/Samsung Galaxy S7/Device/Samsung Galaxy S7 Black.png",
         "label": "Samsung Galaxy S7 Black",
         "width": 1720,
         "height": 3360,
@@ -1927,7 +1927,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S7/Device/Samsung Galaxy S7 Gold.png"),
-        "value": "Samsung Galaxy S7 Gold",
+        "value": "./images/Phones/Samsung Galaxy S7/Device/Samsung Galaxy S7 Gold.png",
         "label": "Samsung Galaxy S7 Gold",
         "width": 1720,
         "height": 3360,
@@ -1936,7 +1936,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S7/Device/Samsung Galaxy S7 Silver.png"),
-        "value": "Samsung Galaxy S7 Silver",
+        "value": "./images/Phones/Samsung Galaxy S7/Device/Samsung Galaxy S7 Silver.png",
         "label": "Samsung Galaxy S7 Silver",
         "width": 1720,
         "height": 3360,
@@ -1945,7 +1945,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S7/Device/Samsung Galaxy S7 White.png"),
-        "value": "Samsung Galaxy S7 White",
+        "value": "./images/Phones/Samsung Galaxy S7/Device/Samsung Galaxy S7 White.png",
         "label": "Samsung Galaxy S7 White",
         "width": 1720,
         "height": 3360,
@@ -1954,7 +1954,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S7/Device with Shadow/Samsung Galaxy S7 Black.png"),
-        "value": "Samsung Galaxy S7 Black with shadow",
+        "value": "./images/Phones/Samsung Galaxy S7/Device with Shadow/Samsung Galaxy S7 Black.png",
         "label": "Samsung Galaxy S7 Black with shadow",
         "width": 1720,
         "height": 3360,
@@ -1963,7 +1963,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S7/Device with Shadow/Samsung Galaxy S7 Gold.png"),
-        "value": "Samsung Galaxy S7 Gold with shadow",
+        "value": "./images/Phones/Samsung Galaxy S7/Device with Shadow/Samsung Galaxy S7 Gold.png",
         "label": "Samsung Galaxy S7 Gold with shadow",
         "width": 1720,
         "height": 3360,
@@ -1972,7 +1972,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S7/Device with Shadow/Samsung Galaxy S7 Silver.png"),
-        "value": "Samsung Galaxy S7 Silver with shadow",
+        "value": "./images/Phones/Samsung Galaxy S7/Device with Shadow/Samsung Galaxy S7 Silver.png",
         "label": "Samsung Galaxy S7 Silver with shadow",
         "width": 1720,
         "height": 3360,
@@ -1981,7 +1981,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S7/Device with Shadow/Samsung Galaxy S7 White.png"),
-        "value": "Samsung Galaxy S7 White with shadow",
+        "value": "./images/Phones/Samsung Galaxy S7/Device with Shadow/Samsung Galaxy S7 White.png",
         "label": "Samsung Galaxy S7 White with shadow",
         "width": 1720,
         "height": 3360,
@@ -1990,7 +1990,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S8/Device/Samsung Galaxy S8 Arctic Silver.png"),
-        "value": "Samsung Galaxy S8 Arctic Silver",
+        "value": "./images/Phones/Samsung Galaxy S8/Device/Samsung Galaxy S8 Arctic Silver.png",
         "label": "Samsung Galaxy S8 Arctic Silver",
         "width": 1640,
         "height": 3600,
@@ -1999,7 +1999,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S8/Device/Samsung Galaxy S8 Coral Blue.png"),
-        "value": "Samsung Galaxy S8 Coral Blue",
+        "value": "./images/Phones/Samsung Galaxy S8/Device/Samsung Galaxy S8 Coral Blue.png",
         "label": "Samsung Galaxy S8 Coral Blue",
         "width": 1640,
         "height": 3600,
@@ -2008,7 +2008,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S8/Device/Samsung Galaxy S8 Maple Gold.png"),
-        "value": "Samsung Galaxy S8 Maple Gold",
+        "value": "./images/Phones/Samsung Galaxy S8/Device/Samsung Galaxy S8 Maple Gold.png",
         "label": "Samsung Galaxy S8 Maple Gold",
         "width": 1640,
         "height": 3600,
@@ -2017,7 +2017,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S8/Device/Samsung Galaxy S8 Midnight Black.png"),
-        "value": "Samsung Galaxy S8 Midnight Black",
+        "value": "./images/Phones/Samsung Galaxy S8/Device/Samsung Galaxy S8 Midnight Black.png",
         "label": "Samsung Galaxy S8 Midnight Black",
         "width": 1640,
         "height": 3600,
@@ -2026,7 +2026,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S8/Device/Samsung Galaxy S8 Orchid Gray.png"),
-        "value": "Samsung Galaxy S8 Orchid Gray",
+        "value": "./images/Phones/Samsung Galaxy S8/Device/Samsung Galaxy S8 Orchid Gray.png",
         "label": "Samsung Galaxy S8 Orchid Gray",
         "width": 1640,
         "height": 3600,
@@ -2035,7 +2035,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S8/Device with Shadow/Samsung Galaxy S8 Arctic Silver.png"),
-        "value": "Samsung Galaxy S8 Arctic Silver with shadow",
+        "value": "./images/Phones/Samsung Galaxy S8/Device with Shadow/Samsung Galaxy S8 Arctic Silver.png",
         "label": "Samsung Galaxy S8 Arctic Silver with shadow",
         "width": 1640,
         "height": 3600,
@@ -2044,7 +2044,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S8/Device with Shadow/Samsung Galaxy S8 Coral Blue.png"),
-        "value": "Samsung Galaxy S8 Coral Blue with shadow",
+        "value": "./images/Phones/Samsung Galaxy S8/Device with Shadow/Samsung Galaxy S8 Coral Blue.png",
         "label": "Samsung Galaxy S8 Coral Blue with shadow",
         "width": 1640,
         "height": 3600,
@@ -2053,7 +2053,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S8/Device with Shadow/Samsung Galaxy S8 Maple Gold.png"),
-        "value": "Samsung Galaxy S8 Maple Gold with shadow",
+        "value": "./images/Phones/Samsung Galaxy S8/Device with Shadow/Samsung Galaxy S8 Maple Gold.png",
         "label": "Samsung Galaxy S8 Maple Gold with shadow",
         "width": 1640,
         "height": 3600,
@@ -2062,7 +2062,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S8/Device with Shadow/Samsung Galaxy S8 Midnight Black.png"),
-        "value": "Samsung Galaxy S8 Midnight Black with shadow",
+        "value": "./images/Phones/Samsung Galaxy S8/Device with Shadow/Samsung Galaxy S8 Midnight Black.png",
         "label": "Samsung Galaxy S8 Midnight Black with shadow",
         "width": 1640,
         "height": 3600,
@@ -2071,7 +2071,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S8/Device with Shadow/Samsung Galaxy S8 Orchid Gray.png"),
-        "value": "Samsung Galaxy S8 Orchid Gray with shadow",
+        "value": "./images/Phones/Samsung Galaxy S8/Device with Shadow/Samsung Galaxy S8 Orchid Gray.png",
         "label": "Samsung Galaxy S8 Orchid Gray with shadow",
         "width": 1640,
         "height": 3600,
@@ -2080,7 +2080,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Y/Device/Samsung Galaxy Y Black.png"),
-        "value": "Samsung Galaxy Y Black",
+        "value": "./images/Phones/Samsung Galaxy Y/Device/Samsung Galaxy Y Black.png",
         "label": "Samsung Galaxy Y Black",
         "width": 313,
         "height": 553,
@@ -2089,7 +2089,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Y/Device/Samsung Galaxy Y White.png"),
-        "value": "Samsung Galaxy Y White",
+        "value": "./images/Phones/Samsung Galaxy Y/Device/Samsung Galaxy Y White.png",
         "label": "Samsung Galaxy Y White",
         "width": 313,
         "height": 553,
@@ -2098,7 +2098,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Y/Device with Shadow/Samsung Galaxy Y Black.png"),
-        "value": "Samsung Galaxy Y Black with shadow",
+        "value": "./images/Phones/Samsung Galaxy Y/Device with Shadow/Samsung Galaxy Y Black.png",
         "label": "Samsung Galaxy Y Black with shadow",
         "width": 313,
         "height": 563,
@@ -2107,7 +2107,7 @@ export const devices = [
       },
       {
         "image": require("./images/Phones/Samsung Galaxy Y/Device with Shadow/Samsung Galaxy Y White.png"),
-        "value": "Samsung Galaxy Y White with shadow",
+        "value": "./images/Phones/Samsung Galaxy Y/Device with Shadow/Samsung Galaxy Y White.png",
         "label": "Samsung Galaxy Y White with shadow",
         "width": 313,
         "height": 563,
@@ -2119,10 +2119,10 @@ export const devices = [
   {
     "value": "Tablets",
     "label": "Tablets",
-    "children": [
+    "options": [
       {
         "image": require("./images/Tablets/Apple iPad Air 2/Device/Apple iPad Air 2 Gold.png"),
-        "value": "Apple iPad Air 2 Gold",
+        "value": "./images/Tablets/Apple iPad Air 2/Device/Apple iPad Air 2 Gold.png",
         "label": "Apple iPad Air 2 Gold",
         "width": 1856,
         "height": 2608,
@@ -2131,7 +2131,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Air 2/Device/Apple iPad Air 2 Silver.png"),
-        "value": "Apple iPad Air 2 Silver",
+        "value": "./images/Tablets/Apple iPad Air 2/Device/Apple iPad Air 2 Silver.png",
         "label": "Apple iPad Air 2 Silver",
         "width": 1856,
         "height": 2608,
@@ -2140,7 +2140,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Air 2/Device/Apple iPad Air 2 Space Gray.png"),
-        "value": "Apple iPad Air 2 Space Gray",
+        "value": "./images/Tablets/Apple iPad Air 2/Device/Apple iPad Air 2 Space Gray.png",
         "label": "Apple iPad Air 2 Space Gray",
         "width": 1856,
         "height": 2608,
@@ -2149,7 +2149,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Air 2/Device with Shadow/Apple iPad Air 2 Gold.png"),
-        "value": "Apple iPad Air 2 Gold with shadow",
+        "value": "./images/Tablets/Apple iPad Air 2/Device with Shadow/Apple iPad Air 2 Gold.png",
         "label": "Apple iPad Air 2 Gold with shadow",
         "width": 1856,
         "height": 2608,
@@ -2158,7 +2158,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Air 2/Device with Shadow/Apple iPad Air 2 Silver.png"),
-        "value": "Apple iPad Air 2 Silver with shadow",
+        "value": "./images/Tablets/Apple iPad Air 2/Device with Shadow/Apple iPad Air 2 Silver.png",
         "label": "Apple iPad Air 2 Silver with shadow",
         "width": 1856,
         "height": 2608,
@@ -2167,7 +2167,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Air 2/Device with Shadow/Apple iPad Air 2 Space Gray.png"),
-        "value": "Apple iPad Air 2 Space Gray with shadow",
+        "value": "./images/Tablets/Apple iPad Air 2/Device with Shadow/Apple iPad Air 2 Space Gray.png",
         "label": "Apple iPad Air 2 Space Gray with shadow",
         "width": 1856,
         "height": 2608,
@@ -2176,7 +2176,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Mini 4/Device/Apple iPad Mini 4 Gold.png"),
-        "value": "Apple iPad Mini 4 Gold",
+        "value": "./images/Tablets/Apple iPad Mini 4/Device/Apple iPad Mini 4 Gold.png",
         "label": "Apple iPad Mini 4 Gold",
         "width": 1936,
         "height": 2688,
@@ -2185,7 +2185,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Mini 4/Device/Apple iPad Mini 4 Silver.png"),
-        "value": "Apple iPad Mini 4 Silver",
+        "value": "./images/Tablets/Apple iPad Mini 4/Device/Apple iPad Mini 4 Silver.png",
         "label": "Apple iPad Mini 4 Silver",
         "width": 1936,
         "height": 2688,
@@ -2194,7 +2194,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Mini 4/Device/Apple iPad Mini 4 Space Gray.png"),
-        "value": "Apple iPad Mini 4 Space Gray",
+        "value": "./images/Tablets/Apple iPad Mini 4/Device/Apple iPad Mini 4 Space Gray.png",
         "label": "Apple iPad Mini 4 Space Gray",
         "width": 1936,
         "height": 2688,
@@ -2203,7 +2203,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Mini 4/Device with Shadow/Apple iPad Mini 4 Gold.png"),
-        "value": "Apple iPad Mini 4 Gold with shadow",
+        "value": "./images/Tablets/Apple iPad Mini 4/Device with Shadow/Apple iPad Mini 4 Gold.png",
         "label": "Apple iPad Mini 4 Gold with shadow",
         "width": 1936,
         "height": 2688,
@@ -2212,7 +2212,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Mini 4/Device with Shadow/Apple iPad Mini 4 Silver.png"),
-        "value": "Apple iPad Mini 4 Silver with shadow",
+        "value": "./images/Tablets/Apple iPad Mini 4/Device with Shadow/Apple iPad Mini 4 Silver.png",
         "label": "Apple iPad Mini 4 Silver with shadow",
         "width": 1936,
         "height": 2688,
@@ -2221,7 +2221,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Mini 4/Device with Shadow/Apple iPad Mini 4 Space Gray.png"),
-        "value": "Apple iPad Mini 4 Space Gray with shadow",
+        "value": "./images/Tablets/Apple iPad Mini 4/Device with Shadow/Apple iPad Mini 4 Space Gray.png",
         "label": "Apple iPad Mini 4 Space Gray with shadow",
         "width": 1936,
         "height": 2688,
@@ -2230,7 +2230,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Pro/Device/Apple iPad Pro Gold.png"),
-        "value": "Apple iPad Pro Gold",
+        "value": "./images/Tablets/Apple iPad Pro/Device/Apple iPad Pro Gold.png",
         "label": "Apple iPad Pro Gold",
         "width": 2448,
         "height": 3432,
@@ -2239,7 +2239,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Pro/Device/Apple iPad Pro Silver.png"),
-        "value": "Apple iPad Pro Silver",
+        "value": "./images/Tablets/Apple iPad Pro/Device/Apple iPad Pro Silver.png",
         "label": "Apple iPad Pro Silver",
         "width": 2448,
         "height": 3432,
@@ -2248,7 +2248,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Pro/Device/Apple iPad Pro Space Gray.png"),
-        "value": "Apple iPad Pro Space Gray",
+        "value": "./images/Tablets/Apple iPad Pro/Device/Apple iPad Pro Space Gray.png",
         "label": "Apple iPad Pro Space Gray",
         "width": 2448,
         "height": 3432,
@@ -2257,7 +2257,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Apple iPad Pro Gold.png"),
-        "value": "Apple iPad Pro Gold with shadow",
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Apple iPad Pro Gold.png",
         "label": "Apple iPad Pro Gold with shadow",
         "width": 2448,
         "height": 3432,
@@ -2266,7 +2266,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Apple iPad Pro Silver.png"),
-        "value": "Apple iPad Pro Silver with shadow",
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Apple iPad Pro Silver.png",
         "label": "Apple iPad Pro Silver with shadow",
         "width": 2448,
         "height": 3432,
@@ -2275,7 +2275,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Apple iPad Pro Space Gray.png"),
-        "value": "Apple iPad Pro Space Gray with shadow",
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Apple iPad Pro Space Gray.png",
         "label": "Apple iPad Pro Space Gray with shadow",
         "width": 2448,
         "height": 3432,
@@ -2284,7 +2284,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Microsoft Surface 3/Device/Microsoft Surface Pro 3.png"),
-        "value": "Microsoft Surface Pro 3",
+        "value": "./images/Tablets/Microsoft Surface 3/Device/Microsoft Surface Pro 3.png",
         "label": "Microsoft Surface Pro 3",
         "width": 2320,
         "height": 1680,
@@ -2293,7 +2293,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Microsoft Surface 3/Device with Shadow/Microsoft Surface Pro 3.png"),
-        "value": "Microsoft Surface Pro 3 with shadow",
+        "value": "./images/Tablets/Microsoft Surface 3/Device with Shadow/Microsoft Surface Pro 3.png",
         "label": "Microsoft Surface Pro 3 with shadow",
         "width": 2320,
         "height": 1680,
@@ -2302,7 +2302,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Microsoft Surface Pro 4/Device/Microsoft Surface Pro 4.png"),
-        "value": "Microsoft Surface Pro 4",
+        "value": "./images/Tablets/Microsoft Surface Pro 4/Device/Microsoft Surface Pro 4.png",
         "label": "Microsoft Surface Pro 4",
         "width": 3216,
         "height": 2224,
@@ -2311,7 +2311,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Microsoft Surface Pro 4/Device with Shadow/Microsoft Surface Pro 4.png"),
-        "value": "Microsoft Surface Pro 4 with shadow",
+        "value": "./images/Tablets/Microsoft Surface Pro 4/Device with Shadow/Microsoft Surface Pro 4.png",
         "label": "Microsoft Surface Pro 4 with shadow",
         "width": 3216,
         "height": 2224,
@@ -2320,7 +2320,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Nexus 9/Device/Nexus 9.png"),
-        "value": "Nexus 9",
+        "value": "./images/Tablets/Nexus 9/Device/Nexus 9.png",
         "label": "Nexus 9",
         "width": 1896,
         "height": 2648,
@@ -2329,7 +2329,7 @@ export const devices = [
       },
       {
         "image": require("./images/Tablets/Nexus 9/Device with Shadow/Nexus 9.png"),
-        "value": "Nexus 9 with shadow",
+        "value": "./images/Tablets/Nexus 9/Device with Shadow/Nexus 9.png",
         "label": "Nexus 9 with shadow",
         "width": 1896,
         "height": 2648,
@@ -2341,10 +2341,10 @@ export const devices = [
   {
     "value": "Watches",
     "label": "Watches",
-    "children": [
+    "options": [
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Black Steel + Black Closed.png"),
-        "value": "Apple Watch 38mm Black Steel + Black Closed",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Black Steel + Black Closed.png",
         "label": "Apple Watch 38mm Black Steel + Black Closed",
         "width": 472,
         "height": 772,
@@ -2353,7 +2353,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Gold + Black Leather Closed.png"),
-        "value": "Apple Watch 38mm Gold + Black Leather Closed",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Gold + Black Leather Closed.png",
         "label": "Apple Watch 38mm Gold + Black Leather Closed",
         "width": 472,
         "height": 796,
@@ -2362,7 +2362,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Gold + Midnight Blue Closed.png"),
-        "value": "Apple Watch 38mm Gold + Midnight Blue Closed",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Gold + Midnight Blue Closed.png",
         "label": "Apple Watch 38mm Gold + Midnight Blue Closed",
         "width": 472,
         "height": 772,
@@ -2371,7 +2371,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Rose Gold + Black Leather Closed.png"),
-        "value": "Apple Watch 38mm Rose Gold + Black Leather Closed",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Rose Gold + Black Leather Closed.png",
         "label": "Apple Watch 38mm Rose Gold + Black Leather Closed",
         "width": 472,
         "height": 796,
@@ -2380,7 +2380,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Rose Gold + Lavender Closed.png"),
-        "value": "Apple Watch 38mm Rose Gold + Lavender Closed",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Rose Gold + Lavender Closed.png",
         "label": "Apple Watch 38mm Rose Gold + Lavender Closed",
         "width": 472,
         "height": 772,
@@ -2389,7 +2389,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Blue Closed.png"),
-        "value": "Apple Watch 38mm Sport Aluminum + Blue Closed",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Blue Closed.png",
         "label": "Apple Watch 38mm Sport Aluminum + Blue Closed",
         "width": 472,
         "height": 772,
@@ -2398,7 +2398,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Fog Closed.png"),
-        "value": "Apple Watch 38mm Sport Aluminum + Fog Closed",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Fog Closed.png",
         "label": "Apple Watch 38mm Sport Aluminum + Fog Closed",
         "width": 472,
         "height": 772,
@@ -2407,7 +2407,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Green Closed.png"),
-        "value": "Apple Watch 38mm Sport Aluminum + Green Closed",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Green Closed.png",
         "label": "Apple Watch 38mm Sport Aluminum + Green Closed",
         "width": 472,
         "height": 772,
@@ -2416,7 +2416,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Red Closed.png"),
-        "value": "Apple Watch 38mm Sport Aluminum + Red Closed",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Red Closed.png",
         "label": "Apple Watch 38mm Sport Aluminum + Red Closed",
         "width": 472,
         "height": 772,
@@ -2425,7 +2425,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Walnut Closed.png"),
-        "value": "Apple Watch 38mm Sport Aluminum + Walnut Closed",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Walnut Closed.png",
         "label": "Apple Watch 38mm Sport Aluminum + Walnut Closed",
         "width": 472,
         "height": 772,
@@ -2434,7 +2434,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + White Closed.png"),
-        "value": "Apple Watch 38mm Sport Aluminum + White Closed",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + White Closed.png",
         "label": "Apple Watch 38mm Sport Aluminum + White Closed",
         "width": 472,
         "height": 772,
@@ -2443,7 +2443,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum Gold + Antique White Closed.png"),
-        "value": "Apple Watch 38mm Sport Aluminum Gold + Antique White Closed",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum Gold + Antique White Closed.png",
         "label": "Apple Watch 38mm Sport Aluminum Gold + Antique White Closed",
         "width": 472,
         "height": 772,
@@ -2452,7 +2452,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum Rose Gold + Stone Closed.png"),
-        "value": "Apple Watch 38mm Sport Aluminum Rose Gold + Stone Closed",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum Rose Gold + Stone Closed.png",
         "label": "Apple Watch 38mm Sport Aluminum Rose Gold + Stone Closed",
         "width": 472,
         "height": 772,
@@ -2461,7 +2461,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Space Gray + Black Closed.png"),
-        "value": "Apple Watch 38mm Sport Space Gray + Black Closed",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Space Gray + Black Closed.png",
         "label": "Apple Watch 38mm Sport Space Gray + Black Closed",
         "width": 472,
         "height": 772,
@@ -2470,7 +2470,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Stainless Steel + Black Leather Closed.png"),
-        "value": "Apple Watch 38mm Stainless Steel + Black Leather Closed",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Stainless Steel + Black Leather Closed.png",
         "label": "Apple Watch 38mm Stainless Steel + Black Leather Closed",
         "width": 472,
         "height": 796,
@@ -2479,7 +2479,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Steel + White Closed.png"),
-        "value": "Apple Watch 38mm Steel + White Closed",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Steel + White Closed.png",
         "label": "Apple Watch 38mm Steel + White Closed",
         "width": 472,
         "height": 772,
@@ -2488,7 +2488,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Black Steel + Black Open.png"),
-        "value": "Apple Watch 38mm Black Steel + Black Open",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Black Steel + Black Open.png",
         "label": "Apple Watch 38mm Black Steel + Black Open",
         "width": 472,
         "height": 3540,
@@ -2497,7 +2497,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Gold + Midnight Blue Open.png"),
-        "value": "Apple Watch 38mm Gold + Midnight Blue Open",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Gold + Midnight Blue Open.png",
         "label": "Apple Watch 38mm Gold + Midnight Blue Open",
         "width": 472,
         "height": 3540,
@@ -2506,7 +2506,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Rose Gold + Lavender Open.png"),
-        "value": "Apple Watch 38mm Rose Gold + Lavender Open",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Rose Gold + Lavender Open.png",
         "label": "Apple Watch 38mm Rose Gold + Lavender Open",
         "width": 472,
         "height": 3540,
@@ -2515,7 +2515,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + Blue Open.png"),
-        "value": "Apple Watch 38mm Sport Aluminum + Blue Open",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + Blue Open.png",
         "label": "Apple Watch 38mm Sport Aluminum + Blue Open",
         "width": 472,
         "height": 3540,
@@ -2524,7 +2524,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + Fog Open.png"),
-        "value": "Apple Watch 38mm Sport Aluminum + Fog Open",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + Fog Open.png",
         "label": "Apple Watch 38mm Sport Aluminum + Fog Open",
         "width": 472,
         "height": 3540,
@@ -2533,7 +2533,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + Green Open.png"),
-        "value": "Apple Watch 38mm Sport Aluminum + Green Open",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + Green Open.png",
         "label": "Apple Watch 38mm Sport Aluminum + Green Open",
         "width": 472,
         "height": 3540,
@@ -2542,7 +2542,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + Red Open .png"),
-        "value": "Apple Watch 38mm Sport Aluminum + Red Open",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + Red Open .png",
         "label": "Apple Watch 38mm Sport Aluminum + Red Open",
         "width": 472,
         "height": 3540,
@@ -2551,7 +2551,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + Walnut Open.png"),
-        "value": "Apple Watch 38mm Sport Aluminum + Walnut Open",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + Walnut Open.png",
         "label": "Apple Watch 38mm Sport Aluminum + Walnut Open",
         "width": 472,
         "height": 3540,
@@ -2560,7 +2560,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + White Open.png"),
-        "value": "Apple Watch 38mm Sport Aluminum + White Open",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + White Open.png",
         "label": "Apple Watch 38mm Sport Aluminum + White Open",
         "width": 472,
         "height": 3540,
@@ -2569,7 +2569,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum Gold + Antique White Open.png"),
-        "value": "Apple Watch 38mm Sport Aluminum Gold + Antique White Open",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum Gold + Antique White Open.png",
         "label": "Apple Watch 38mm Sport Aluminum Gold + Antique White Open",
         "width": 472,
         "height": 3540,
@@ -2578,7 +2578,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum Rose Gold + Stone Open.png"),
-        "value": "Apple Watch 38mm Sport Aluminum Rose Gold + Stone Open",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum Rose Gold + Stone Open.png",
         "label": "Apple Watch 38mm Sport Aluminum Rose Gold + Stone Open",
         "width": 472,
         "height": 3540,
@@ -2587,7 +2587,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Space Gray + Black Open.png"),
-        "value": "Apple Watch 38mm Sport Space Gray + Black Open",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Space Gray + Black Open.png",
         "label": "Apple Watch 38mm Sport Space Gray + Black Open",
         "width": 472,
         "height": 3540,
@@ -2596,7 +2596,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Steel + White Open.png"),
-        "value": "Apple Watch 38mm Steel + White Open",
+        "value": "./images/Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Steel + White Open.png",
         "label": "Apple Watch 38mm Steel + White Open",
         "width": 472,
         "height": 3540,
@@ -2605,7 +2605,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Black Steel + Black Closed.png"),
-        "value": "Apple Watch 42mm Black Steel + Black Closed",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Black Steel + Black Closed.png",
         "label": "Apple Watch 42mm Black Steel + Black Closed",
         "width": 512,
         "height": 990,
@@ -2614,7 +2614,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Gold + Black Leather Closed.png"),
-        "value": "Apple Watch 42mm Gold + Black Leather Closed",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Gold + Black Leather Closed.png",
         "label": "Apple Watch 42mm Gold + Black Leather Closed",
         "width": 512,
         "height": 990,
@@ -2623,7 +2623,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Gold + Midnight Blue Closed.png"),
-        "value": "Apple Watch 42mm Gold + Midnight Blue Closed",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Gold + Midnight Blue Closed.png",
         "label": "Apple Watch 42mm Gold + Midnight Blue Closed",
         "width": 512,
         "height": 990,
@@ -2632,7 +2632,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Rose Gold + Black Leather Closed.png"),
-        "value": "Apple Watch 42mm Rose Gold + Black Leather Closed",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Rose Gold + Black Leather Closed.png",
         "label": "Apple Watch 42mm Rose Gold + Black Leather Closed",
         "width": 512,
         "height": 990,
@@ -2641,7 +2641,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Rose Gold + Lavender Closed.png"),
-        "value": "Apple Watch 42mm Rose Gold + Lavender Closed",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Rose Gold + Lavender Closed.png",
         "label": "Apple Watch 42mm Rose Gold + Lavender Closed",
         "width": 512,
         "height": 990,
@@ -2650,7 +2650,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + Blue Closed.png"),
-        "value": "Apple Watch 42mm Sport Aluminum + Blue Closed",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + Blue Closed.png",
         "label": "Apple Watch 42mm Sport Aluminum + Blue Closed",
         "width": 512,
         "height": 990,
@@ -2659,7 +2659,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + Fog Closed.png"),
-        "value": "Apple Watch 42mm Sport Aluminum + Fog Closed",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + Fog Closed.png",
         "label": "Apple Watch 42mm Sport Aluminum + Fog Closed",
         "width": 512,
         "height": 990,
@@ -2668,7 +2668,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + Green Closed.png"),
-        "value": "Apple Watch 42mm Sport Aluminum + Green Closed",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + Green Closed.png",
         "label": "Apple Watch 42mm Sport Aluminum + Green Closed",
         "width": 512,
         "height": 990,
@@ -2677,7 +2677,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + Red Closed.png"),
-        "value": "Apple Watch 42mm Sport Aluminum + Red Closed",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + Red Closed.png",
         "label": "Apple Watch 42mm Sport Aluminum + Red Closed",
         "width": 512,
         "height": 990,
@@ -2686,7 +2686,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + Walnut Closed.png"),
-        "value": "Apple Watch 42mm Sport Aluminum + Walnut Closed",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + Walnut Closed.png",
         "label": "Apple Watch 42mm Sport Aluminum + Walnut Closed",
         "width": 512,
         "height": 990,
@@ -2695,7 +2695,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + White Closed.png"),
-        "value": "Apple Watch 42mm Sport Aluminum + White Closed",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + White Closed.png",
         "label": "Apple Watch 42mm Sport Aluminum + White Closed",
         "width": 512,
         "height": 990,
@@ -2704,7 +2704,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum Gold + Antique White Closed.png"),
-        "value": "Apple Watch 42mm Sport Aluminum Gold + Antique White Closed",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum Gold + Antique White Closed.png",
         "label": "Apple Watch 42mm Sport Aluminum Gold + Antique White Closed",
         "width": 512,
         "height": 990,
@@ -2713,7 +2713,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum Rose Gold + Stone Closed.png"),
-        "value": "Apple Watch 42mm Sport Aluminum Rose Gold + Stone Closed",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum Rose Gold + Stone Closed.png",
         "label": "Apple Watch 42mm Sport Aluminum Rose Gold + Stone Closed",
         "width": 512,
         "height": 990,
@@ -2722,7 +2722,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Space Gray + Black Closed.png"),
-        "value": "Apple Watch 42mm Sport Space Gray + Black Closed",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Space Gray + Black Closed.png",
         "label": "Apple Watch 42mm Sport Space Gray + Black Closed",
         "width": 512,
         "height": 990,
@@ -2731,7 +2731,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Stainless Steel + Black Leather Closed.png"),
-        "value": "Apple Watch 42mm Stainless Steel + Black Leather Closed",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Stainless Steel + Black Leather Closed.png",
         "label": "Apple Watch 42mm Stainless Steel + Black Leather Closed",
         "width": 512,
         "height": 990,
@@ -2740,7 +2740,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Steel + White Closed.png"),
-        "value": "Apple Watch 42mm Steel + White Closed",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Steel + White Closed.png",
         "label": "Apple Watch 42mm Steel + White Closed",
         "width": 512,
         "height": 990,
@@ -2749,7 +2749,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Black Steel + Black Open.png"),
-        "value": "Apple Watch 42mm Black Steel + Black Open",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Black Steel + Black Open.png",
         "label": "Apple Watch 42mm Black Steel + Black Open",
         "width": 512,
         "height": 3930,
@@ -2758,7 +2758,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Gold + Midnight Blue Open.png"),
-        "value": "Apple Watch 42mm Gold + Midnight Blue Open",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Gold + Midnight Blue Open.png",
         "label": "Apple Watch 42mm Gold + Midnight Blue Open",
         "width": 512,
         "height": 3930,
@@ -2767,7 +2767,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Rose Gold + Lavender Open.png"),
-        "value": "Apple Watch 42mm Rose Gold + Lavender Open",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Rose Gold + Lavender Open.png",
         "label": "Apple Watch 42mm Rose Gold + Lavender Open",
         "width": 512,
         "height": 3930,
@@ -2776,7 +2776,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + Blue Open.png"),
-        "value": "Apple Watch 42mm Sport Aluminum + Blue Open",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + Blue Open.png",
         "label": "Apple Watch 42mm Sport Aluminum + Blue Open",
         "width": 512,
         "height": 3930,
@@ -2785,7 +2785,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + Fog Open.png"),
-        "value": "Apple Watch 42mm Sport Aluminum + Fog Open",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + Fog Open.png",
         "label": "Apple Watch 42mm Sport Aluminum + Fog Open",
         "width": 512,
         "height": 3930,
@@ -2794,7 +2794,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + Green Open.png"),
-        "value": "Apple Watch 42mm Sport Aluminum + Green Open",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + Green Open.png",
         "label": "Apple Watch 42mm Sport Aluminum + Green Open",
         "width": 512,
         "height": 3930,
@@ -2803,7 +2803,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + Red Open .png"),
-        "value": "Apple Watch 42mm Sport Aluminum + Red Open",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + Red Open .png",
         "label": "Apple Watch 42mm Sport Aluminum + Red Open",
         "width": 512,
         "height": 3930,
@@ -2812,7 +2812,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + Walnut Open.png"),
-        "value": "Apple Watch 42mm Sport Aluminum + Walnut Open",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + Walnut Open.png",
         "label": "Apple Watch 42mm Sport Aluminum + Walnut Open",
         "width": 512,
         "height": 3930,
@@ -2821,7 +2821,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + White Open.png"),
-        "value": "Apple Watch 42mm Sport Aluminum + White Open",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + White Open.png",
         "label": "Apple Watch 42mm Sport Aluminum + White Open",
         "width": 512,
         "height": 3930,
@@ -2830,7 +2830,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum Gold + Antique White Open.png"),
-        "value": "Apple Watch 42mm Sport Aluminum Gold + Antique White Open",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum Gold + Antique White Open.png",
         "label": "Apple Watch 42mm Sport Aluminum Gold + Antique White Open",
         "width": 512,
         "height": 3930,
@@ -2839,7 +2839,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum Rose Gold + Stone Open.png"),
-        "value": "Apple Watch 42mm Sport Aluminum Rose Gold + Stone Open",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum Rose Gold + Stone Open.png",
         "label": "Apple Watch 42mm Sport Aluminum Rose Gold + Stone Open",
         "width": 512,
         "height": 3930,
@@ -2848,7 +2848,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Space Gray + Black Open.png"),
-        "value": "Apple Watch 42mm Sport Space Gray + Black Open",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Space Gray + Black Open.png",
         "label": "Apple Watch 42mm Sport Space Gray + Black Open",
         "width": 512,
         "height": 3930,
@@ -2857,7 +2857,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Steel + White Open.png"),
-        "value": "Apple Watch 42mm Steel + White Open",
+        "value": "./images/Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Steel + White Open.png",
         "label": "Apple Watch 42mm Steel + White Open",
         "width": 512,
         "height": 3930,
@@ -2866,7 +2866,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Black Steel + Black Closed.png"),
-        "value": "Apple Watch 38mm Black Steel + Black Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Black Steel + Black Closed.png",
         "label": "Apple Watch 38mm Black Steel + Black Closed",
         "width": 472,
         "height": 820,
@@ -2875,7 +2875,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Edition Closed.png"),
-        "value": "Apple Watch 38mm Edition Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Edition Closed.png",
         "label": "Apple Watch 38mm Edition Closed",
         "width": 472,
         "height": 820,
@@ -2884,7 +2884,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Rose Gold Aluminum + Midnight Blue Closed.png"),
-        "value": "Apple Watch 38mm Rose Gold Aluminum + Midnight Blue Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Rose Gold Aluminum + Midnight Blue Closed.png",
         "label": "Apple Watch 38mm Rose Gold Aluminum + Midnight Blue Closed",
         "width": 472,
         "height": 820,
@@ -2893,7 +2893,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Cocoa Closed.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Cocoa Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Cocoa Closed.png",
         "label": "Apple Watch 38mm Silver Aluminum + Cocoa Closed",
         "width": 472,
         "height": 820,
@@ -2902,7 +2902,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Concrete Closed.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Concrete Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Concrete Closed.png",
         "label": "Apple Watch 38mm Silver Aluminum + Concrete Closed",
         "width": 472,
         "height": 820,
@@ -2911,7 +2911,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Flat Silver Volt Nike Closed.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Flat Silver Volt Nike Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Flat Silver Volt Nike Closed.png",
         "label": "Apple Watch 38mm Silver Aluminum + Flat Silver Volt Nike Closed",
         "width": 472,
         "height": 820,
@@ -2920,7 +2920,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Flat Silver White Nike Closed.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Flat Silver White Nike Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Flat Silver White Nike Closed.png",
         "label": "Apple Watch 38mm Silver Aluminum + Flat Silver White Nike Closed",
         "width": 472,
         "height": 820,
@@ -2929,7 +2929,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Ocean Blue Closed.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Ocean Blue Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Ocean Blue Closed.png",
         "label": "Apple Watch 38mm Silver Aluminum + Ocean Blue Closed",
         "width": 472,
         "height": 820,
@@ -2938,7 +2938,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Red Closed.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Red Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Red Closed.png",
         "label": "Apple Watch 38mm Silver Aluminum + Red Closed",
         "width": 472,
         "height": 820,
@@ -2947,7 +2947,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Turquoise Closed.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Turquoise Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Turquoise Closed.png",
         "label": "Apple Watch 38mm Silver Aluminum + Turquoise Closed",
         "width": 472,
         "height": 820,
@@ -2956,7 +2956,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + White Closed.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + White Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + White Closed.png",
         "label": "Apple Watch 38mm Silver Aluminum + White Closed",
         "width": 472,
         "height": 820,
@@ -2965,7 +2965,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Yellow Closed.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Yellow Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Yellow Closed.png",
         "label": "Apple Watch 38mm Silver Aluminum + Yellow Closed",
         "width": 472,
         "height": 820,
@@ -2974,7 +2974,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Space Gray Aluminum + Black Closed.png"),
-        "value": "Apple Watch 38mm Space Gray Aluminum + Black Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Space Gray Aluminum + Black Closed.png",
         "label": "Apple Watch 38mm Space Gray Aluminum + Black Closed",
         "width": 472,
         "height": 820,
@@ -2983,7 +2983,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Space Gray Aluminum + Black Cool Gray Nike Closed.png"),
-        "value": "Apple Watch 38mm Space Gray Aluminum + Black Cool Gray Nike Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Space Gray Aluminum + Black Cool Gray Nike Closed.png",
         "label": "Apple Watch 38mm Space Gray Aluminum + Black Cool Gray Nike Closed",
         "width": 472,
         "height": 820,
@@ -2992,7 +2992,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Space Gray Aluminum + Black Volt Nike Closed.png"),
-        "value": "Apple Watch 38mm Space Gray Aluminum + Black Volt Nike Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Space Gray Aluminum + Black Volt Nike Closed.png",
         "label": "Apple Watch 38mm Space Gray Aluminum + Black Volt Nike Closed",
         "width": 472,
         "height": 820,
@@ -3001,7 +3001,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Walnut Closed.png"),
-        "value": "Apple Watch 38mm Sport Aluminum + Walnut Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Walnut Closed.png",
         "label": "Apple Watch 38mm Sport Aluminum + Walnut Closed",
         "width": 472,
         "height": 820,
@@ -3010,7 +3010,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Steel + White Closed.png"),
-        "value": "Apple Watch 38mm Steel + White Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Steel + White Closed.png",
         "label": "Apple Watch 38mm Steel + White Closed",
         "width": 472,
         "height": 820,
@@ -3019,7 +3019,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Black Steel + Black Open.png"),
-        "value": "Apple Watch 38mm Black Steel + Black Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Black Steel + Black Open.png",
         "label": "Apple Watch 38mm Black Steel + Black Open",
         "width": 472,
         "height": 3540,
@@ -3028,7 +3028,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Edition Open.png"),
-        "value": "Apple Watch 38mm Edition Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Edition Open.png",
         "label": "Apple Watch 38mm Edition Open",
         "width": 472,
         "height": 3540,
@@ -3037,7 +3037,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Rose Gold Aluminum + Midnight Blue Open.png"),
-        "value": "Apple Watch 38mm Rose Gold Aluminum + Midnight Blue Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Rose Gold Aluminum + Midnight Blue Open.png",
         "label": "Apple Watch 38mm Rose Gold Aluminum + Midnight Blue Open",
         "width": 472,
         "height": 3540,
@@ -3046,7 +3046,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Cocoa Open.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Cocoa Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Cocoa Open.png",
         "label": "Apple Watch 38mm Silver Aluminum + Cocoa Open",
         "width": 472,
         "height": 3540,
@@ -3055,7 +3055,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Concrete Open.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Concrete Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Concrete Open.png",
         "label": "Apple Watch 38mm Silver Aluminum + Concrete Open",
         "width": 472,
         "height": 3540,
@@ -3064,7 +3064,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Flat Silver Volt Nike Open.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Flat Silver Volt Nike Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Flat Silver Volt Nike Open.png",
         "label": "Apple Watch 38mm Silver Aluminum + Flat Silver Volt Nike Open",
         "width": 472,
         "height": 3540,
@@ -3073,7 +3073,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Flat Silver White Nike Open.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Flat Silver White Nike Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Flat Silver White Nike Open.png",
         "label": "Apple Watch 38mm Silver Aluminum + Flat Silver White Nike Open",
         "width": 472,
         "height": 3540,
@@ -3082,7 +3082,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Ocean Blue Open.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Ocean Blue Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Ocean Blue Open.png",
         "label": "Apple Watch 38mm Silver Aluminum + Ocean Blue Open",
         "width": 472,
         "height": 3540,
@@ -3091,7 +3091,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Pink Sand Open.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Pink Sand Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Pink Sand Open.png",
         "label": "Apple Watch 38mm Silver Aluminum + Pink Sand Open",
         "width": 472,
         "height": 3540,
@@ -3100,7 +3100,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Red Open.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Red Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Red Open.png",
         "label": "Apple Watch 38mm Silver Aluminum + Red Open",
         "width": 472,
         "height": 3540,
@@ -3109,7 +3109,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Turquoise Open.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Turquoise Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Turquoise Open.png",
         "label": "Apple Watch 38mm Silver Aluminum + Turquoise Open",
         "width": 472,
         "height": 3540,
@@ -3118,7 +3118,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + White Open.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + White Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + White Open.png",
         "label": "Apple Watch 38mm Silver Aluminum + White Open",
         "width": 472,
         "height": 3540,
@@ -3127,7 +3127,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Yellow Open.png"),
-        "value": "Apple Watch 38mm Silver Aluminum + Yellow Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Yellow Open.png",
         "label": "Apple Watch 38mm Silver Aluminum + Yellow Open",
         "width": 472,
         "height": 3540,
@@ -3136,7 +3136,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Space Gray Aluminum + Black Cool Gray Nike Open.png"),
-        "value": "Apple Watch 38mm Space Gray Aluminum + Black Cool Gray Nike Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Space Gray Aluminum + Black Cool Gray Nike Open.png",
         "label": "Apple Watch 38mm Space Gray Aluminum + Black Cool Gray Nike Open",
         "width": 472,
         "height": 3540,
@@ -3145,7 +3145,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Space Gray Aluminum + Black Open.png"),
-        "value": "Apple Watch 38mm Space Gray Aluminum + Black Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Space Gray Aluminum + Black Open.png",
         "label": "Apple Watch 38mm Space Gray Aluminum + Black Open",
         "width": 472,
         "height": 3540,
@@ -3154,7 +3154,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Space Gray Aluminum + Black Volt Nike Open.png"),
-        "value": "Apple Watch 38mm Space Gray Aluminum + Black Volt Nike Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Space Gray Aluminum + Black Volt Nike Open.png",
         "label": "Apple Watch 38mm Space Gray Aluminum + Black Volt Nike Open",
         "width": 472,
         "height": 3540,
@@ -3163,7 +3163,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Steel + White Open.png"),
-        "value": "Apple Watch 38mm Steel + White Open",
+        "value": "./images/Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Steel + White Open.png",
         "label": "Apple Watch 38mm Steel + White Open",
         "width": 472,
         "height": 3540,
@@ -3172,7 +3172,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Edition Closed.png"),
-        "value": "Apple Watch 42mm Edition Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Edition Closed.png",
         "label": "Apple Watch 42mm Edition Closed",
         "width": 512,
         "height": 950,
@@ -3181,7 +3181,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Gold Aluminum + Cocoa Closed.png"),
-        "value": "Apple Watch 42mm Gold Aluminum + Cocoa Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Gold Aluminum + Cocoa Closed.png",
         "label": "Apple Watch 42mm Gold Aluminum + Cocoa Closed",
         "width": 512,
         "height": 950,
@@ -3190,7 +3190,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Rose Gold Aluminum + Midnight Blue Closed.png"),
-        "value": "Apple Watch 42mm Rose Gold Aluminum + Midnight Blue Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Rose Gold Aluminum + Midnight Blue Closed.png",
         "label": "Apple Watch 42mm Rose Gold Aluminum + Midnight Blue Closed",
         "width": 512,
         "height": 950,
@@ -3199,7 +3199,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Concrete Closed.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Concrete Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Concrete Closed.png",
         "label": "Apple Watch 42mm Silver Aluminum + Concrete Closed",
         "width": 512,
         "height": 950,
@@ -3208,7 +3208,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Flat Silver Volt Nike Closed.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Flat Silver Volt Nike Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Flat Silver Volt Nike Closed.png",
         "label": "Apple Watch 42mm Silver Aluminum + Flat Silver Volt Nike Closed",
         "width": 512,
         "height": 950,
@@ -3217,7 +3217,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Flat Silver White Nike Closed.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Flat Silver White Nike Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Flat Silver White Nike Closed.png",
         "label": "Apple Watch 42mm Silver Aluminum + Flat Silver White Nike Closed",
         "width": 512,
         "height": 950,
@@ -3226,7 +3226,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Green Closed.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Green Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Green Closed.png",
         "label": "Apple Watch 42mm Silver Aluminum + Green Closed",
         "width": 512,
         "height": 950,
@@ -3235,7 +3235,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Light Pink Closed.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Light Pink Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Light Pink Closed.png",
         "label": "Apple Watch 42mm Silver Aluminum + Light Pink Closed",
         "width": 512,
         "height": 950,
@@ -3244,7 +3244,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Ocean Blue Closed.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Ocean Blue Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Ocean Blue Closed.png",
         "label": "Apple Watch 42mm Silver Aluminum + Ocean Blue Closed",
         "width": 512,
         "height": 950,
@@ -3253,7 +3253,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Pink Sand Closed.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Pink Sand Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Pink Sand Closed.png",
         "label": "Apple Watch 42mm Silver Aluminum + Pink Sand Closed",
         "width": 512,
         "height": 950,
@@ -3262,7 +3262,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Red Closed.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Red Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Red Closed.png",
         "label": "Apple Watch 42mm Silver Aluminum + Red Closed",
         "width": 512,
         "height": 950,
@@ -3271,7 +3271,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Turquoise Closed.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Turquoise Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Turquoise Closed.png",
         "label": "Apple Watch 42mm Silver Aluminum + Turquoise Closed",
         "width": 512,
         "height": 950,
@@ -3280,7 +3280,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + White Closed.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + White Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + White Closed.png",
         "label": "Apple Watch 42mm Silver Aluminum + White Closed",
         "width": 512,
         "height": 950,
@@ -3289,7 +3289,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Yellow Closed.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Yellow Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Yellow Closed.png",
         "label": "Apple Watch 42mm Silver Aluminum + Yellow Closed",
         "width": 512,
         "height": 950,
@@ -3298,7 +3298,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Space Black Steel + Black Closed.png"),
-        "value": "Apple Watch 42mm Space Black Steel + Black Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Space Black Steel + Black Closed.png",
         "label": "Apple Watch 42mm Space Black Steel + Black Closed",
         "width": 512,
         "height": 950,
@@ -3307,7 +3307,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Space Gray Aluminum + Black Closed.png"),
-        "value": "Apple Watch 42mm Space Gray Aluminum + Black Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Space Gray Aluminum + Black Closed.png",
         "label": "Apple Watch 42mm Space Gray Aluminum + Black Closed",
         "width": 512,
         "height": 950,
@@ -3316,7 +3316,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Space Gray Aluminum + Black Cool Gray Nike Closed.png"),
-        "value": "Apple Watch 42mm Space Gray Aluminum + Black Cool Gray Nike Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Space Gray Aluminum + Black Cool Gray Nike Closed.png",
         "label": "Apple Watch 42mm Space Gray Aluminum + Black Cool Gray Nike Closed",
         "width": 512,
         "height": 950,
@@ -3325,7 +3325,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Space Gray Aluminum + Black Volt Nike Closed.png"),
-        "value": "Apple Watch 42mm Space Gray Aluminum + Black Volt Nike Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Space Gray Aluminum + Black Volt Nike Closed.png",
         "label": "Apple Watch 42mm Space Gray Aluminum + Black Volt Nike Closed",
         "width": 512,
         "height": 950,
@@ -3334,7 +3334,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Steel + White Closed.png"),
-        "value": "Apple Watch 42mm Steel + White Closed",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Steel + White Closed.png",
         "label": "Apple Watch 42mm Steel + White Closed",
         "width": 512,
         "height": 950,
@@ -3343,7 +3343,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Edition Open.png"),
-        "value": "Apple Watch 42mm Edition Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Edition Open.png",
         "label": "Apple Watch 42mm Edition Open",
         "width": 512,
         "height": 3950,
@@ -3352,7 +3352,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Rose Gold Aluminum + Midnight Blue Open.png"),
-        "value": "Apple Watch 42mm Rose Gold Aluminum + Midnight Blue Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Rose Gold Aluminum + Midnight Blue Open.png",
         "label": "Apple Watch 42mm Rose Gold Aluminum + Midnight Blue Open",
         "width": 512,
         "height": 3950,
@@ -3361,7 +3361,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Cocoa Open.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Cocoa Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Cocoa Open.png",
         "label": "Apple Watch 42mm Silver Aluminum + Cocoa Open",
         "width": 512,
         "height": 3950,
@@ -3370,7 +3370,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Concrete Open.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Concrete Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Concrete Open.png",
         "label": "Apple Watch 42mm Silver Aluminum + Concrete Open",
         "width": 512,
         "height": 3950,
@@ -3379,7 +3379,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Flat Silver Volt Nike Open.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Flat Silver Volt Nike Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Flat Silver Volt Nike Open.png",
         "label": "Apple Watch 42mm Silver Aluminum + Flat Silver Volt Nike Open",
         "width": 512,
         "height": 3950,
@@ -3388,7 +3388,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Flat Silver White Nike Open.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Flat Silver White Nike Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Flat Silver White Nike Open.png",
         "label": "Apple Watch 42mm Silver Aluminum + Flat Silver White Nike Open",
         "width": 512,
         "height": 3950,
@@ -3397,7 +3397,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Green Open.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Green Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Green Open.png",
         "label": "Apple Watch 42mm Silver Aluminum + Green Open",
         "width": 512,
         "height": 3950,
@@ -3406,7 +3406,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Light Pink Open.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Light Pink Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Light Pink Open.png",
         "label": "Apple Watch 42mm Silver Aluminum + Light Pink Open",
         "width": 512,
         "height": 3950,
@@ -3415,7 +3415,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Ocean Blue Open.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Ocean Blue Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Ocean Blue Open.png",
         "label": "Apple Watch 42mm Silver Aluminum + Ocean Blue Open",
         "width": 513,
         "height": 3950,
@@ -3424,7 +3424,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Pink Sand Open.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Pink Sand Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Pink Sand Open.png",
         "label": "Apple Watch 42mm Silver Aluminum + Pink Sand Open",
         "width": 512,
         "height": 3950,
@@ -3433,7 +3433,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Red Open .png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Red Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Red Open .png",
         "label": "Apple Watch 42mm Silver Aluminum + Red Open",
         "width": 512,
         "height": 3950,
@@ -3442,7 +3442,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Turquoise Open.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Turquoise Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Turquoise Open.png",
         "label": "Apple Watch 42mm Silver Aluminum + Turquoise Open",
         "width": 512,
         "height": 3950,
@@ -3451,7 +3451,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + White Open.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + White Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + White Open.png",
         "label": "Apple Watch 42mm Silver Aluminum + White Open",
         "width": 512,
         "height": 3950,
@@ -3460,7 +3460,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Yellow Open.png"),
-        "value": "Apple Watch 42mm Silver Aluminum + Yellow Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Yellow Open.png",
         "label": "Apple Watch 42mm Silver Aluminum + Yellow Open",
         "width": 512,
         "height": 3950,
@@ -3469,7 +3469,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Space Black Steel + Black Open.png"),
-        "value": "Apple Watch 42mm Space Black Steel + Black Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Space Black Steel + Black Open.png",
         "label": "Apple Watch 42mm Space Black Steel + Black Open",
         "width": 512,
         "height": 3950,
@@ -3478,7 +3478,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Space Gray Aluminum + Black Cool Gray Nike Open.png"),
-        "value": "Apple Watch 42mm Space Gray Aluminum + Black Cool Gray Nike Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Space Gray Aluminum + Black Cool Gray Nike Open.png",
         "label": "Apple Watch 42mm Space Gray Aluminum + Black Cool Gray Nike Open",
         "width": 512,
         "height": 3950,
@@ -3487,7 +3487,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Space Gray Aluminum + Black Open.png"),
-        "value": "Apple Watch 42mm Space Gray Aluminum + Black Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Space Gray Aluminum + Black Open.png",
         "label": "Apple Watch 42mm Space Gray Aluminum + Black Open",
         "width": 512,
         "height": 3950,
@@ -3496,7 +3496,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Space Gray Aluminum + Black Volt Nike Open.png"),
-        "value": "Apple Watch 42mm Space Gray Aluminum + Black Volt Nike Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Space Gray Aluminum + Black Volt Nike Open.png",
         "label": "Apple Watch 42mm Space Gray Aluminum + Black Volt Nike Open",
         "width": 512,
         "height": 3950,
@@ -3505,7 +3505,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Steel + White Open.png"),
-        "value": "Apple Watch 42mm Steel + White Open",
+        "value": "./images/Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Steel + White Open.png",
         "label": "Apple Watch 42mm Steel + White Open",
         "width": 512,
         "height": 3950,
@@ -3514,7 +3514,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Black + Black Closed.png"),
-        "value": "Motorola Moto 360 Men Black + Black Closed",
+        "value": "./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Black + Black Closed.png",
         "label": "Motorola Moto 360 Men Black + Black Closed",
         "width": 448,
         "height": 640,
@@ -3523,7 +3523,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Black + Cognac Closed.png"),
-        "value": "Motorola Moto 360 Men Black + Cognac Closed",
+        "value": "./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Black + Cognac Closed.png",
         "label": "Motorola Moto 360 Men Black + Cognac Closed",
         "width": 448,
         "height": 640,
@@ -3532,7 +3532,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Gold + Black Closed.png"),
-        "value": "Motorola Moto 360 Men Gold + Black Closed",
+        "value": "./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Gold + Black Closed.png",
         "label": "Motorola Moto 360 Men Gold + Black Closed",
         "width": 448,
         "height": 640,
@@ -3541,7 +3541,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Gold + Cognac Closed.png"),
-        "value": "Motorola Moto 360 Men Gold + Cognac Closed",
+        "value": "./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Gold + Cognac Closed.png",
         "label": "Motorola Moto 360 Men Gold + Cognac Closed",
         "width": 448,
         "height": 640,
@@ -3550,7 +3550,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Silver + Black Closed.png"),
-        "value": "Motorola Moto 360 Men Silver + Black Closed",
+        "value": "./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Silver + Black Closed.png",
         "label": "Motorola Moto 360 Men Silver + Black Closed",
         "width": 448,
         "height": 640,
@@ -3559,7 +3559,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Silver + Cognac Closed.png"),
-        "value": "Motorola Moto 360 Men Silver + Cognac Closed",
+        "value": "./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Silver + Cognac Closed.png",
         "label": "Motorola Moto 360 Men Silver + Cognac Closed",
         "width": 448,
         "height": 640,
@@ -3568,7 +3568,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Gold + Blush Closed.png"),
-        "value": "Motorola Moto 360 Women Gold + Blush Closed",
+        "value": "./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Gold + Blush Closed.png",
         "label": "Motorola Moto 360 Women Gold + Blush Closed",
         "width": 448,
         "height": 600,
@@ -3577,7 +3577,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Gold + Stone Closed.png"),
-        "value": "Motorola Moto 360 Women Gold + Stone Closed",
+        "value": "./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Gold + Stone Closed.png",
         "label": "Motorola Moto 360 Women Gold + Stone Closed",
         "width": 448,
         "height": 600,
@@ -3586,7 +3586,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Rose Gold + Blush Closed.png"),
-        "value": "Motorola Moto 360 Women Rose Gold + Blush Closed",
+        "value": "./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Rose Gold + Blush Closed.png",
         "label": "Motorola Moto 360 Women Rose Gold + Blush Closed",
         "width": 448,
         "height": 600,
@@ -3595,7 +3595,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Rose Gold + Stone Grey Closed.png"),
-        "value": "Motorola Moto 360 Women Rose Gold + Stone Grey Closed",
+        "value": "./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Rose Gold + Stone Grey Closed.png",
         "label": "Motorola Moto 360 Women Rose Gold + Stone Grey Closed",
         "width": 448,
         "height": 600,
@@ -3604,7 +3604,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Silver + Blush Closed.png"),
-        "value": "Motorola Moto 360 Women Silver + Blush Closed",
+        "value": "./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Silver + Blush Closed.png",
         "label": "Motorola Moto 360 Women Silver + Blush Closed",
         "width": 448,
         "height": 600,
@@ -3613,7 +3613,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Silver + Stone Grey Closed.png"),
-        "value": "Motorola Moto 360 Women Silver + Stone Grey Closed",
+        "value": "./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Silver + Stone Grey Closed.png",
         "label": "Motorola Moto 360 Women Silver + Stone Grey Closed",
         "width": 448,
         "height": 600,
@@ -3622,7 +3622,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Black + Black Open.png"),
-        "value": "Motorola Moto 360 Men Black + Black Open",
+        "value": "./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Black + Black Open.png",
         "label": "Motorola Moto 360 Men Black + Black Open",
         "width": 448,
         "height": 2424,
@@ -3631,7 +3631,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Black + Cognac Open.png"),
-        "value": "Motorola Moto 360 Men Black + Cognac Open",
+        "value": "./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Black + Cognac Open.png",
         "label": "Motorola Moto 360 Men Black + Cognac Open",
         "width": 448,
         "height": 2424,
@@ -3640,7 +3640,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Gold + Black Open.png"),
-        "value": "Motorola Moto 360 Men Gold + Black Open",
+        "value": "./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Gold + Black Open.png",
         "label": "Motorola Moto 360 Men Gold + Black Open",
         "width": 448,
         "height": 2424,
@@ -3649,7 +3649,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Gold + Cognac Open.png"),
-        "value": "Motorola Moto 360 Men Gold + Cognac Open",
+        "value": "./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Gold + Cognac Open.png",
         "label": "Motorola Moto 360 Men Gold + Cognac Open",
         "width": 448,
         "height": 2424,
@@ -3658,7 +3658,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Silver + Black Open.png"),
-        "value": "Motorola Moto 360 Men Silver + Black Open",
+        "value": "./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Silver + Black Open.png",
         "label": "Motorola Moto 360 Men Silver + Black Open",
         "width": 448,
         "height": 2424,
@@ -3667,7 +3667,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Silver + Cognac Open.png"),
-        "value": "Motorola Moto 360 Men Silver + Cognac Open",
+        "value": "./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Silver + Cognac Open.png",
         "label": "Motorola Moto 360 Men Silver + Cognac Open",
         "width": 448,
         "height": 2424,
@@ -3676,7 +3676,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Gold + Blush Open.png"),
-        "value": "Motorola Moto 360 Women Gold + Blush Open",
+        "value": "./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Gold + Blush Open.png",
         "label": "Motorola Moto 360 Women Gold + Blush Open",
         "width": 448,
         "height": 2314,
@@ -3685,7 +3685,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Gold + Stone Open.png"),
-        "value": "Motorola Moto 360 Women Gold + Stone Open",
+        "value": "./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Gold + Stone Open.png",
         "label": "Motorola Moto 360 Women Gold + Stone Open",
         "width": 448,
         "height": 2314,
@@ -3694,7 +3694,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Rose Gold + Blush Open.png"),
-        "value": "Motorola Moto 360 Women Rose Gold + Blush Open",
+        "value": "./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Rose Gold + Blush Open.png",
         "label": "Motorola Moto 360 Women Rose Gold + Blush Open",
         "width": 448,
         "height": 2314,
@@ -3703,7 +3703,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Rose Gold + Stone Grey Open.png"),
-        "value": "Motorola Moto 360 Women Rose Gold + Stone Grey Open",
+        "value": "./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Rose Gold + Stone Grey Open.png",
         "label": "Motorola Moto 360 Women Rose Gold + Stone Grey Open",
         "width": 448,
         "height": 2314,
@@ -3712,7 +3712,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Silver + Blush Open.png"),
-        "value": "Motorola Moto 360 Women Silver + Blush Open",
+        "value": "./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Silver + Blush Open.png",
         "label": "Motorola Moto 360 Women Silver + Blush Open",
         "width": 448,
         "height": 2314,
@@ -3721,7 +3721,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Silver + Stone Grey Open.png"),
-        "value": "Motorola Moto 360 Women Silver + Stone Grey Open",
+        "value": "./images/Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Silver + Stone Grey Open.png",
         "label": "Motorola Moto 360 Women Silver + Stone Grey Open",
         "width": 448,
         "height": 2314,
@@ -3730,7 +3730,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Sony SmartWatch 3/Device Closed/Sony SmartWatch 3 Black Closed.png"),
-        "value": "Sony SmartWatch 3 Black Closed",
+        "value": "./images/Watches/Sony SmartWatch 3/Device Closed/Sony SmartWatch 3 Black Closed.png",
         "label": "Sony SmartWatch 3 Black Closed",
         "width": 448,
         "height": 740,
@@ -3739,7 +3739,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Sony SmartWatch 3/Device Closed/Sony SmartWatch 3 White Closed.png"),
-        "value": "Sony SmartWatch 3 White Closed",
+        "value": "./images/Watches/Sony SmartWatch 3/Device Closed/Sony SmartWatch 3 White Closed.png",
         "label": "Sony SmartWatch 3 White Closed",
         "width": 448,
         "height": 740,
@@ -3748,7 +3748,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Sony SmartWatch 3/Device Open/Sony SmartWatch 3 Black Open.png"),
-        "value": "Sony SmartWatch 3 Black Open",
+        "value": "./images/Watches/Sony SmartWatch 3/Device Open/Sony SmartWatch 3 Black Open.png",
         "label": "Sony SmartWatch 3 Black Open",
         "width": 448,
         "height": 2600,
@@ -3757,7 +3757,7 @@ export const devices = [
       },
       {
         "image": require("./images/Watches/Sony SmartWatch 3/Device Open/Sony SmartWatch 3 White Open.png"),
-        "value": "Sony SmartWatch 3 White Open",
+        "value": "./images/Watches/Sony SmartWatch 3/Device Open/Sony SmartWatch 3 White Open.png",
         "label": "Sony SmartWatch 3 White Open",
         "width": 448,
         "height": 2600,

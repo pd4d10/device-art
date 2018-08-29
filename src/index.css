@@ -1,7 +1,11 @@
-@import '~antd/dist/antd.css';
-
 body {
   margin: 0;
-  padding: 0;
+  padding: 20px;
   font-family: sans-serif;
 }
+
+/* html,
+body,
+#root {
+  height: 100%;
+} */

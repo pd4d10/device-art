@@ -81,23 +81,23 @@ const data = fs.readdirSync(root).map(kind => {
   return {
     value: kind,
     label: kind,
-    children: klawSync(path.resolve(root, kind), {
+    options: klawSync(path.resolve(root, kind), {
       nodir: true,
     }).map(file => {
-      const image =
+      const imagePath =
         './' + path.relative(path.resolve(__dirname, '../src'), file.path)
 
-      let value = path.basename(file.path, '.png')
+      let label = path.basename(file.path, '.png')
       const parentDir = path.basename(path.dirname(file.path))
       if (parentDir.toLowerCase().includes('with shadow')) {
-        value += ' with shadow'
+        label += ' with shadow'
       }
-      if (value.includes('Snony')) {
+      if (label.includes('Snony')) {
         // This is a typo of image file name
         // We don't change image files names, just correct value here for future update
-        value = value.replace('Snony', 'Sony')
+        label = label.replace('Snony', 'Sony')
       }
-      value = value.trim() // Remove trailing space
+      label = label.trim() // Remove trailing space
 
       const { width, height } = sizeOf(file.path)
       let top = 0
@@ -105,16 +105,16 @@ const data = fs.readdirSync(root).map(kind => {
 
       for (const key in sizeMapper) {
         const reg = new RegExp(key)
-        if (reg.test(value.toLowerCase())) {
+        if (reg.test(label.toLowerCase())) {
           ;[top, left] = sizeMapper[key]
           break
         }
       }
 
       return {
-        image,
-        value,
-        label: value,
+        image: imagePath,
+        value: imagePath,
+        label,
         width,
         height,
         top,
