@@ -86,7 +86,8 @@ export default class App extends Component {
             style={{ height: 600 }}
           />
         </div>
-        <div style={{ position: 'relative' }}>
+
+        <div style={{ position: 'relative', display: 'none' }}>
           {screenshot && (
             <img
               src={screenshot}
