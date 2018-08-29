@@ -51,10 +51,11 @@ export default class App extends Component {
       fileName,
     } = this.state
     return (
-      <div className="container">
+      <div className="container" style={{ marginTop: 20, marginBottom: 20 }}>
         <div className="row">
           <div className="col-9">
             <Select
+              placeholder="Select or search device here..."
               options={devices}
               onChange={selected => {
                 this.setState(
@@ -150,6 +151,19 @@ export default class App extends Component {
             }}
           />
         </div>
+
+        <footer style={{ textAlign: 'center', marginTop: 30 }}>
+          <a href="https://github.com/pd4d10/device-art" target="_blank">
+            Source code at GitHub
+          </a>
+          <a
+            href="https://facebook.design/devices#filters"
+            target="_blank"
+            style={{ marginLeft: 20 }}
+          >
+            Devices
+          </a>
+        </footer>
 
         {false && (
           <div style={{ position: 'relative' }}>
