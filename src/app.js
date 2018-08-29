@@ -5,6 +5,7 @@ import { devices } from './devices'
 
 export default class App extends Component {
   state = {
+    fileName: 'download',
     deviceUrl: null,
     screenshotUrl: null,
     width: 0,
@@ -40,7 +41,15 @@ export default class App extends Component {
   }
 
   render() {
-    const { deviceUrl, screenshotUrl, top, left, width, height } = this.state
+    const {
+      deviceUrl,
+      screenshotUrl,
+      top,
+      left,
+      width,
+      height,
+      fileName,
+    } = this.state
     return (
       <div className="container">
         <div className="row">
@@ -51,6 +60,7 @@ export default class App extends Component {
                 this.setState(
                   {
                     deviceUrl: selected.image,
+                    fileName: selected.label,
                     top: selected.top,
                     left: selected.left,
                     width: selected.width,
@@ -65,10 +75,11 @@ export default class App extends Component {
           </div>
           <div className="col-3">
             <button
+              disabled={!screenshotUrl && !deviceUrl}
               className="btn btn-primary"
               onClick={async () => {
                 this.canvas.toBlob(blob => {
-                  saveAs(blob, 'test.png')
+                  saveAs(blob, fileName + '.png')
                 })
               }}
             >
