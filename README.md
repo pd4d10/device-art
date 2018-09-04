@@ -1,6 +1,6 @@
 # Device Art
 
-Wrap app screenshots in device artwork.
+Wrap app screenshots in device artwork. https://pd4d10.github.io/device-art/
 
 <img src="assets/screenshot.png" width="600" />
 
