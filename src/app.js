@@ -152,24 +152,12 @@ export default class App extends Component {
           />
         </div>
 
-        <footer style={{ textAlign: 'center', marginTop: 30 }}>
-          <a href="https://github.com/pd4d10/device-art" target="_blank">
-            Source code at GitHub
-          </a>
-          <a
-            href="https://facebook.design/devices#filters"
-            target="_blank"
-            style={{ marginLeft: 20 }}
-          >
-            Devices
-          </a>
-        </footer>
-
         {false && (
           <div style={{ position: 'relative' }}>
             {screenshotUrl && (
               <img
                 src={screenshotUrl}
+                alt="Screenshot"
                 style={{
                   position: 'absolute',
                   zIndex: -1,
@@ -178,9 +166,18 @@ export default class App extends Component {
                 }}
               />
             )}
-            {deviceUrl && <img src={deviceUrl} />}
+            {deviceUrl && <img src={deviceUrl} alt="Device" />}
           </div>
         )}
+
+        <a
+          class="github-fork-ribbon"
+          href="https://github.com/pd4d10/device-art"
+          data-ribbon="Fork me on GitHub"
+          title="Fork me on GitHub"
+        >
+          Fork me on GitHub
+        </a>
       </div>
     )
   }
