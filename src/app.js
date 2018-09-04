@@ -97,26 +97,25 @@ export default class App extends Component {
             position: 'relative',
           }}
         >
-          {deviceUrl &&
-            !screenshotUrl && (
-              <div
-                style={{
-                  position: 'absolute',
-                  width: '100%',
-                  top: window.screen.availHeight * 0.3,
-                  textAlign: 'center',
+          {deviceUrl && (
+            <div
+              style={{
+                position: 'absolute',
+                width: '100%',
+                top: window.screen.availHeight * 0.3,
+                textAlign: 'center',
+              }}
+            >
+              <button
+                className="btn btn-primary"
+                onClick={() => {
+                  this.fileInput.click()
                 }}
               >
-                <button
-                  className="btn btn-outline-primary"
-                  onClick={() => {
-                    this.fileInput.click()
-                  }}
-                >
-                  Upload screenshot
-                </button>
-              </div>
-            )}
+                Upload screenshot
+              </button>
+            </div>
+          )}
           <canvas
             ref={element => {
               if (element) {
