@@ -1020,7 +1020,7 @@ export const devices = [
         "image": require("./images/Phones/Apple iPhone X/Device with Shadow/Apple iPhone X Silver.png"),
         "value": "./images/Phones/Apple iPhone X/Device with Shadow/Apple iPhone X Silver.png",
         "label": "Apple iPhone X Silver with shadow",
-        "width": 1405,
+        "width": 1407,
         "height": 2796,
         "top": 180,
         "left": 140
@@ -1029,154 +1029,334 @@ export const devices = [
         "image": require("./images/Phones/Apple iPhone X/Device with Shadow/Apple iPhone X Space Grey.png"),
         "value": "./images/Phones/Apple iPhone X/Device with Shadow/Apple iPhone X Space Grey.png",
         "label": "Apple iPhone X Space Grey with shadow",
-        "width": 1405,
+        "width": 1407,
         "height": 2796,
         "top": 180,
         "left": 140
       },
       {
-        "image": require("./images/Phones/Google Pixel/Device/Google Pixel Quite Black.png"),
-        "value": "./images/Phones/Google Pixel/Device/Google Pixel Quite Black.png",
-        "label": "Google Pixel Quite Black",
-        "width": 1480,
-        "height": 2920,
-        "top": 500,
-        "left": 200
+        "image": require("./images/Phones/Apple iPhone XR/Device/Apple iPhone XR Blue.png"),
+        "value": "./images/Phones/Apple iPhone XR/Device/Apple iPhone XR Blue.png",
+        "label": "Apple iPhone XR Blue",
+        "width": 1048,
+        "height": 2025,
+        "top": 110,
+        "left": 110
       },
       {
-        "image": require("./images/Phones/Google Pixel/Device/Google Pixel Really Blue.png"),
-        "value": "./images/Phones/Google Pixel/Device/Google Pixel Really Blue.png",
-        "label": "Google Pixel Really Blue",
-        "width": 1480,
-        "height": 2920,
-        "top": 500,
-        "left": 200
+        "image": require("./images/Phones/Apple iPhone XR/Device/Apple iPhone XR Coral.png"),
+        "value": "./images/Phones/Apple iPhone XR/Device/Apple iPhone XR Coral.png",
+        "label": "Apple iPhone XR Coral",
+        "width": 1048,
+        "height": 2025,
+        "top": 110,
+        "left": 110
       },
       {
-        "image": require("./images/Phones/Google Pixel/Device/Google Pixel Very Silver.png"),
-        "value": "./images/Phones/Google Pixel/Device/Google Pixel Very Silver.png",
-        "label": "Google Pixel Very Silver",
-        "width": 1480,
-        "height": 2920,
-        "top": 500,
-        "left": 200
+        "image": require("./images/Phones/Apple iPhone XR/Device/Apple iPhone XR Red.png"),
+        "value": "./images/Phones/Apple iPhone XR/Device/Apple iPhone XR Red.png",
+        "label": "Apple iPhone XR Red",
+        "width": 1048,
+        "height": 2025,
+        "top": 110,
+        "left": 110
       },
       {
-        "image": require("./images/Phones/Google Pixel/Device with Shadows/Google Pixel Quite Black.png"),
-        "value": "./images/Phones/Google Pixel/Device with Shadows/Google Pixel Quite Black.png",
-        "label": "Google Pixel Quite Black with shadow",
-        "width": 1480,
-        "height": 2920,
-        "top": 500,
-        "left": 200
+        "image": require("./images/Phones/Apple iPhone XR/Device/Apple iPhone XR Silver.png"),
+        "value": "./images/Phones/Apple iPhone XR/Device/Apple iPhone XR Silver.png",
+        "label": "Apple iPhone XR Silver",
+        "width": 1048,
+        "height": 2025,
+        "top": 110,
+        "left": 110
       },
       {
-        "image": require("./images/Phones/Google Pixel/Device with Shadows/Google Pixel Really Blue.png"),
-        "value": "./images/Phones/Google Pixel/Device with Shadows/Google Pixel Really Blue.png",
-        "label": "Google Pixel Really Blue with shadow",
-        "width": 1480,
-        "height": 2920,
-        "top": 500,
-        "left": 200
+        "image": require("./images/Phones/Apple iPhone XR/Device/Apple iPhone XR Space Grey.png"),
+        "value": "./images/Phones/Apple iPhone XR/Device/Apple iPhone XR Space Grey.png",
+        "label": "Apple iPhone XR Space Grey",
+        "width": 1048,
+        "height": 2025,
+        "top": 110,
+        "left": 110
       },
       {
-        "image": require("./images/Phones/Google Pixel/Device with Shadows/Google Pixel Very Silver.png"),
-        "value": "./images/Phones/Google Pixel/Device with Shadows/Google Pixel Very Silver.png",
-        "label": "Google Pixel Very Silver with shadow",
-        "width": 1480,
-        "height": 2920,
-        "top": 500,
-        "left": 200
+        "image": require("./images/Phones/Apple iPhone XR/Device/Apple iPhone XR Yellow.png"),
+        "value": "./images/Phones/Apple iPhone XR/Device/Apple iPhone XR Yellow.png",
+        "label": "Apple iPhone XR Yellow",
+        "width": 1048,
+        "height": 2025,
+        "top": 110,
+        "left": 110
       },
       {
-        "image": require("./images/Phones/Google Pixel 2/Device/Google PIxel 2 Kinda Blue.png"),
-        "value": "./images/Phones/Google Pixel 2/Device/Google PIxel 2 Kinda Blue.png",
-        "label": "Google PIxel 2 Kinda Blue",
+        "image": require("./images/Phones/Apple iPhone XR/Device with Shadow/Apple iPhone XR Blue.png"),
+        "value": "./images/Phones/Apple iPhone XR/Device with Shadow/Apple iPhone XR Blue.png",
+        "label": "Apple iPhone XR Blue with shadow",
+        "width": 1048,
+        "height": 2025,
+        "top": 110,
+        "left": 110
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XR/Device with Shadow/Apple iPhone XR Coral.png"),
+        "value": "./images/Phones/Apple iPhone XR/Device with Shadow/Apple iPhone XR Coral.png",
+        "label": "Apple iPhone XR Coral with shadow",
+        "width": 1048,
+        "height": 2025,
+        "top": 110,
+        "left": 110
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XR/Device with Shadow/Apple iPhone XR Red.png"),
+        "value": "./images/Phones/Apple iPhone XR/Device with Shadow/Apple iPhone XR Red.png",
+        "label": "Apple iPhone XR Red with shadow",
+        "width": 1048,
+        "height": 2025,
+        "top": 110,
+        "left": 110
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XR/Device with Shadow/Apple iPhone XR Silver.png"),
+        "value": "./images/Phones/Apple iPhone XR/Device with Shadow/Apple iPhone XR Silver.png",
+        "label": "Apple iPhone XR Silver with shadow",
+        "width": 1048,
+        "height": 2025,
+        "top": 110,
+        "left": 110
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XR/Device with Shadow/Apple iPhone XR Space Grey.png"),
+        "value": "./images/Phones/Apple iPhone XR/Device with Shadow/Apple iPhone XR Space Grey.png",
+        "label": "Apple iPhone XR Space Grey with shadow",
+        "width": 1048,
+        "height": 2025,
+        "top": 110,
+        "left": 110
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XR/Device with Shadow/Apple iPhone XR Yellow.png"),
+        "value": "./images/Phones/Apple iPhone XR/Device with Shadow/Apple iPhone XR Yellow.png",
+        "label": "Apple iPhone XR Yellow with shadow",
+        "width": 1048,
+        "height": 2025,
+        "top": 110,
+        "left": 110
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XS/Device/Apple iPhone XS Gold.png"),
+        "value": "./images/Phones/Apple iPhone XS/Device/Apple iPhone XS Gold.png",
+        "label": "Apple iPhone XS Gold",
+        "width": 1385,
+        "height": 2676,
+        "top": 120,
+        "left": 130
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XS/Device/Apple iPhone XS Silver.png"),
+        "value": "./images/Phones/Apple iPhone XS/Device/Apple iPhone XS Silver.png",
+        "label": "Apple iPhone XS Silver",
+        "width": 1385,
+        "height": 2676,
+        "top": 120,
+        "left": 130
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XS/Device/Apple iPhone XS Space Grey.png"),
+        "value": "./images/Phones/Apple iPhone XS/Device/Apple iPhone XS Space Grey.png",
+        "label": "Apple iPhone XS Space Grey",
+        "width": 1385,
+        "height": 2676,
+        "top": 120,
+        "left": 130
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XS/Device with Shadow/Apple iPhone XS Gold.png"),
+        "value": "./images/Phones/Apple iPhone XS/Device with Shadow/Apple iPhone XS Gold.png",
+        "label": "Apple iPhone XS Gold with shadow",
+        "width": 1385,
+        "height": 2676,
+        "top": 120,
+        "left": 130
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XS/Device with Shadow/Apple iPhone XS Silver.png"),
+        "value": "./images/Phones/Apple iPhone XS/Device with Shadow/Apple iPhone XS Silver.png",
+        "label": "Apple iPhone XS Silver with shadow",
+        "width": 1385,
+        "height": 2676,
+        "top": 120,
+        "left": 130
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XS/Device with Shadow/Apple iPhone XS Space Grey.png"),
+        "value": "./images/Phones/Apple iPhone XS/Device with Shadow/Apple iPhone XS Space Grey.png",
+        "label": "Apple iPhone XS Space Grey with shadow",
+        "width": 1385,
+        "height": 2676,
+        "top": 120,
+        "left": 130
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XS Max/Device/Apple iPhone XS Max Gold.png"),
+        "value": "./images/Phones/Apple iPhone XS Max/Device/Apple iPhone XS Max Gold.png",
+        "label": "Apple iPhone XS Max Gold",
+        "width": 1522,
+        "height": 2968,
+        "top": 138,
+        "left": 140
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XS Max/Device/Apple iPhone XS Max Silver.png"),
+        "value": "./images/Phones/Apple iPhone XS Max/Device/Apple iPhone XS Max Silver.png",
+        "label": "Apple iPhone XS Max Silver",
+        "width": 1522,
+        "height": 2968,
+        "top": 138,
+        "left": 140
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XS Max/Device/Apple iPhone XS Max Space Grey.png"),
+        "value": "./images/Phones/Apple iPhone XS Max/Device/Apple iPhone XS Max Space Grey.png",
+        "label": "Apple iPhone XS Max Space Grey",
+        "width": 1522,
+        "height": 2968,
+        "top": 138,
+        "left": 140
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XS Max/Device with Shadow/Apple iPhone XS Max Gold.png"),
+        "value": "./images/Phones/Apple iPhone XS Max/Device with Shadow/Apple iPhone XS Max Gold.png",
+        "label": "Apple iPhone XS Max Gold with shadow",
+        "width": 1522,
+        "height": 2968,
+        "top": 138,
+        "left": 140
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XS Max/Device with Shadow/Apple iPhone XS Max Silver.png"),
+        "value": "./images/Phones/Apple iPhone XS Max/Device with Shadow/Apple iPhone XS Max Silver.png",
+        "label": "Apple iPhone XS Max Silver with shadow",
+        "width": 1522,
+        "height": 2968,
+        "top": 138,
+        "left": 140
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone XS Max/Device with Shadow/Apple iPhone XS Max Space Grey.png"),
+        "value": "./images/Phones/Apple iPhone XS Max/Device with Shadow/Apple iPhone XS Max Space Grey.png",
+        "label": "Apple iPhone XS Max Space Grey with shadow",
+        "width": 1522,
+        "height": 2968,
+        "top": 138,
+        "left": 140
+      },
+      {
+        "image": require("./images/Phones/Google Pixel 3/Device/Google Pixel 3 - Clearly White.png"),
+        "value": "./images/Phones/Google Pixel 3/Device/Google Pixel 3 - Clearly White.png",
+        "label": "Google Pixel 3 - Clearly White",
         "width": 1280,
-        "height": 2600,
-        "top": 340,
+        "height": 2640,
+        "top": 240,
         "left": 100
       },
       {
-        "image": require("./images/Phones/Google Pixel 2/Device/Google Pixel 2 Clearly White.png"),
-        "value": "./images/Phones/Google Pixel 2/Device/Google Pixel 2 Clearly White.png",
-        "label": "Google Pixel 2 Clearly White",
+        "image": require("./images/Phones/Google Pixel 3/Device/Google Pixel 3 - Just Black.png"),
+        "value": "./images/Phones/Google Pixel 3/Device/Google Pixel 3 - Just Black.png",
+        "label": "Google Pixel 3 - Just Black",
         "width": 1280,
-        "height": 2600,
-        "top": 340,
+        "height": 2640,
+        "top": 240,
         "left": 100
       },
       {
-        "image": require("./images/Phones/Google Pixel 2/Device/Google Pixel 2 Just Black.png"),
-        "value": "./images/Phones/Google Pixel 2/Device/Google Pixel 2 Just Black.png",
-        "label": "Google Pixel 2 Just Black",
+        "image": require("./images/Phones/Google Pixel 3/Device/Google Pixel 3 - Not Pink.png"),
+        "value": "./images/Phones/Google Pixel 3/Device/Google Pixel 3 - Not Pink.png",
+        "label": "Google Pixel 3 - Not Pink",
         "width": 1280,
-        "height": 2600,
-        "top": 340,
+        "height": 2640,
+        "top": 240,
         "left": 100
       },
       {
-        "image": require("./images/Phones/Google Pixel 2/Device with Shadow/Google PIxel 2 Kinda Blue.png"),
-        "value": "./images/Phones/Google Pixel 2/Device with Shadow/Google PIxel 2 Kinda Blue.png",
-        "label": "Google PIxel 2 Kinda Blue with shadow",
-        "width": 1320,
-        "height": 2649,
-        "top": 340,
+        "image": require("./images/Phones/Google Pixel 3/Device with Shadow/Google Pixel 3 - Clearly White.png"),
+        "value": "./images/Phones/Google Pixel 3/Device with Shadow/Google Pixel 3 - Clearly White.png",
+        "label": "Google Pixel 3 - Clearly White with shadow",
+        "width": 1280,
+        "height": 2640,
+        "top": 240,
         "left": 100
       },
       {
-        "image": require("./images/Phones/Google Pixel 2/Device with Shadow/Google Pixel 2 Clearly White.png"),
-        "value": "./images/Phones/Google Pixel 2/Device with Shadow/Google Pixel 2 Clearly White.png",
-        "label": "Google Pixel 2 Clearly White with shadow",
-        "width": 1320,
-        "height": 2649,
-        "top": 340,
+        "image": require("./images/Phones/Google Pixel 3/Device with Shadow/Google Pixel 3 - Just Black.png"),
+        "value": "./images/Phones/Google Pixel 3/Device with Shadow/Google Pixel 3 - Just Black.png",
+        "label": "Google Pixel 3 - Just Black with shadow",
+        "width": 1280,
+        "height": 2640,
+        "top": 240,
         "left": 100
       },
       {
-        "image": require("./images/Phones/Google Pixel 2/Device with Shadow/Google Pixel 2 Just Black.png"),
-        "value": "./images/Phones/Google Pixel 2/Device with Shadow/Google Pixel 2 Just Black.png",
-        "label": "Google Pixel 2 Just Black with shadow",
-        "width": 1320,
-        "height": 2649,
-        "top": 340,
+        "image": require("./images/Phones/Google Pixel 3/Device with Shadow/Google Pixel 3 - Not Pink.png"),
+        "value": "./images/Phones/Google Pixel 3/Device with Shadow/Google Pixel 3 - Not Pink.png",
+        "label": "Google Pixel 3 - Not Pink with shadow",
+        "width": 1280,
+        "height": 2640,
+        "top": 240,
         "left": 100
       },
       {
-        "image": require("./images/Phones/Google Pixel 2 XL/Device/Google Pixel 2 XL Black and White.png"),
-        "value": "./images/Phones/Google Pixel 2 XL/Device/Google Pixel 2 XL Black and White.png",
-        "label": "Google Pixel 2 XL Black and White",
-        "width": 1840,
-        "height": 3560,
-        "top": 340,
-        "left": 200
+        "image": require("./images/Phones/Google Pixel 3 XL/Device/Google Pixel 3 XL - Clearly White.png"),
+        "value": "./images/Phones/Google Pixel 3 XL/Device/Google Pixel 3 XL - Clearly White.png",
+        "label": "Google Pixel 3 XL - Clearly White",
+        "width": 1740,
+        "height": 3409,
+        "top": 150,
+        "left": 150
       },
       {
-        "image": require("./images/Phones/Google Pixel 2 XL/Device/Google Pixel 2 XL Just Black.png"),
-        "value": "./images/Phones/Google Pixel 2 XL/Device/Google Pixel 2 XL Just Black.png",
-        "label": "Google Pixel 2 XL Just Black",
-        "width": 1840,
-        "height": 3560,
-        "top": 340,
-        "left": 200
+        "image": require("./images/Phones/Google Pixel 3 XL/Device/Google Pixel 3 XL - Just Black.png"),
+        "value": "./images/Phones/Google Pixel 3 XL/Device/Google Pixel 3 XL - Just Black.png",
+        "label": "Google Pixel 3 XL - Just Black",
+        "width": 1740,
+        "height": 3409,
+        "top": 150,
+        "left": 150
       },
       {
-        "image": require("./images/Phones/Google Pixel 2 XL/Device with Shadow/Google Pixel 2 XL Black and White.png"),
-        "value": "./images/Phones/Google Pixel 2 XL/Device with Shadow/Google Pixel 2 XL Black and White.png",
-        "label": "Google Pixel 2 XL Black and White with shadow",
-        "width": 1840,
-        "height": 3560,
-        "top": 340,
-        "left": 200
+        "image": require("./images/Phones/Google Pixel 3 XL/Device/Google Pixel 3 XL - Not Pink.png"),
+        "value": "./images/Phones/Google Pixel 3 XL/Device/Google Pixel 3 XL - Not Pink.png",
+        "label": "Google Pixel 3 XL - Not Pink",
+        "width": 1740,
+        "height": 3409,
+        "top": 150,
+        "left": 150
       },
       {
-        "image": require("./images/Phones/Google Pixel 2 XL/Device with Shadow/Google Pixel 2 XL Just Black.png"),
-        "value": "./images/Phones/Google Pixel 2 XL/Device with Shadow/Google Pixel 2 XL Just Black.png",
-        "label": "Google Pixel 2 XL Just Black with shadow",
-        "width": 1840,
-        "height": 3560,
-        "top": 340,
-        "left": 200
+        "image": require("./images/Phones/Google Pixel 3 XL/Device with Shadow/Google Pixel 3 XL - Clearly White.png"),
+        "value": "./images/Phones/Google Pixel 3 XL/Device with Shadow/Google Pixel 3 XL - Clearly White.png",
+        "label": "Google Pixel 3 XL - Clearly White with shadow",
+        "width": 1740,
+        "height": 3409,
+        "top": 150,
+        "left": 150
+      },
+      {
+        "image": require("./images/Phones/Google Pixel 3 XL/Device with Shadow/Google Pixel 3 XL - Just Black.png"),
+        "value": "./images/Phones/Google Pixel 3 XL/Device with Shadow/Google Pixel 3 XL - Just Black.png",
+        "label": "Google Pixel 3 XL - Just Black with shadow",
+        "width": 1740,
+        "height": 3409,
+        "top": 150,
+        "left": 150
+      },
+      {
+        "image": require("./images/Phones/Google Pixel 3 XL/Device with Shadow/Google Pixel 3 XL - Not Pink.png"),
+        "value": "./images/Phones/Google Pixel 3 XL/Device with Shadow/Google Pixel 3 XL - Not Pink.png",
+        "label": "Google Pixel 3 XL - Not Pink with shadow",
+        "width": 1740,
+        "height": 3409,
+        "top": 150,
+        "left": 150
       },
       {
         "image": require("./images/Phones/HTC One A9/Device/HTC One A9 Black.png"),
@@ -2076,6 +2256,114 @@ export const devices = [
         "width": 1640,
         "height": 3600,
         "top": 320,
+        "left": 100
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S9/Device/Samsung Galaxy S9 Burgundy Red.png"),
+        "value": "./images/Phones/Samsung Galaxy S9/Device/Samsung Galaxy S9 Burgundy Red.png",
+        "label": "Samsung Galaxy S9 Burgundy Red",
+        "width": 1640,
+        "height": 3440,
+        "top": 240,
+        "left": 100
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S9/Device/Samsung Galaxy S9 Coral Blue.png"),
+        "value": "./images/Phones/Samsung Galaxy S9/Device/Samsung Galaxy S9 Coral Blue.png",
+        "label": "Samsung Galaxy S9 Coral Blue",
+        "width": 1640,
+        "height": 3440,
+        "top": 240,
+        "left": 100
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S9/Device/Samsung Galaxy S9 Lilac Purple.png"),
+        "value": "./images/Phones/Samsung Galaxy S9/Device/Samsung Galaxy S9 Lilac Purple.png",
+        "label": "Samsung Galaxy S9 Lilac Purple",
+        "width": 1640,
+        "height": 3440,
+        "top": 240,
+        "left": 100
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S9/Device/Samsung Galaxy S9 Midnight Black.png"),
+        "value": "./images/Phones/Samsung Galaxy S9/Device/Samsung Galaxy S9 Midnight Black.png",
+        "label": "Samsung Galaxy S9 Midnight Black",
+        "width": 1640,
+        "height": 3440,
+        "top": 240,
+        "left": 100
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S9/Device/Samsung Galaxy S9 Sunrise Gold.png"),
+        "value": "./images/Phones/Samsung Galaxy S9/Device/Samsung Galaxy S9 Sunrise Gold.png",
+        "label": "Samsung Galaxy S9 Sunrise Gold",
+        "width": 1640,
+        "height": 3440,
+        "top": 240,
+        "left": 100
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S9/Device/Samsung Galaxy S9 Titanium Gray.png"),
+        "value": "./images/Phones/Samsung Galaxy S9/Device/Samsung Galaxy S9 Titanium Gray.png",
+        "label": "Samsung Galaxy S9 Titanium Gray",
+        "width": 1640,
+        "height": 3440,
+        "top": 240,
+        "left": 100
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S9/Device with Shadow/Samsung Galaxy S9 Burgundy Red.png"),
+        "value": "./images/Phones/Samsung Galaxy S9/Device with Shadow/Samsung Galaxy S9 Burgundy Red.png",
+        "label": "Samsung Galaxy S9 Burgundy Red with shadow",
+        "width": 1640,
+        "height": 3440,
+        "top": 240,
+        "left": 100
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S9/Device with Shadow/Samsung Galaxy S9 Coral Blue.png"),
+        "value": "./images/Phones/Samsung Galaxy S9/Device with Shadow/Samsung Galaxy S9 Coral Blue.png",
+        "label": "Samsung Galaxy S9 Coral Blue with shadow",
+        "width": 1640,
+        "height": 3440,
+        "top": 240,
+        "left": 100
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S9/Device with Shadow/Samsung Galaxy S9 Lilac Purple.png"),
+        "value": "./images/Phones/Samsung Galaxy S9/Device with Shadow/Samsung Galaxy S9 Lilac Purple.png",
+        "label": "Samsung Galaxy S9 Lilac Purple with shadow",
+        "width": 1640,
+        "height": 3440,
+        "top": 240,
+        "left": 100
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S9/Device with Shadow/Samsung Galaxy S9 Midnight Black.png"),
+        "value": "./images/Phones/Samsung Galaxy S9/Device with Shadow/Samsung Galaxy S9 Midnight Black.png",
+        "label": "Samsung Galaxy S9 Midnight Black with shadow",
+        "width": 1640,
+        "height": 3440,
+        "top": 240,
+        "left": 100
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S9/Device with Shadow/Samsung Galaxy S9 Sunrise Gold.png"),
+        "value": "./images/Phones/Samsung Galaxy S9/Device with Shadow/Samsung Galaxy S9 Sunrise Gold.png",
+        "label": "Samsung Galaxy S9 Sunrise Gold with shadow",
+        "width": 1640,
+        "height": 3440,
+        "top": 240,
+        "left": 100
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S9/Device with Shadow/Samsung Galaxy S9 Titanium Gray.png"),
+        "value": "./images/Phones/Samsung Galaxy S9/Device with Shadow/Samsung Galaxy S9 Titanium Gray.png",
+        "label": "Samsung Galaxy S9 Titanium Gray with shadow",
+        "width": 1640,
+        "height": 3440,
+        "top": 240,
         "left": 100
       },
       {

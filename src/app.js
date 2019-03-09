@@ -151,6 +151,7 @@ export default class App extends Component {
           />
         </div>
 
+        {/* This section is for debugging */}
         {false && (
           <div style={{ position: 'relative' }}>
             {screenshotUrl && (
