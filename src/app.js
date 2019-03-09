@@ -170,7 +170,7 @@ export default class App extends Component {
         )}
 
         <a
-          class="github-fork-ribbon"
+          className="github-fork-ribbon"
           href="https://github.com/pd4d10/device-art"
           data-ribbon="Fork me on GitHub"
           title="Fork me on GitHub"
