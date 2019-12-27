@@ -5,6 +5,132 @@ export const devices = [
     "label": "Computers",
     "options": [
       {
+        "image": require("./images/Computers/Apple MacBook Air/Device/Apple MacBook Air 13\" Gold.png"),
+        "value": "./images/Computers/Apple MacBook Air/Device/Apple MacBook Air 13\" Gold.png",
+        "label": "Apple MacBook Air 13\" Gold",
+        "width": 3460,
+        "height": 2060,
+        "top": 103,
+        "left": 262
+      },
+      {
+        "image": require("./images/Computers/Apple MacBook Air/Device/Apple MacBook Air 13\" Silver.png"),
+        "value": "./images/Computers/Apple MacBook Air/Device/Apple MacBook Air 13\" Silver.png",
+        "label": "Apple MacBook Air 13\" Silver",
+        "width": 3460,
+        "height": 2060,
+        "top": 103,
+        "left": 262
+      },
+      {
+        "image": require("./images/Computers/Apple MacBook Air/Device/Apple MacBook Air 13\" Space Grey.png"),
+        "value": "./images/Computers/Apple MacBook Air/Device/Apple MacBook Air 13\" Space Grey.png",
+        "label": "Apple MacBook Air 13\" Space Grey",
+        "width": 3460,
+        "height": 2060,
+        "top": 103,
+        "left": 262
+      },
+      {
+        "image": require("./images/Computers/Apple MacBook Air/Device with Shadow/Apple MacBook Air 13\" Gold.png"),
+        "value": "./images/Computers/Apple MacBook Air/Device with Shadow/Apple MacBook Air 13\" Gold.png",
+        "label": "Apple MacBook Air 13\" Gold with shadow",
+        "width": 3460,
+        "height": 2060,
+        "top": 103,
+        "left": 262
+      },
+      {
+        "image": require("./images/Computers/Apple MacBook Air/Device with Shadow/Apple MacBook Air 13\" Silver.png"),
+        "value": "./images/Computers/Apple MacBook Air/Device with Shadow/Apple MacBook Air 13\" Silver.png",
+        "label": "Apple MacBook Air 13\" Silver with shadow",
+        "width": 3460,
+        "height": 2060,
+        "top": 103,
+        "left": 262
+      },
+      {
+        "image": require("./images/Computers/Apple MacBook Air/Device with Shadow/Apple MacBook Air 13\" Space Grey.png"),
+        "value": "./images/Computers/Apple MacBook Air/Device with Shadow/Apple MacBook Air 13\" Space Grey.png",
+        "label": "Apple MacBook Air 13\" Space Grey with shadow",
+        "width": 3460,
+        "height": 2060,
+        "top": 103,
+        "left": 262
+      },
+      {
+        "image": require("./images/Computers/Apple MacBook Pro/Device/Apple Macbook Pro 13\" Silver.png"),
+        "value": "./images/Computers/Apple MacBook Pro/Device/Apple Macbook Pro 13\" Silver.png",
+        "label": "Apple Macbook Pro 13\" Silver",
+        "width": 3460,
+        "height": 2200,
+        "top": 136,
+        "left": 427
+      },
+      {
+        "image": require("./images/Computers/Apple MacBook Pro/Device/Apple Macbook Pro 13\" Space Grey.png"),
+        "value": "./images/Computers/Apple MacBook Pro/Device/Apple Macbook Pro 13\" Space Grey.png",
+        "label": "Apple Macbook Pro 13\" Space Grey",
+        "width": 3460,
+        "height": 2200,
+        "top": 136,
+        "left": 427
+      },
+      {
+        "image": require("./images/Computers/Apple MacBook Pro/Device/Apple Macbook Pro 15\" Silver.png"),
+        "value": "./images/Computers/Apple MacBook Pro/Device/Apple Macbook Pro 15\" Silver.png",
+        "label": "Apple Macbook Pro 15\" Silver",
+        "width": 3880,
+        "height": 2400,
+        "top": 180,
+        "left": 452
+      },
+      {
+        "image": require("./images/Computers/Apple MacBook Pro/Device/Apple Macbook Pro 15\" Space Grey.png"),
+        "value": "./images/Computers/Apple MacBook Pro/Device/Apple Macbook Pro 15\" Space Grey.png",
+        "label": "Apple Macbook Pro 15\" Space Grey",
+        "width": 3880,
+        "height": 2400,
+        "top": 180,
+        "left": 452
+      },
+      {
+        "image": require("./images/Computers/Apple MacBook Pro/Device with Shadow/Apple Macbook Pro 13\" Silver.png"),
+        "value": "./images/Computers/Apple MacBook Pro/Device with Shadow/Apple Macbook Pro 13\" Silver.png",
+        "label": "Apple Macbook Pro 13\" Silver with shadow",
+        "width": 3460,
+        "height": 2200,
+        "top": 136,
+        "left": 427
+      },
+      {
+        "image": require("./images/Computers/Apple MacBook Pro/Device with Shadow/Apple Macbook Pro 13\" Space Grey.png"),
+        "value": "./images/Computers/Apple MacBook Pro/Device with Shadow/Apple Macbook Pro 13\" Space Grey.png",
+        "label": "Apple Macbook Pro 13\" Space Grey with shadow",
+        "width": 3460,
+        "height": 2200,
+        "top": 136,
+        "left": 427
+      },
+      {
+        "image": require("./images/Computers/Apple MacBook Pro/Device with Shadow/Apple Macbook Pro 15\" Silver.png"),
+        "value": "./images/Computers/Apple MacBook Pro/Device with Shadow/Apple Macbook Pro 15\" Silver.png",
+        "label": "Apple Macbook Pro 15\" Silver with shadow",
+        "width": 3880,
+        "height": 2400,
+        "top": 180,
+        "left": 452
+      },
+      {
+        "image": require("./images/Computers/Apple MacBook Pro/Device with Shadow/Apple Macbook Pro 15\" Space Grey.png"),
+        "value": "./images/Computers/Apple MacBook Pro/Device with Shadow/Apple Macbook Pro 15\" Space Grey.png",
+        "label": "Apple Macbook Pro 15\" Space Grey with shadow",
+        "width": 3880,
+        "height": 2400,
+        "top": 180,
+        "left": 452
+      },
+      {
         "image": require("./images/Computers/Apple Macbook/Device/Apple-Macbook-Gold.png"),
         "value": "./images/Computers/Apple Macbook/Device/Apple-Macbook-Gold.png",
         "label": "Apple-Macbook-Gold",
@@ -41,78 +167,6 @@ export const devices = [
         "left": 380
       },
       {
-        "image": require("./images/Computers/Apple Macbook Air/11\"/Device/Apple Macbook Air 11\".png"),
-        "value": "./images/Computers/Apple Macbook Air/11\"/Device/Apple Macbook Air 11\".png",
-        "label": "Apple Macbook Air 11\"",
-        "width": 1963,
-        "height": 1045,
-        "top": 103,
-        "left": 299
-      },
-      {
-        "image": require("./images/Computers/Apple Macbook Air/11\"/Device with shadow/Apple Macbook Air 11\".png"),
-        "value": "./images/Computers/Apple Macbook Air/11\"/Device with shadow/Apple Macbook Air 11\".png",
-        "label": "Apple Macbook Air 11\" with shadow",
-        "width": 1963,
-        "height": 1045,
-        "top": 103,
-        "left": 299
-      },
-      {
-        "image": require("./images/Computers/Apple Macbook Air/13\"/Device/Apple Macbook Air 13\".png"),
-        "value": "./images/Computers/Apple Macbook Air/13\"/Device/Apple Macbook Air 13\".png",
-        "label": "Apple Macbook Air 13\"",
-        "width": 1963,
-        "height": 1170,
-        "top": 103,
-        "left": 262
-      },
-      {
-        "image": require("./images/Computers/Apple Macbook Air/13\"/Device with shadow/Apple Macbook Air 13\".png"),
-        "value": "./images/Computers/Apple Macbook Air/13\"/Device with shadow/Apple Macbook Air 13\".png",
-        "label": "Apple Macbook Air 13\" with shadow",
-        "width": 1963,
-        "height": 1170,
-        "top": 103,
-        "left": 262
-      },
-      {
-        "image": require("./images/Computers/Apple Macbook Pro/13\"/Device/Apple Macbook Pro 13\".png"),
-        "value": "./images/Computers/Apple Macbook Pro/13\"/Device/Apple Macbook Pro 13\".png",
-        "label": "Apple Macbook Pro 13\"",
-        "width": 3409,
-        "height": 2014,
-        "top": 136,
-        "left": 427
-      },
-      {
-        "image": require("./images/Computers/Apple Macbook Pro/13\"/Device with shadow/Apple Macbook Pro 13\".png"),
-        "value": "./images/Computers/Apple Macbook Pro/13\"/Device with shadow/Apple Macbook Pro 13\".png",
-        "label": "Apple Macbook Pro 13\" with shadow",
-        "width": 3409,
-        "height": 2042,
-        "top": 136,
-        "left": 427
-      },
-      {
-        "image": require("./images/Computers/Apple Macbook Pro/15\"/Device/Apple Macbook Pro 15\".png"),
-        "value": "./images/Computers/Apple Macbook Pro/15\"/Device/Apple Macbook Pro 15\".png",
-        "label": "Apple Macbook Pro 15\"",
-        "width": 3783,
-        "height": 2268,
-        "top": 180,
-        "left": 452
-      },
-      {
-        "image": require("./images/Computers/Apple Macbook Pro/15\"/Device with shadow/Apple Macbook Pro 15\".png"),
-        "value": "./images/Computers/Apple Macbook Pro/15\"/Device with shadow/Apple Macbook Pro 15\".png",
-        "label": "Apple Macbook Pro 15\" with shadow",
-        "width": 3783,
-        "height": 2268,
-        "top": 180,
-        "left": 452
-      },
-      {
         "image": require("./images/Computers/Apple iMac/Device/Apple iMac.png"),
         "value": "./images/Computers/Apple iMac/Device/Apple iMac.png",
         "label": "Apple iMac",
@@ -125,6 +179,20 @@ export const devices = [
         "label": "Apple iMac with shadow",
         "width": 2788,
         "height": 2351
+      },
+      {
+        "image": require("./images/Computers/Apple iMac Pro/Device/Apple iMac Pro.png"),
+        "value": "./images/Computers/Apple iMac Pro/Device/Apple iMac Pro.png",
+        "label": "Apple iMac Pro",
+        "width": 5776,
+        "height": 4810
+      },
+      {
+        "image": require("./images/Computers/Apple iMac Pro/Device with Shadow/Apple iMac Pro.png"),
+        "value": "./images/Computers/Apple iMac Pro/Device with Shadow/Apple iMac Pro.png",
+        "label": "Apple iMac Pro with shadow",
+        "width": 5776,
+        "height": 4810
       },
       {
         "image": require("./images/Computers/Apple iMac Retina/Device/Apple iMac Retina.png"),
@@ -200,6 +268,24 @@ export const devices = [
     "value": "Displays",
     "label": "Displays",
     "options": [
+      {
+        "image": require("./images/Displays/Apple Pro Display XDR/Device/Apple Pro Display XDR.png"),
+        "value": "./images/Displays/Apple Pro Display XDR/Device/Apple Pro Display XDR.png",
+        "label": "Apple Pro Display XDR",
+        "width": 6316,
+        "height": 4765,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Displays/Apple Pro Display XDR/Device with Shadow/Apple Pro Display XDR.png"),
+        "value": "./images/Displays/Apple Pro Display XDR/Device with Shadow/Apple Pro Display XDR.png",
+        "label": "Apple Pro Display XDR with shadow",
+        "width": 6316,
+        "height": 4765,
+        "top": 0,
+        "left": 0
+      },
       {
         "image": require("./images/Displays/Apple Thunderbolt Display/Device/Apple Thunderbolt Display.png"),
         "value": "./images/Displays/Apple Thunderbolt Display/Device/Apple Thunderbolt Display.png",
@@ -350,6 +436,258 @@ export const devices = [
     "value": "Phones",
     "label": "Phones",
     "options": [
+      {
+        "image": require("./images/Phones/Apple iPhone 11/Device/Apple iPhone 11 Black.png"),
+        "value": "./images/Phones/Apple iPhone 11/Device/Apple iPhone 11 Black.png",
+        "label": "Apple iPhone 11 Black",
+        "width": 1028,
+        "height": 1992,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11/Device/Apple iPhone 11 Green.png"),
+        "value": "./images/Phones/Apple iPhone 11/Device/Apple iPhone 11 Green.png",
+        "label": "Apple iPhone 11 Green",
+        "width": 1028,
+        "height": 1992,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11/Device/Apple iPhone 11 Purple.png"),
+        "value": "./images/Phones/Apple iPhone 11/Device/Apple iPhone 11 Purple.png",
+        "label": "Apple iPhone 11 Purple",
+        "width": 1028,
+        "height": 1992,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11/Device/Apple iPhone 11 Red.png"),
+        "value": "./images/Phones/Apple iPhone 11/Device/Apple iPhone 11 Red.png",
+        "label": "Apple iPhone 11 Red",
+        "width": 1028,
+        "height": 1992,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11/Device/Apple iPhone 11 White.png"),
+        "value": "./images/Phones/Apple iPhone 11/Device/Apple iPhone 11 White.png",
+        "label": "Apple iPhone 11 White",
+        "width": 1028,
+        "height": 1992,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11/Device/Apple iPhone 11 Yellow.png"),
+        "value": "./images/Phones/Apple iPhone 11/Device/Apple iPhone 11 Yellow.png",
+        "label": "Apple iPhone 11 Yellow",
+        "width": 1028,
+        "height": 1992,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11/Device with Shadow/Apple iPhone 11 Black.png"),
+        "value": "./images/Phones/Apple iPhone 11/Device with Shadow/Apple iPhone 11 Black.png",
+        "label": "Apple iPhone 11 Black with shadow",
+        "width": 1028,
+        "height": 1992,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11/Device with Shadow/Apple iPhone 11 Green.png"),
+        "value": "./images/Phones/Apple iPhone 11/Device with Shadow/Apple iPhone 11 Green.png",
+        "label": "Apple iPhone 11 Green with shadow",
+        "width": 1028,
+        "height": 1992,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11/Device with Shadow/Apple iPhone 11 Purple.png"),
+        "value": "./images/Phones/Apple iPhone 11/Device with Shadow/Apple iPhone 11 Purple.png",
+        "label": "Apple iPhone 11 Purple with shadow",
+        "width": 1028,
+        "height": 1992,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11/Device with Shadow/Apple iPhone 11 Red.png"),
+        "value": "./images/Phones/Apple iPhone 11/Device with Shadow/Apple iPhone 11 Red.png",
+        "label": "Apple iPhone 11 Red with shadow",
+        "width": 1028,
+        "height": 1992,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11/Device with Shadow/Apple iPhone 11 White.png"),
+        "value": "./images/Phones/Apple iPhone 11/Device with Shadow/Apple iPhone 11 White.png",
+        "label": "Apple iPhone 11 White with shadow",
+        "width": 1028,
+        "height": 1992,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11/Device with Shadow/Apple iPhone 11 Yellow.png"),
+        "value": "./images/Phones/Apple iPhone 11/Device with Shadow/Apple iPhone 11 Yellow.png",
+        "label": "Apple iPhone 11 Yellow with shadow",
+        "width": 1028,
+        "height": 1992,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11 Pro/Device/Apple iPhone 11 Pro Gold.png"),
+        "value": "./images/Phones/Apple iPhone 11 Pro/Device/Apple iPhone 11 Pro Gold.png",
+        "label": "Apple iPhone 11 Pro Gold",
+        "width": 1385,
+        "height": 2696,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11 Pro/Device/Apple iPhone 11 Pro Midnight Green.png"),
+        "value": "./images/Phones/Apple iPhone 11 Pro/Device/Apple iPhone 11 Pro Midnight Green.png",
+        "label": "Apple iPhone 11 Pro Midnight Green",
+        "width": 1385,
+        "height": 2696,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11 Pro/Device/Apple iPhone 11 Pro Silver.png"),
+        "value": "./images/Phones/Apple iPhone 11 Pro/Device/Apple iPhone 11 Pro Silver.png",
+        "label": "Apple iPhone 11 Pro Silver",
+        "width": 1385,
+        "height": 2696,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11 Pro/Device/Apple iPhone 11 Pro Space Grey.png"),
+        "value": "./images/Phones/Apple iPhone 11 Pro/Device/Apple iPhone 11 Pro Space Grey.png",
+        "label": "Apple iPhone 11 Pro Space Grey",
+        "width": 1385,
+        "height": 2696,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11 Pro/Device with Shadow/Apple iPhone 11 Pro Gold.png"),
+        "value": "./images/Phones/Apple iPhone 11 Pro/Device with Shadow/Apple iPhone 11 Pro Gold.png",
+        "label": "Apple iPhone 11 Pro Gold with shadow",
+        "width": 1385,
+        "height": 2696,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11 Pro/Device with Shadow/Apple iPhone 11 Pro Midnight Green.png"),
+        "value": "./images/Phones/Apple iPhone 11 Pro/Device with Shadow/Apple iPhone 11 Pro Midnight Green.png",
+        "label": "Apple iPhone 11 Pro Midnight Green with shadow",
+        "width": 1385,
+        "height": 2696,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11 Pro/Device with Shadow/Apple iPhone 11 Pro Silver.png"),
+        "value": "./images/Phones/Apple iPhone 11 Pro/Device with Shadow/Apple iPhone 11 Pro Silver.png",
+        "label": "Apple iPhone 11 Pro Silver with shadow",
+        "width": 1385,
+        "height": 2696,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11 Pro/Device with Shadow/Apple iPhone 11 Pro Space Grey.png"),
+        "value": "./images/Phones/Apple iPhone 11 Pro/Device with Shadow/Apple iPhone 11 Pro Space Grey.png",
+        "label": "Apple iPhone 11 Pro Space Grey with shadow",
+        "width": 1385,
+        "height": 2696,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11 Pro Max/Device/Apple iPhone 11 Pro Max Gold.png"),
+        "value": "./images/Phones/Apple iPhone 11 Pro Max/Device/Apple iPhone 11 Pro Max Gold.png",
+        "label": "Apple iPhone 11 Pro Max Gold",
+        "width": 1502,
+        "height": 2948,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11 Pro Max/Device/Apple iPhone 11 Pro Max Midnight Green.png"),
+        "value": "./images/Phones/Apple iPhone 11 Pro Max/Device/Apple iPhone 11 Pro Max Midnight Green.png",
+        "label": "Apple iPhone 11 Pro Max Midnight Green",
+        "width": 1502,
+        "height": 2948,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11 Pro Max/Device/Apple iPhone 11 Pro Max Silver.png"),
+        "value": "./images/Phones/Apple iPhone 11 Pro Max/Device/Apple iPhone 11 Pro Max Silver.png",
+        "label": "Apple iPhone 11 Pro Max Silver",
+        "width": 1502,
+        "height": 2948,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11 Pro Max/Device/Apple iPhone 11 Pro Max Space Grey.png"),
+        "value": "./images/Phones/Apple iPhone 11 Pro Max/Device/Apple iPhone 11 Pro Max Space Grey.png",
+        "label": "Apple iPhone 11 Pro Max Space Grey",
+        "width": 1502,
+        "height": 2948,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11 Pro Max/Device with Shadow/Apple iPhone 11 Pro Max Gold.png"),
+        "value": "./images/Phones/Apple iPhone 11 Pro Max/Device with Shadow/Apple iPhone 11 Pro Max Gold.png",
+        "label": "Apple iPhone 11 Pro Max Gold with shadow",
+        "width": 1502,
+        "height": 2948,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11 Pro Max/Device with Shadow/Apple iPhone 11 Pro Max Midnight Green.png"),
+        "value": "./images/Phones/Apple iPhone 11 Pro Max/Device with Shadow/Apple iPhone 11 Pro Max Midnight Green.png",
+        "label": "Apple iPhone 11 Pro Max Midnight Green with shadow",
+        "width": 1502,
+        "height": 2948,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11 Pro Max/Device with Shadow/Apple iPhone 11 Pro Max Silver.png"),
+        "value": "./images/Phones/Apple iPhone 11 Pro Max/Device with Shadow/Apple iPhone 11 Pro Max Silver.png",
+        "label": "Apple iPhone 11 Pro Max Silver with shadow",
+        "width": 1502,
+        "height": 2948,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Apple iPhone 11 Pro Max/Device with Shadow/Apple iPhone 11 Pro Max Space Grey.png"),
+        "value": "./images/Phones/Apple iPhone 11 Pro Max/Device with Shadow/Apple iPhone 11 Pro Max Space Grey.png",
+        "label": "Apple iPhone 11 Pro Max Space Grey with shadow",
+        "width": 1502,
+        "height": 2948,
+        "top": 0,
+        "left": 0
+      },
       {
         "image": require("./images/Phones/Apple iPhone 5c/Device/Apple iPhone 5c Blue.png"),
         "value": "./images/Phones/Apple iPhone 5c/Device/Apple iPhone 5c Blue.png",
@@ -1359,6 +1697,114 @@ export const devices = [
         "left": 150
       },
       {
+        "image": require("./images/Phones/Google Pixel 4/Device/Google Pixel 4 Clearly White.png"),
+        "value": "./images/Phones/Google Pixel 4/Device/Google Pixel 4 Clearly White.png",
+        "label": "Google Pixel 4 Clearly White",
+        "width": 1280,
+        "height": 2680,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Google Pixel 4/Device/Google Pixel 4 Just Black.png"),
+        "value": "./images/Phones/Google Pixel 4/Device/Google Pixel 4 Just Black.png",
+        "label": "Google Pixel 4 Just Black",
+        "width": 1280,
+        "height": 2680,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Google Pixel 4/Device/Google Pixel 4 Oh So Orange.png"),
+        "value": "./images/Phones/Google Pixel 4/Device/Google Pixel 4 Oh So Orange.png",
+        "label": "Google Pixel 4 Oh So Orange",
+        "width": 1280,
+        "height": 2680,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Google Pixel 4/Device with Shadow/Google Pixel 4 Clearly White.png"),
+        "value": "./images/Phones/Google Pixel 4/Device with Shadow/Google Pixel 4 Clearly White.png",
+        "label": "Google Pixel 4 Clearly White with shadow",
+        "width": 1280,
+        "height": 2680,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Google Pixel 4/Device with Shadow/Google Pixel 4 Just Black.png"),
+        "value": "./images/Phones/Google Pixel 4/Device with Shadow/Google Pixel 4 Just Black.png",
+        "label": "Google Pixel 4 Just Black with shadow",
+        "width": 1280,
+        "height": 2680,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Google Pixel 4/Device with Shadow/Google Pixel 4 Oh So Orange.png"),
+        "value": "./images/Phones/Google Pixel 4/Device with Shadow/Google Pixel 4 Oh So Orange.png",
+        "label": "Google Pixel 4 Oh So Orange with shadow",
+        "width": 1280,
+        "height": 2680,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Google Pixel 4 XL/Device/Google Pixel 4 XL Clearly White.png"),
+        "value": "./images/Phones/Google Pixel 4 XL/Device/Google Pixel 4 XL Clearly White.png",
+        "label": "Google Pixel 4 XL Clearly White",
+        "width": 1640,
+        "height": 3540,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Google Pixel 4 XL/Device/Google Pixel 4 XL Just Black.png"),
+        "value": "./images/Phones/Google Pixel 4 XL/Device/Google Pixel 4 XL Just Black.png",
+        "label": "Google Pixel 4 XL Just Black",
+        "width": 1640,
+        "height": 3540,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Google Pixel 4 XL/Device/Google Pixel 4 XL Oh So Orange.png"),
+        "value": "./images/Phones/Google Pixel 4 XL/Device/Google Pixel 4 XL Oh So Orange.png",
+        "label": "Google Pixel 4 XL Oh So Orange",
+        "width": 1640,
+        "height": 3540,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Google Pixel 4 XL/Device with Shadow/Google Pixel 4 XL Clearly White.png"),
+        "value": "./images/Phones/Google Pixel 4 XL/Device with Shadow/Google Pixel 4 XL Clearly White.png",
+        "label": "Google Pixel 4 XL Clearly White with shadow",
+        "width": 1640,
+        "height": 3540,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Google Pixel 4 XL/Device with Shadow/Google Pixel 4 XL Just Black.png"),
+        "value": "./images/Phones/Google Pixel 4 XL/Device with Shadow/Google Pixel 4 XL Just Black.png",
+        "label": "Google Pixel 4 XL Just Black with shadow",
+        "width": 1640,
+        "height": 3540,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Google Pixel 4 XL/Device with Shadow/Google Pixel 4 XL Oh So Orange.png"),
+        "value": "./images/Phones/Google Pixel 4 XL/Device with Shadow/Google Pixel 4 XL Oh So Orange.png",
+        "label": "Google Pixel 4 XL Oh So Orange with shadow",
+        "width": 1640,
+        "height": 3540,
+        "top": 0,
+        "left": 0
+      },
+      {
         "image": require("./images/Phones/HTC One A9/Device/HTC One A9 Black.png"),
         "value": "./images/Phones/HTC One A9/Device/HTC One A9 Black.png",
         "label": "HTC One A9 Black",
@@ -2025,6 +2471,168 @@ export const devices = [
         "left": 66
       },
       {
+        "image": require("./images/Phones/Samsung Galaxy Note10/Device/Samsung Galaxy Note10 Aura Black.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10/Device/Samsung Galaxy Note10 Aura Black.png",
+        "label": "Samsung Galaxy Note10 Aura Black",
+        "width": 1280,
+        "height": 2480,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10/Device/Samsung Galaxy Note10 Aura Glow.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10/Device/Samsung Galaxy Note10 Aura Glow.png",
+        "label": "Samsung Galaxy Note10 Aura Glow",
+        "width": 1280,
+        "height": 2480,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10/Device/Samsung Galaxy Note10 Aura Pink.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10/Device/Samsung Galaxy Note10 Aura Pink.png",
+        "label": "Samsung Galaxy Note10 Aura Pink",
+        "width": 1280,
+        "height": 2480,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10/Device/Samsung Galaxy Note10 Aura Red.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10/Device/Samsung Galaxy Note10 Aura Red.png",
+        "label": "Samsung Galaxy Note10 Aura Red",
+        "width": 1280,
+        "height": 2480,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10/Device/Samsung Galaxy Note10 Aura White.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10/Device/Samsung Galaxy Note10 Aura White.png",
+        "label": "Samsung Galaxy Note10 Aura White",
+        "width": 1280,
+        "height": 2480,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10/Device with Shadow/Samsung Galaxy Note10 Aura Black.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10/Device with Shadow/Samsung Galaxy Note10 Aura Black.png",
+        "label": "Samsung Galaxy Note10 Aura Black with shadow",
+        "width": 1280,
+        "height": 2480,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10/Device with Shadow/Samsung Galaxy Note10 Aura Glow.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10/Device with Shadow/Samsung Galaxy Note10 Aura Glow.png",
+        "label": "Samsung Galaxy Note10 Aura Glow with shadow",
+        "width": 1280,
+        "height": 2480,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10/Device with Shadow/Samsung Galaxy Note10 Aura Pink.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10/Device with Shadow/Samsung Galaxy Note10 Aura Pink.png",
+        "label": "Samsung Galaxy Note10 Aura Pink with shadow",
+        "width": 1280,
+        "height": 2480,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10/Device with Shadow/Samsung Galaxy Note10 Aura Red.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10/Device with Shadow/Samsung Galaxy Note10 Aura Red.png",
+        "label": "Samsung Galaxy Note10 Aura Red with shadow",
+        "width": 1280,
+        "height": 2480,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10/Device with Shadow/Samsung Galaxy Note10 Aura White.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10/Device with Shadow/Samsung Galaxy Note10 Aura White.png",
+        "label": "Samsung Galaxy Note10 Aura White with shadow",
+        "width": 1280,
+        "height": 2480,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10+/Device/Samsung Galaxy Note10+ Aura Black.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10+/Device/Samsung Galaxy Note10+ Aura Black.png",
+        "label": "Samsung Galaxy Note10+ Aura Black",
+        "width": 1640,
+        "height": 3240,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10+/Device/Samsung Galaxy Note10+ Aura Blue.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10+/Device/Samsung Galaxy Note10+ Aura Blue.png",
+        "label": "Samsung Galaxy Note10+ Aura Blue",
+        "width": 1640,
+        "height": 3240,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10+/Device/Samsung Galaxy Note10+ Aura Glow.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10+/Device/Samsung Galaxy Note10+ Aura Glow.png",
+        "label": "Samsung Galaxy Note10+ Aura Glow",
+        "width": 1640,
+        "height": 3240,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10+/Device/Samsung Galaxy Note10+ Aura White.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10+/Device/Samsung Galaxy Note10+ Aura White.png",
+        "label": "Samsung Galaxy Note10+ Aura White",
+        "width": 1640,
+        "height": 3240,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10+/Device with Shadow/Samsung Galaxy Note10+ Aura Black.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10+/Device with Shadow/Samsung Galaxy Note10+ Aura Black.png",
+        "label": "Samsung Galaxy Note10+ Aura Black with shadow",
+        "width": 1640,
+        "height": 3240,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10+/Device with Shadow/Samsung Galaxy Note10+ Aura Blue.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10+/Device with Shadow/Samsung Galaxy Note10+ Aura Blue.png",
+        "label": "Samsung Galaxy Note10+ Aura Blue with shadow",
+        "width": 1640,
+        "height": 3240,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10+/Device with Shadow/Samsung Galaxy Note10+ Aura Glow.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10+/Device with Shadow/Samsung Galaxy Note10+ Aura Glow.png",
+        "label": "Samsung Galaxy Note10+ Aura Glow with shadow",
+        "width": 1640,
+        "height": 3240,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy Note10+/Device with Shadow/Samsung Galaxy Note10+ Aura White.png"),
+        "value": "./images/Phones/Samsung Galaxy Note10+/Device with Shadow/Samsung Galaxy Note10+ Aura White.png",
+        "label": "Samsung Galaxy Note10+ Aura White with shadow",
+        "width": 1640,
+        "height": 3240,
+        "top": 0,
+        "left": 0
+      },
+      {
         "image": require("./images/Phones/Samsung Galaxy S Duos/Device/Samsung Galaxy S Duos.png"),
         "value": "./images/Phones/Samsung Galaxy S Duos/Device/Samsung Galaxy S Duos.png",
         "label": "Samsung Galaxy S Duos",
@@ -2041,6 +2649,204 @@ export const devices = [
         "height": 1116,
         "top": 156,
         "left": 48
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10/Device/Samsung Galaxy S10 Flamingo Pink.png"),
+        "value": "./images/Phones/Samsung Galaxy S10/Device/Samsung Galaxy S10 Flamingo Pink.png",
+        "label": "Samsung Galaxy S10 Flamingo Pink",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10/Device/Samsung Galaxy S10 Prism Black.png"),
+        "value": "./images/Phones/Samsung Galaxy S10/Device/Samsung Galaxy S10 Prism Black.png",
+        "label": "Samsung Galaxy S10 Prism Black",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10/Device/Samsung Galaxy S10 Prism Blue.png"),
+        "value": "./images/Phones/Samsung Galaxy S10/Device/Samsung Galaxy S10 Prism Blue.png",
+        "label": "Samsung Galaxy S10 Prism Blue",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10/Device/Samsung Galaxy S10 Prism Green.png"),
+        "value": "./images/Phones/Samsung Galaxy S10/Device/Samsung Galaxy S10 Prism Green.png",
+        "label": "Samsung Galaxy S10 Prism Green",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10/Device/Samsung Galaxy S10 Prism White.png"),
+        "value": "./images/Phones/Samsung Galaxy S10/Device/Samsung Galaxy S10 Prism White.png",
+        "label": "Samsung Galaxy S10 Prism White",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10/Device with Shadow/Samsung Galaxy S10 Flamingo Pink.png"),
+        "value": "./images/Phones/Samsung Galaxy S10/Device with Shadow/Samsung Galaxy S10 Flamingo Pink.png",
+        "label": "Samsung Galaxy S10 Flamingo Pink with shadow",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10/Device with Shadow/Samsung Galaxy S10 Prism Black.png"),
+        "value": "./images/Phones/Samsung Galaxy S10/Device with Shadow/Samsung Galaxy S10 Prism Black.png",
+        "label": "Samsung Galaxy S10 Prism Black with shadow",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10/Device with Shadow/Samsung Galaxy S10 Prism Blue.png"),
+        "value": "./images/Phones/Samsung Galaxy S10/Device with Shadow/Samsung Galaxy S10 Prism Blue.png",
+        "label": "Samsung Galaxy S10 Prism Blue with shadow",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10/Device with Shadow/Samsung Galaxy S10 Prism Green.png"),
+        "value": "./images/Phones/Samsung Galaxy S10/Device with Shadow/Samsung Galaxy S10 Prism Green.png",
+        "label": "Samsung Galaxy S10 Prism Green with shadow",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10/Device with Shadow/Samsung Galaxy S10 Prism White.png"),
+        "value": "./images/Phones/Samsung Galaxy S10/Device with Shadow/Samsung Galaxy S10 Prism White.png",
+        "label": "Samsung Galaxy S10 Prism White with shadow",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10+/Device/Samsung Galaxy S10+ Ceramic White.png"),
+        "value": "./images/Phones/Samsung Galaxy S10+/Device/Samsung Galaxy S10+ Ceramic White.png",
+        "label": "Samsung Galaxy S10+ Ceramic White",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10+/Device/Samsung Galaxy S10+ Flamingo Pink.png"),
+        "value": "./images/Phones/Samsung Galaxy S10+/Device/Samsung Galaxy S10+ Flamingo Pink.png",
+        "label": "Samsung Galaxy S10+ Flamingo Pink",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10+/Device/Samsung Galaxy S10+ Prism Black.png"),
+        "value": "./images/Phones/Samsung Galaxy S10+/Device/Samsung Galaxy S10+ Prism Black.png",
+        "label": "Samsung Galaxy S10+ Prism Black",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10+/Device/Samsung Galaxy S10+ Prism Blue.png"),
+        "value": "./images/Phones/Samsung Galaxy S10+/Device/Samsung Galaxy S10+ Prism Blue.png",
+        "label": "Samsung Galaxy S10+ Prism Blue",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10+/Device/Samsung Galaxy S10+ Prism Green.png"),
+        "value": "./images/Phones/Samsung Galaxy S10+/Device/Samsung Galaxy S10+ Prism Green.png",
+        "label": "Samsung Galaxy S10+ Prism Green",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10+/Device/Samsung Galaxy S10+ Prism White.png"),
+        "value": "./images/Phones/Samsung Galaxy S10+/Device/Samsung Galaxy S10+ Prism White.png",
+        "label": "Samsung Galaxy S10+ Prism White",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10+/Device with Shadow/Samsung Galaxy S10+ Ceramic White.png"),
+        "value": "./images/Phones/Samsung Galaxy S10+/Device with Shadow/Samsung Galaxy S10+ Ceramic White.png",
+        "label": "Samsung Galaxy S10+ Ceramic White with shadow",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10+/Device with Shadow/Samsung Galaxy S10+ Flamingo Pink.png"),
+        "value": "./images/Phones/Samsung Galaxy S10+/Device with Shadow/Samsung Galaxy S10+ Flamingo Pink.png",
+        "label": "Samsung Galaxy S10+ Flamingo Pink with shadow",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10+/Device with Shadow/Samsung Galaxy S10+ Prism Black.png"),
+        "value": "./images/Phones/Samsung Galaxy S10+/Device with Shadow/Samsung Galaxy S10+ Prism Black.png",
+        "label": "Samsung Galaxy S10+ Prism Black with shadow",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10+/Device with Shadow/Samsung Galaxy S10+ Prism Blue.png"),
+        "value": "./images/Phones/Samsung Galaxy S10+/Device with Shadow/Samsung Galaxy S10+ Prism Blue.png",
+        "label": "Samsung Galaxy S10+ Prism Blue with shadow",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10+/Device with Shadow/Samsung Galaxy S10+ Prism Green.png"),
+        "value": "./images/Phones/Samsung Galaxy S10+/Device with Shadow/Samsung Galaxy S10+ Prism Green.png",
+        "label": "Samsung Galaxy S10+ Prism Green with shadow",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Samsung Galaxy S10+/Device with Shadow/Samsung Galaxy S10+ Prism White.png"),
+        "value": "./images/Phones/Samsung Galaxy S10+/Device with Shadow/Samsung Galaxy S10+ Prism White.png",
+        "label": "Samsung Galaxy S10+ Prism White with shadow",
+        "width": 1640,
+        "height": 3340,
+        "top": 0,
+        "left": 0
       },
       {
         "image": require("./images/Phones/Samsung Galaxy S3/Device/Samsung Galaxy S3.png"),
@@ -2401,6 +3207,60 @@ export const devices = [
         "height": 563,
         "top": 116,
         "left": 37
+      },
+      {
+        "image": require("./images/Phones/Xiaomi Mi Mix Alpha/Device/Xiaomi Mi Mix Alpha Back.png"),
+        "value": "./images/Phones/Xiaomi Mi Mix Alpha/Device/Xiaomi Mi Mix Alpha Back.png",
+        "label": "Xiaomi Mi Mix Alpha Back",
+        "width": 1286,
+        "height": 2450,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Xiaomi Mi Mix Alpha/Device/Xiaomi Mi Mix Alpha Front.png"),
+        "value": "./images/Phones/Xiaomi Mi Mix Alpha/Device/Xiaomi Mi Mix Alpha Front.png",
+        "label": "Xiaomi Mi Mix Alpha Front",
+        "width": 1286,
+        "height": 2450,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Xiaomi Mi Mix Alpha/Device/Xiaomi Mi Mix Alpha Side.png"),
+        "value": "./images/Phones/Xiaomi Mi Mix Alpha/Device/Xiaomi Mi Mix Alpha Side.png",
+        "label": "Xiaomi Mi Mix Alpha Side",
+        "width": 352,
+        "height": 2450,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Xiaomi Mi Mix Alpha/Device with Shadow/Xiaomi Mi Mix Alpha Back.png"),
+        "value": "./images/Phones/Xiaomi Mi Mix Alpha/Device with Shadow/Xiaomi Mi Mix Alpha Back.png",
+        "label": "Xiaomi Mi Mix Alpha Back with shadow",
+        "width": 1286,
+        "height": 2450,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Xiaomi Mi Mix Alpha/Device with Shadow/Xiaomi Mi Mix Alpha Front.png"),
+        "value": "./images/Phones/Xiaomi Mi Mix Alpha/Device with Shadow/Xiaomi Mi Mix Alpha Front.png",
+        "label": "Xiaomi Mi Mix Alpha Front with shadow",
+        "width": 1286,
+        "height": 2450,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Phones/Xiaomi Mi Mix Alpha/Device with Shadow/Xiaomi Mi Mix Alpha Side.png"),
+        "value": "./images/Phones/Xiaomi Mi Mix Alpha/Device with Shadow/Xiaomi Mi Mix Alpha Side.png",
+        "label": "Xiaomi Mi Mix Alpha Side with shadow",
+        "width": 352,
+        "height": 2450,
+        "top": 0,
+        "left": 0
       }
     ]
   },
@@ -2409,164 +3269,452 @@ export const devices = [
     "label": "Tablets",
     "options": [
       {
-        "image": require("./images/Tablets/Apple iPad Air 2/Device/Apple iPad Air 2 Gold.png"),
-        "value": "./images/Tablets/Apple iPad Air 2/Device/Apple iPad Air 2 Gold.png",
-        "label": "Apple iPad Air 2 Gold",
-        "width": 1856,
-        "height": 2608,
-        "top": 280,
-        "left": 160
+        "image": require("./images/Tablets/Apple iPad/Device/Apple iPad Gold.png"),
+        "value": "./images/Tablets/Apple iPad/Device/Apple iPad Gold.png",
+        "label": "Apple iPad Gold",
+        "width": 1920,
+        "height": 2710,
+        "top": 0,
+        "left": 0
       },
       {
-        "image": require("./images/Tablets/Apple iPad Air 2/Device/Apple iPad Air 2 Silver.png"),
-        "value": "./images/Tablets/Apple iPad Air 2/Device/Apple iPad Air 2 Silver.png",
-        "label": "Apple iPad Air 2 Silver",
-        "width": 1856,
-        "height": 2608,
-        "top": 280,
-        "left": 160
+        "image": require("./images/Tablets/Apple iPad/Device/Apple iPad Silver.png"),
+        "value": "./images/Tablets/Apple iPad/Device/Apple iPad Silver.png",
+        "label": "Apple iPad Silver",
+        "width": 1920,
+        "height": 2710,
+        "top": 0,
+        "left": 0
       },
       {
-        "image": require("./images/Tablets/Apple iPad Air 2/Device/Apple iPad Air 2 Space Gray.png"),
-        "value": "./images/Tablets/Apple iPad Air 2/Device/Apple iPad Air 2 Space Gray.png",
-        "label": "Apple iPad Air 2 Space Gray",
-        "width": 1856,
-        "height": 2608,
-        "top": 280,
-        "left": 160
+        "image": require("./images/Tablets/Apple iPad/Device/Apple iPad Space Grey.png"),
+        "value": "./images/Tablets/Apple iPad/Device/Apple iPad Space Grey.png",
+        "label": "Apple iPad Space Grey",
+        "width": 1920,
+        "height": 2710,
+        "top": 0,
+        "left": 0
       },
       {
-        "image": require("./images/Tablets/Apple iPad Air 2/Device with Shadow/Apple iPad Air 2 Gold.png"),
-        "value": "./images/Tablets/Apple iPad Air 2/Device with Shadow/Apple iPad Air 2 Gold.png",
-        "label": "Apple iPad Air 2 Gold with shadow",
-        "width": 1856,
-        "height": 2608,
-        "top": 280,
-        "left": 160
+        "image": require("./images/Tablets/Apple iPad/Device with Shadow/Apple iPad Gold.png"),
+        "value": "./images/Tablets/Apple iPad/Device with Shadow/Apple iPad Gold.png",
+        "label": "Apple iPad Gold with shadow",
+        "width": 1920,
+        "height": 2710,
+        "top": 0,
+        "left": 0
       },
       {
-        "image": require("./images/Tablets/Apple iPad Air 2/Device with Shadow/Apple iPad Air 2 Silver.png"),
-        "value": "./images/Tablets/Apple iPad Air 2/Device with Shadow/Apple iPad Air 2 Silver.png",
-        "label": "Apple iPad Air 2 Silver with shadow",
-        "width": 1856,
-        "height": 2608,
-        "top": 280,
-        "left": 160
+        "image": require("./images/Tablets/Apple iPad/Device with Shadow/Apple iPad Silver.png"),
+        "value": "./images/Tablets/Apple iPad/Device with Shadow/Apple iPad Silver.png",
+        "label": "Apple iPad Silver with shadow",
+        "width": 1920,
+        "height": 2710,
+        "top": 0,
+        "left": 0
       },
       {
-        "image": require("./images/Tablets/Apple iPad Air 2/Device with Shadow/Apple iPad Air 2 Space Gray.png"),
-        "value": "./images/Tablets/Apple iPad Air 2/Device with Shadow/Apple iPad Air 2 Space Gray.png",
-        "label": "Apple iPad Air 2 Space Gray with shadow",
-        "width": 1856,
-        "height": 2608,
-        "top": 280,
-        "left": 160
+        "image": require("./images/Tablets/Apple iPad/Device with Shadow/Apple iPad Space Grey.png"),
+        "value": "./images/Tablets/Apple iPad/Device with Shadow/Apple iPad Space Grey.png",
+        "label": "Apple iPad Space Grey with shadow",
+        "width": 1920,
+        "height": 2710,
+        "top": 0,
+        "left": 0
       },
       {
-        "image": require("./images/Tablets/Apple iPad Mini 4/Device/Apple iPad Mini 4 Gold.png"),
-        "value": "./images/Tablets/Apple iPad Mini 4/Device/Apple iPad Mini 4 Gold.png",
-        "label": "Apple iPad Mini 4 Gold",
-        "width": 1936,
-        "height": 2688,
-        "top": 320,
-        "left": 200
+        "image": require("./images/Tablets/Apple iPad Air/Device/Apple iPad Air Gold.png"),
+        "value": "./images/Tablets/Apple iPad Air/Device/Apple iPad Air Gold.png",
+        "label": "Apple iPad Air Gold",
+        "width": 1946,
+        "height": 2748,
+        "top": 0,
+        "left": 0
       },
       {
-        "image": require("./images/Tablets/Apple iPad Mini 4/Device/Apple iPad Mini 4 Silver.png"),
-        "value": "./images/Tablets/Apple iPad Mini 4/Device/Apple iPad Mini 4 Silver.png",
-        "label": "Apple iPad Mini 4 Silver",
-        "width": 1936,
-        "height": 2688,
-        "top": 320,
-        "left": 200
+        "image": require("./images/Tablets/Apple iPad Air/Device/Apple iPad Air Silver.png"),
+        "value": "./images/Tablets/Apple iPad Air/Device/Apple iPad Air Silver.png",
+        "label": "Apple iPad Air Silver",
+        "width": 1946,
+        "height": 2748,
+        "top": 0,
+        "left": 0
       },
       {
-        "image": require("./images/Tablets/Apple iPad Mini 4/Device/Apple iPad Mini 4 Space Gray.png"),
-        "value": "./images/Tablets/Apple iPad Mini 4/Device/Apple iPad Mini 4 Space Gray.png",
-        "label": "Apple iPad Mini 4 Space Gray",
-        "width": 1936,
-        "height": 2688,
-        "top": 320,
-        "left": 200
+        "image": require("./images/Tablets/Apple iPad Air/Device/Apple iPad Air Space Grey.png"),
+        "value": "./images/Tablets/Apple iPad Air/Device/Apple iPad Air Space Grey.png",
+        "label": "Apple iPad Air Space Grey",
+        "width": 1946,
+        "height": 2748,
+        "top": 0,
+        "left": 0
       },
       {
-        "image": require("./images/Tablets/Apple iPad Mini 4/Device with Shadow/Apple iPad Mini 4 Gold.png"),
-        "value": "./images/Tablets/Apple iPad Mini 4/Device with Shadow/Apple iPad Mini 4 Gold.png",
-        "label": "Apple iPad Mini 4 Gold with shadow",
-        "width": 1936,
-        "height": 2688,
-        "top": 320,
-        "left": 200
+        "image": require("./images/Tablets/Apple iPad Air/Device with Shadow/Apple iPad Air Gold.png"),
+        "value": "./images/Tablets/Apple iPad Air/Device with Shadow/Apple iPad Air Gold.png",
+        "label": "Apple iPad Air Gold with shadow",
+        "width": 1946,
+        "height": 2748,
+        "top": 0,
+        "left": 0
       },
       {
-        "image": require("./images/Tablets/Apple iPad Mini 4/Device with Shadow/Apple iPad Mini 4 Silver.png"),
-        "value": "./images/Tablets/Apple iPad Mini 4/Device with Shadow/Apple iPad Mini 4 Silver.png",
-        "label": "Apple iPad Mini 4 Silver with shadow",
-        "width": 1936,
-        "height": 2688,
-        "top": 320,
-        "left": 200
+        "image": require("./images/Tablets/Apple iPad Air/Device with Shadow/Apple iPad Air Silver.png"),
+        "value": "./images/Tablets/Apple iPad Air/Device with Shadow/Apple iPad Air Silver.png",
+        "label": "Apple iPad Air Silver with shadow",
+        "width": 1946,
+        "height": 2748,
+        "top": 0,
+        "left": 0
       },
       {
-        "image": require("./images/Tablets/Apple iPad Mini 4/Device with Shadow/Apple iPad Mini 4 Space Gray.png"),
-        "value": "./images/Tablets/Apple iPad Mini 4/Device with Shadow/Apple iPad Mini 4 Space Gray.png",
-        "label": "Apple iPad Mini 4 Space Gray with shadow",
-        "width": 1936,
-        "height": 2688,
-        "top": 320,
-        "left": 200
+        "image": require("./images/Tablets/Apple iPad Air/Device with Shadow/Apple iPad Air Space Grey.png"),
+        "value": "./images/Tablets/Apple iPad Air/Device with Shadow/Apple iPad Air Space Grey.png",
+        "label": "Apple iPad Air Space Grey with shadow",
+        "width": 1946,
+        "height": 2748,
+        "top": 0,
+        "left": 0
       },
       {
-        "image": require("./images/Tablets/Apple iPad Pro/Device/Apple iPad Pro Gold.png"),
-        "value": "./images/Tablets/Apple iPad Pro/Device/Apple iPad Pro Gold.png",
-        "label": "Apple iPad Pro Gold",
-        "width": 2448,
-        "height": 3432,
+        "image": require("./images/Tablets/Apple iPad Mini/Device/Apple iPad Mini Gold.png"),
+        "value": "./images/Tablets/Apple iPad Mini/Device/Apple iPad Mini Gold.png",
+        "label": "Apple iPad Mini Gold",
+        "width": 1836,
+        "height": 2708,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Mini/Device/Apple iPad Mini Silver.png"),
+        "value": "./images/Tablets/Apple iPad Mini/Device/Apple iPad Mini Silver.png",
+        "label": "Apple iPad Mini Silver",
+        "width": 1836,
+        "height": 2708,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Mini/Device/Apple iPad Mini Space Grey.png"),
+        "value": "./images/Tablets/Apple iPad Mini/Device/Apple iPad Mini Space Grey.png",
+        "label": "Apple iPad Mini Space Grey",
+        "width": 1836,
+        "height": 2708,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Mini/Device with Shadow/Apple iPad Mini Gold.png"),
+        "value": "./images/Tablets/Apple iPad Mini/Device with Shadow/Apple iPad Mini Gold.png",
+        "label": "Apple iPad Mini Gold with shadow",
+        "width": 1836,
+        "height": 2708,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Mini/Device with Shadow/Apple iPad Mini Silver.png"),
+        "value": "./images/Tablets/Apple iPad Mini/Device with Shadow/Apple iPad Mini Silver.png",
+        "label": "Apple iPad Mini Silver with shadow",
+        "width": 1836,
+        "height": 2708,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Mini/Device with Shadow/Apple iPad Mini Space Grey.png"),
+        "value": "./images/Tablets/Apple iPad Mini/Device with Shadow/Apple iPad Mini Space Grey.png",
+        "label": "Apple iPad Mini Space Grey with shadow",
+        "width": 1836,
+        "height": 2708,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device/Device with Pencil/Apple iPad Pro 11\" Silver - Landscape.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device/Device with Pencil/Apple iPad Pro 11\" Silver - Landscape.png",
+        "label": "Apple iPad Pro 11\" Silver - Landscape",
+        "width": 2788,
+        "height": 2068,
         "top": 350,
         "left": 200
       },
       {
-        "image": require("./images/Tablets/Apple iPad Pro/Device/Apple iPad Pro Silver.png"),
-        "value": "./images/Tablets/Apple iPad Pro/Device/Apple iPad Pro Silver.png",
-        "label": "Apple iPad Pro Silver",
-        "width": 2448,
-        "height": 3432,
+        "image": require("./images/Tablets/Apple iPad Pro/Device/Device with Pencil/Apple iPad Pro 11\" Silver - Portrait.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device/Device with Pencil/Apple iPad Pro 11\" Silver - Portrait.png",
+        "label": "Apple iPad Pro 11\" Silver - Portrait",
+        "width": 2068,
+        "height": 2788,
         "top": 350,
         "left": 200
       },
       {
-        "image": require("./images/Tablets/Apple iPad Pro/Device/Apple iPad Pro Space Gray.png"),
-        "value": "./images/Tablets/Apple iPad Pro/Device/Apple iPad Pro Space Gray.png",
-        "label": "Apple iPad Pro Space Gray",
-        "width": 2448,
-        "height": 3432,
+        "image": require("./images/Tablets/Apple iPad Pro/Device/Device with Pencil/Apple iPad Pro 11\" Space Gray - Landscape.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device/Device with Pencil/Apple iPad Pro 11\" Space Gray - Landscape.png",
+        "label": "Apple iPad Pro 11\" Space Gray - Landscape",
+        "width": 2788,
+        "height": 2068,
         "top": 350,
         "left": 200
       },
       {
-        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Apple iPad Pro Gold.png"),
-        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Apple iPad Pro Gold.png",
-        "label": "Apple iPad Pro Gold with shadow",
-        "width": 2448,
-        "height": 3432,
+        "image": require("./images/Tablets/Apple iPad Pro/Device/Device with Pencil/Apple iPad Pro 11\" Space Gray - Portrait.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device/Device with Pencil/Apple iPad Pro 11\" Space Gray - Portrait.png",
+        "label": "Apple iPad Pro 11\" Space Gray - Portrait",
+        "width": 2068,
+        "height": 2788,
         "top": 350,
         "left": 200
       },
       {
-        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Apple iPad Pro Silver.png"),
-        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Apple iPad Pro Silver.png",
-        "label": "Apple iPad Pro Silver with shadow",
-        "width": 2448,
-        "height": 3432,
+        "image": require("./images/Tablets/Apple iPad Pro/Device/Device with Pencil/Apple iPad Pro 13\" Silver - Landscape.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device/Device with Pencil/Apple iPad Pro 13\" Silver - Landscape.png",
+        "label": "Apple iPad Pro 13\" Silver - Landscape",
+        "width": 3132,
+        "height": 2448,
         "top": 350,
         "left": 200
       },
       {
-        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Apple iPad Pro Space Gray.png"),
-        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Apple iPad Pro Space Gray.png",
-        "label": "Apple iPad Pro Space Gray with shadow",
+        "image": require("./images/Tablets/Apple iPad Pro/Device/Device with Pencil/Apple iPad Pro 13\" Silver - Portrait.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device/Device with Pencil/Apple iPad Pro 13\" Silver - Portrait.png",
+        "label": "Apple iPad Pro 13\" Silver - Portrait",
         "width": 2448,
-        "height": 3432,
+        "height": 3132,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device/Device with Pencil/Apple iPad Pro 13\" Space Gray - Landscape.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device/Device with Pencil/Apple iPad Pro 13\" Space Gray - Landscape.png",
+        "label": "Apple iPad Pro 13\" Space Gray - Landscape",
+        "width": 3132,
+        "height": 2448,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device/Device with Pencil/Apple iPad Pro 13\" Space Gray - Portrait.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device/Device with Pencil/Apple iPad Pro 13\" Space Gray - Portrait.png",
+        "label": "Apple iPad Pro 13\" Space Gray - Portrait",
+        "width": 2448,
+        "height": 3132,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device/Device without Pencil/Apple iPad Pro 11\" Silver - Landscape.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device/Device without Pencil/Apple iPad Pro 11\" Silver - Landscape.png",
+        "label": "Apple iPad Pro 11\" Silver - Landscape",
+        "width": 2788,
+        "height": 2068,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device/Device without Pencil/Apple iPad Pro 11\" Silver - Portrait.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device/Device without Pencil/Apple iPad Pro 11\" Silver - Portrait.png",
+        "label": "Apple iPad Pro 11\" Silver - Portrait",
+        "width": 2068,
+        "height": 2788,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device/Device without Pencil/Apple iPad Pro 11\" Space Gray - Landscape.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device/Device without Pencil/Apple iPad Pro 11\" Space Gray - Landscape.png",
+        "label": "Apple iPad Pro 11\" Space Gray - Landscape",
+        "width": 2788,
+        "height": 2068,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device/Device without Pencil/Apple iPad Pro 11\" Space Gray - Portrait.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device/Device without Pencil/Apple iPad Pro 11\" Space Gray - Portrait.png",
+        "label": "Apple iPad Pro 11\" Space Gray - Portrait",
+        "width": 2068,
+        "height": 2788,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device/Device without Pencil/Apple iPad Pro 13\" Silver - Landscape.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device/Device without Pencil/Apple iPad Pro 13\" Silver - Landscape.png",
+        "label": "Apple iPad Pro 13\" Silver - Landscape",
+        "width": 3132,
+        "height": 2448,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device/Device without Pencil/Apple iPad Pro 13\" Silver - Portrait.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device/Device without Pencil/Apple iPad Pro 13\" Silver - Portrait.png",
+        "label": "Apple iPad Pro 13\" Silver - Portrait",
+        "width": 2448,
+        "height": 3132,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device/Device without Pencil/Apple iPad Pro 13\" Space Gray - Landscape.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device/Device without Pencil/Apple iPad Pro 13\" Space Gray - Landscape.png",
+        "label": "Apple iPad Pro 13\" Space Gray - Landscape",
+        "width": 3132,
+        "height": 2448,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device/Device without Pencil/Apple iPad Pro 13\" Space Gray - Portrait.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device/Device without Pencil/Apple iPad Pro 13\" Space Gray - Portrait.png",
+        "label": "Apple iPad Pro 13\" Space Gray - Portrait",
+        "width": 2448,
+        "height": 3132,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Device with Pencil/Apple iPad Pro 11\" Silver - Landscape.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Device with Pencil/Apple iPad Pro 11\" Silver - Landscape.png",
+        "label": "Apple iPad Pro 11\" Silver - Landscape",
+        "width": 2788,
+        "height": 2068,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Device with Pencil/Apple iPad Pro 11\" Silver - Portrait.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Device with Pencil/Apple iPad Pro 11\" Silver - Portrait.png",
+        "label": "Apple iPad Pro 11\" Silver - Portrait",
+        "width": 2068,
+        "height": 2788,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Device with Pencil/Apple iPad Pro 11\" Space Gray - Landscape.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Device with Pencil/Apple iPad Pro 11\" Space Gray - Landscape.png",
+        "label": "Apple iPad Pro 11\" Space Gray - Landscape",
+        "width": 2788,
+        "height": 2068,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Device with Pencil/Apple iPad Pro 11\" Space Gray - Portrait.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Device with Pencil/Apple iPad Pro 11\" Space Gray - Portrait.png",
+        "label": "Apple iPad Pro 11\" Space Gray - Portrait",
+        "width": 2068,
+        "height": 2788,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Device with Pencil/Apple iPad Pro 13\" Silver - Landscape.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Device with Pencil/Apple iPad Pro 13\" Silver - Landscape.png",
+        "label": "Apple iPad Pro 13\" Silver - Landscape",
+        "width": 3132,
+        "height": 2448,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Device with Pencil/Apple iPad Pro 13\" Silver - Portrait.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Device with Pencil/Apple iPad Pro 13\" Silver - Portrait.png",
+        "label": "Apple iPad Pro 13\" Silver - Portrait",
+        "width": 2448,
+        "height": 3132,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Device with Pencil/Apple iPad Pro 13\" Space Gray - Landscape.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Device with Pencil/Apple iPad Pro 13\" Space Gray - Landscape.png",
+        "label": "Apple iPad Pro 13\" Space Gray - Landscape",
+        "width": 3132,
+        "height": 2448,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Device with Pencil/Apple iPad Pro 13\" Space Gray - Portrait.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Device with Pencil/Apple iPad Pro 13\" Space Gray - Portrait.png",
+        "label": "Apple iPad Pro 13\" Space Gray - Portrait",
+        "width": 2448,
+        "height": 3132,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Device without Pencil/Apple iPad Pro 11\" Silver - Landscape.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Device without Pencil/Apple iPad Pro 11\" Silver - Landscape.png",
+        "label": "Apple iPad Pro 11\" Silver - Landscape",
+        "width": 2788,
+        "height": 2068,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Device without Pencil/Apple iPad Pro 11\" Silver - Portrait.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Device without Pencil/Apple iPad Pro 11\" Silver - Portrait.png",
+        "label": "Apple iPad Pro 11\" Silver - Portrait",
+        "width": 2068,
+        "height": 2788,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Device without Pencil/Apple iPad Pro 11\" Space Gray - Landscape.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Device without Pencil/Apple iPad Pro 11\" Space Gray - Landscape.png",
+        "label": "Apple iPad Pro 11\" Space Gray - Landscape",
+        "width": 2788,
+        "height": 2068,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Device without Pencil/Apple iPad Pro 11\" Space Gray - Portrait.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Device without Pencil/Apple iPad Pro 11\" Space Gray - Portrait.png",
+        "label": "Apple iPad Pro 11\" Space Gray - Portrait",
+        "width": 2068,
+        "height": 2788,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Device without Pencil/Apple iPad Pro 13\" Silver - Landscape.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Device without Pencil/Apple iPad Pro 13\" Silver - Landscape.png",
+        "label": "Apple iPad Pro 13\" Silver - Landscape",
+        "width": 3132,
+        "height": 2448,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Device without Pencil/Apple iPad Pro 13\" Silver - Portrait.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Device without Pencil/Apple iPad Pro 13\" Silver - Portrait.png",
+        "label": "Apple iPad Pro 13\" Silver - Portrait",
+        "width": 2448,
+        "height": 3132,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Device without Pencil/Apple iPad Pro 13\" Space Gray - Landscape.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Device without Pencil/Apple iPad Pro 13\" Space Gray - Landscape.png",
+        "label": "Apple iPad Pro 13\" Space Gray - Landscape",
+        "width": 3132,
+        "height": 2448,
+        "top": 350,
+        "left": 200
+      },
+      {
+        "image": require("./images/Tablets/Apple iPad Pro/Device with Shadow/Device without Pencil/Apple iPad Pro 13\" Space Gray - Portrait.png"),
+        "value": "./images/Tablets/Apple iPad Pro/Device with Shadow/Device without Pencil/Apple iPad Pro 13\" Space Gray - Portrait.png",
+        "label": "Apple iPad Pro 13\" Space Gray - Portrait",
+        "width": 2448,
+        "height": 3132,
         "top": 350,
         "left": 200
       },
@@ -3799,6 +4947,330 @@ export const devices = [
         "height": 3950,
         "top": 1770,
         "left": 110
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm Gold Aluminum + Pink Sand Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm Gold Aluminum + Pink Sand Closed.png",
+        "label": "Apple Watch 40mm Gold Aluminum + Pink Sand Closed",
+        "width": 524,
+        "height": 914,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm Gold Stainless Steel + Stone Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm Gold Stainless Steel + Stone Closed.png",
+        "label": "Apple Watch 40mm Gold Stainless Steel + Stone Closed",
+        "width": 524,
+        "height": 914,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm Silver Aluminum + Clementine Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm Silver Aluminum + Clementine Closed.png",
+        "label": "Apple Watch 40mm Silver Aluminum + Clementine Closed",
+        "width": 524,
+        "height": 914,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm Space Black Stainless Steel + Alaskan Blue Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm Space Black Stainless Steel + Alaskan Blue Closed.png",
+        "label": "Apple Watch 40mm Space Black Stainless Steel + Alaskan Blue Closed",
+        "width": 524,
+        "height": 914,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm Space Black Titanium + Pine Green Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm Space Black Titanium + Pine Green Closed.png",
+        "label": "Apple Watch 40mm Space Black Titanium + Pine Green Closed",
+        "width": 524,
+        "height": 914,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm Space Grey Aluminum + Black Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm Space Grey Aluminum + Black Closed.png",
+        "label": "Apple Watch 40mm Space Grey Aluminum + Black Closed",
+        "width": 524,
+        "height": 914,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm Stainless Steel + Lemon Cream Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm Stainless Steel + Lemon Cream Closed.png",
+        "label": "Apple Watch 40mm Stainless Steel + Lemon Cream Closed",
+        "width": 524,
+        "height": 914,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm Titanium + Red Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm Titanium + Red Closed.png",
+        "label": "Apple Watch 40mm Titanium + Red Closed",
+        "width": 524,
+        "height": 914,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm White Ceramic + White Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Closed/Apple Watch 40mm White Ceramic + White Closed.png",
+        "label": "Apple Watch 40mm White Ceramic + White Closed",
+        "width": 524,
+        "height": 914,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm Gold Aluminum + Pink Sand Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm Gold Aluminum + Pink Sand Open.png",
+        "label": "Apple Watch 40mm Gold Aluminum + Pink Sand Open",
+        "width": 524,
+        "height": 3794,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm Gold Stainless Steel + Stone Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm Gold Stainless Steel + Stone Open.png",
+        "label": "Apple Watch 40mm Gold Stainless Steel + Stone Open",
+        "width": 524,
+        "height": 3794,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm Silver Aluminum + Clementine Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm Silver Aluminum + Clementine Open.png",
+        "label": "Apple Watch 40mm Silver Aluminum + Clementine Open",
+        "width": 524,
+        "height": 3794,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm Space Black Stainless Steel + Alaskan Blue Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm Space Black Stainless Steel + Alaskan Blue Open.png",
+        "label": "Apple Watch 40mm Space Black Stainless Steel + Alaskan Blue Open",
+        "width": 524,
+        "height": 3794,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm Space Black Titanium + Pine Green Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm Space Black Titanium + Pine Green Open.png",
+        "label": "Apple Watch 40mm Space Black Titanium + Pine Green Open",
+        "width": 524,
+        "height": 3794,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm Space Grey Aluminum + Black Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm Space Grey Aluminum + Black Open.png",
+        "label": "Apple Watch 40mm Space Grey Aluminum + Black Open",
+        "width": 524,
+        "height": 3794,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm Stainless Steel + Lemon Cream Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm Stainless Steel + Lemon Cream Open.png",
+        "label": "Apple Watch 40mm Stainless Steel + Lemon Cream Open",
+        "width": 524,
+        "height": 3794,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm Titanium + Red Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm Titanium + Red Open.png",
+        "label": "Apple Watch 40mm Titanium + Red Open",
+        "width": 524,
+        "height": 3794,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm White Ceramic + White Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/40mm/Open/Apple Watch 40mm White Ceramic + White Open.png",
+        "label": "Apple Watch 40mm White Ceramic + White Open",
+        "width": 524,
+        "height": 3794,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm Gold Aluminum + Pink Sand Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm Gold Aluminum + Pink Sand Closed.png",
+        "label": "Apple Watch 44mm Gold Aluminum + Pink Sand Closed",
+        "width": 568,
+        "height": 968,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm Gold Stainless Steel + Stone Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm Gold Stainless Steel + Stone Closed.png",
+        "label": "Apple Watch 44mm Gold Stainless Steel + Stone Closed",
+        "width": 568,
+        "height": 968,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm Silver Aluminum + Clementine Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm Silver Aluminum + Clementine Closed.png",
+        "label": "Apple Watch 44mm Silver Aluminum + Clementine Closed",
+        "width": 568,
+        "height": 968,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm Space Black Stainless Steel + Alaskan Blue Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm Space Black Stainless Steel + Alaskan Blue Closed.png",
+        "label": "Apple Watch 44mm Space Black Stainless Steel + Alaskan Blue Closed",
+        "width": 568,
+        "height": 968,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm Space Black Titanium + Pine Green Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm Space Black Titanium + Pine Green Closed.png",
+        "label": "Apple Watch 44mm Space Black Titanium + Pine Green Closed",
+        "width": 568,
+        "height": 968,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm Space Grey Aluminum + Black Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm Space Grey Aluminum + Black Closed.png",
+        "label": "Apple Watch 44mm Space Grey Aluminum + Black Closed",
+        "width": 568,
+        "height": 968,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm Stainless Steel + Lemon Cream Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm Stainless Steel + Lemon Cream Closed.png",
+        "label": "Apple Watch 44mm Stainless Steel + Lemon Cream Closed",
+        "width": 568,
+        "height": 968,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm Titanium + Red Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm Titanium + Red Closed.png",
+        "label": "Apple Watch 44mm Titanium + Red Closed",
+        "width": 568,
+        "height": 968,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm White Ceramic + White Closed.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Closed/Apple Watch 44mm White Ceramic + White Closed.png",
+        "label": "Apple Watch 44mm White Ceramic + White Closed",
+        "width": 568,
+        "height": 968,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm Gold Aluminum + Pink Sand Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm Gold Aluminum + Pink Sand Open.png",
+        "label": "Apple Watch 44mm Gold Aluminum + Pink Sand Open",
+        "width": 568,
+        "height": 3848,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm Gold Stainless Steel + Stone Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm Gold Stainless Steel + Stone Open.png",
+        "label": "Apple Watch 44mm Gold Stainless Steel + Stone Open",
+        "width": 568,
+        "height": 3848,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm Silver Aluminum + Clementine Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm Silver Aluminum + Clementine Open.png",
+        "label": "Apple Watch 44mm Silver Aluminum + Clementine Open",
+        "width": 568,
+        "height": 3848,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm Space Black Stainless Steel + Alaskan Blue Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm Space Black Stainless Steel + Alaskan Blue Open.png",
+        "label": "Apple Watch 44mm Space Black Stainless Steel + Alaskan Blue Open",
+        "width": 568,
+        "height": 3848,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm Space Black Titanium + Pine Green Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm Space Black Titanium + Pine Green Open.png",
+        "label": "Apple Watch 44mm Space Black Titanium + Pine Green Open",
+        "width": 568,
+        "height": 3848,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm Space Grey Aluminum + Black Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm Space Grey Aluminum + Black Open.png",
+        "label": "Apple Watch 44mm Space Grey Aluminum + Black Open",
+        "width": 568,
+        "height": 3848,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm Stainless Steel + Lemon Cream Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm Stainless Steel + Lemon Cream Open.png",
+        "label": "Apple Watch 44mm Stainless Steel + Lemon Cream Open",
+        "width": 568,
+        "height": 3848,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm Titanium + Red Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm Titanium + Red Open.png",
+        "label": "Apple Watch 44mm Titanium + Red Open",
+        "width": 568,
+        "height": 3848,
+        "top": 0,
+        "left": 0
+      },
+      {
+        "image": require("./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm White Ceramic + White Open.png"),
+        "value": "./images/Watches/Apple Watch Series 5/Device/44mm/Open/Apple Watch 44mm White Ceramic + White Open.png",
+        "label": "Apple Watch 44mm White Ceramic + White Open",
+        "width": 568,
+        "height": 3848,
+        "top": 0,
+        "left": 0
       },
       {
         "image": require("./images/Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Black + Black Closed.png"),

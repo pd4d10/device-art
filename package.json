@@ -19,8 +19,8 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "image-size": "^0.6.3",
-    "klaw-sync": "^4.0.0"
+    "image-size": "^0.8.3",
+    "klaw-sync": "^6.0.0"
   },
   "browserslist": [
     ">0.2%",
